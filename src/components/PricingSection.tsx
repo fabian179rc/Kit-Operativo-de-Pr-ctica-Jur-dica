@@ -52,13 +52,13 @@ export function PricingSection() {
   return (
     <section
       id="pricing"
-      className="relative overflow-hidden bg-gradient-to-b from-[#5C6851] via-[#6A765E] to-[#4A553F] pt-20 pb-0"
+      className="relative overflow-hidden bg-gradient-to-b from-[#5C6851] via-[#6A765E] to-[#4A553F] pt-12 md:pt-14 pb-0"
     >
       <div className="container mx-auto px-4 max-w-2xl text-center relative z-10">
         <span className="inline-block px-6 py-2.5 mb-6 rounded-full border border-white/30 bg-white/10 text-white/90 font-semibold tracking-[0.18em] uppercase text-xs">
           Oferta Especial — Pack Completo
         </span>
-        <h2 className="font-heading text-3xl md:text-5xl font-bold text-white leading-tight mb-10">
+        <h2 className="font-heading text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
           Accedé al sistema ahora y empezá{" "}
           <em className="italic font-bold text-[#f0e6d2]">
             el cambio hoy mismo
@@ -67,8 +67,8 @@ export function PricingSection() {
 
         <div className="relative inline-block mb-2 w-full max-w-md mx-auto">
           <img
-            src={`${import.meta.env.BASE_URL}megapack-mockup.webp`}
-            alt="Mega Pack Higiene y Seguridad Blindada"
+            src={`${import.meta.env.BASE_URL}sistemamaestro-mockup.webp`}
+            alt="Sistema Maestro de Capacitaciones HyS"
             width={672}
             height={672}
             loading="lazy"
@@ -77,11 +77,16 @@ export function PricingSection() {
           />
 
           <div className="absolute -top-3 -right-2 md:top-2 md:right-2 w-24 h-24 md:w-28 md:h-28 flex items-center justify-center">
-            <div className="absolute inset-0 bg-[#c0392b] rotate-[15deg] rounded-2xl shadow-lg" />
-            <div className="absolute inset-0 bg-[#c0392b] rotate-[-15deg] rounded-2xl shadow-lg" />
-            <div className="relative w-full h-full flex flex-col items-center justify-center text-white leading-none text-center">
+            <div
+              className="absolute inset-0 bg-[#c0392b] rotate-12"
+              style={{
+                clipPath:
+                  "polygon(50% 0%, 61% 12%, 78% 6%, 79% 24%, 96% 30%, 86% 45%, 100% 58%, 83% 64%, 86% 82%, 68% 80%, 60% 97%, 47% 84%, 30% 92%, 28% 73%, 9% 72%, 19% 56%, 4% 45%, 21% 38%, 14% 20%, 33% 22%, 38% 4%)",
+              }}
+            />
+            <div className="relative text-center text-white leading-none rotate-12">
               <div className="text-2xl md:text-3xl font-extrabold">73%</div>
-              <div className="text-[8px] md:text-[9px] font-bold tracking-wide mt-1 px-2">
+              <div className="text-[9px] md:text-[10px] font-bold tracking-wide mt-0.5">
                 DE DESCUENTO
               </div>
             </div>
@@ -94,16 +99,16 @@ export function PricingSection() {
         className="container mx-auto px-4 max-w-md relative z-10 pb-16 -mt-4 scroll-mt-6"
       >
         <div className="bg-white rounded-3xl shadow-2xl shadow-black/10 p-7 md:p-8 text-center">
-          <div className="text-slate-500 text-base md:text-lg mb-3 font-medium">
+          <div className="text-slate-500 text-base md:text-lg mb-3">
             Precio Normal :{" "}
-            <span className="line-through">$74.940 ARS</span>
+            <span className="line-through">$75.490 ARS</span>
           </div>
 
           <div className="inline-flex items-center gap-2 bg-[#B85C43] text-white font-bold px-5 py-2.5 rounded-full text-sm mb-5">
             <Flame className="w-4 h-4" /> 73% OFF — OFERTA DE LANZAMIENTO
           </div>
 
-          <p className="text-slate-500 text-base mb-1">Precio con reducción:</p>
+          <p className="text-slate-500 text-base mb-1">Tu inversión hoy:</p>
           <div className="font-heading text-6xl md:text-7xl font-bold text-[#B85C43] leading-none mb-2">
             $19.990
           </div>
@@ -138,12 +143,12 @@ export function PricingSection() {
             whileTap={{
               scale: 0.98,
             }}
-            className="flex items-center justify-center gap-2 w-full bg-[#B85C43] hover:bg-[#A34F38] text-white font-bold text-[13px] px-3 py-6 rounded-full shadow-lg shadow-[#B85C43]/30 transition-colors mb-6"
+            className="flex items-center justify-center gap-3 w-full bg-[#B85C43] hover:bg-[#A34F38] text-white font-bold text-lg md:text-xl px-6 py-5 rounded-full shadow-lg shadow-[#B85C43]/30 transition-colors mb-6"
           >
-            <span className="flex items-center gap-2 text-center whitespace-nowrap">
-              🚀 SÍ, QUIERO EL MEGA PACK HOY
+            <span className="flex items-center gap-2 text-center">
+              🚀 SÍ, QUIERO EL SISTEMA MAESTRO HOY
             </span>
-            <ArrowRight className="w-5 h-5 flex-shrink-0" />
+            <ArrowRight className="w-6 h-6 flex-shrink-0" />
           </motion.a>
 
           <div className="flex flex-col items-center gap-2 text-sm text-slate-500 font-medium">

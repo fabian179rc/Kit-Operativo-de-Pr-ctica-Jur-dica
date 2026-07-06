@@ -3,36 +3,35 @@ import { motion } from 'framer-motion';
 const situations = [
 {
   emoji: '😰',
-  title: 'El Caos Documental que No Para',
-  desc: 'Tenés formularios y documentos desordenados. Cada vez que necesitás uno, perdés tiempo buscándolo.'
+  title: 'El Domingo a la Noche que No Para',
+  desc: 'Mañana capacitás... y todavía no tenés la presentación lista.'
 },
 {
   emoji: '😩',
-  title: 'El Miedo a que te Agarren sin Papeles',
-  desc: 'Sabés que no todos tus clientes tienen el legajo técnico completo y eso puede convertirse en un problema.'
+  title: 'El Miedo a que te Agarren sin Material',
+  desc: '¿Tus registros resistirían una auditoría?'
 },
 {
   emoji: '⚖️',
   title: 'La Responsabilidad Legal que Pesa',
-  desc: 'No siempre tenés claro qué documentos te protegen y cuáles pueden dejarte expuesto.'
+  desc: '¿Sabés qué documentación respalda realmente cada capacitación?'
 },
 {
   emoji: '⏱️',
-  title: 'El Tiempo que se va en Redactar desde Cero',
-  desc: 'Cada nuevo cliente significa volver a crear programas, formularios y registros desde cero.'
+  title: 'El Tiempo que se va en Preparar desde Cero',
+  desc: 'Cada nuevo cliente significa volver a empezar desde cero.'
 }];
 
 export function ProblemSection() {
   return (
-    <section className="py-16 md:py-24 bg-[#f9f8f6] pt-[30px] pb-[30px]">
+    <section className="py-10 md:py-14 bg-transparent">
       <div className="container mx-auto px-4 max-w-4xl">
-        <div className="text-center mb-10">
+        <div className="text-center mb-8">
           <h2 className="font-heading text-3xl md:text-5xl font-bold mb-4 text-[#2f3a2c] uppercase">
             ¿Te reconocés en esto?
           </h2>
           <p className="text-xl font-bold text-[#5C6851] mb-4 italic">
-            ¿La documentación y gestión de tus clientes te quitan más tiempo
-            del que deberían?
+            ¿Preparar capacitaciones te quita más tiempo del que debería?
           </p>
           <p className="text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">
             Si sos Técnico o Licenciado en Higiene y Seguridad, probablemente

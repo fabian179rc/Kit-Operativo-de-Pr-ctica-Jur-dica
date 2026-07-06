@@ -4,12 +4,12 @@ import { Landing } from "./pages/Landing";
 import { useScreenInit } from "./useScreenInit";
 const META_PIXEL_ID = "1656160899010195";
 const PAGE_TITLE =
-  "Mega Pack Higiene y Seguridad Blindada — Sistema Completo de Gestión para Profesionales de HyS";
+  "Sistema Maestro de Capacitaciones HyS — 52 Semanas de Capacitaciones Listas para Implementar";
 const PAGE_DESC =
-  "Protocolos, informes, matrices, planillas y documentos listos para editar, presentar y utilizar desde el primer día.";
-const HERO_IMAGE = `${import.meta.env.BASE_URL}megapack-mockup.webp`;
+  "Presentaciones, evaluaciones, registros, certificados y cronogramas listos para usar desde el primer día. Sin preparar desde cero. Sin improvisar.";
+const HERO_IMAGE = `${import.meta.env.BASE_URL}sistemamaestro-mockup.webp`;
 
-const SITE_URL = "https://seguridadehigiene.tupuntodigital.shop";
+const SITE_URL = "https://sistemamaestrohys.tupuntodigital.shop";
 function setMeta(attr: "name" | "property", key: string, content: string) {
   let el = document.head.querySelector<HTMLMetaElement>(
     `meta[${attr}="${key}"]`,
@@ -66,7 +66,7 @@ export function App() {
     setMeta("property", "og:locale", "es_AR");
     setMeta("property", "og:image", HERO_IMAGE);
     setMeta("property", "og:url", SITE_URL);
-    setMeta("property", "og:site_name", "Mega Pack Higiene y Seguridad Blindada");
+    setMeta("property", "og:site_name", "Sistema Maestro de Capacitaciones HyS");
     setMeta("name", "twitter:card", "summary_large_image");
     setMeta("name", "twitter:image", HERO_IMAGE);
     setMeta("name", "twitter:title", PAGE_TITLE);
@@ -79,19 +79,19 @@ export function App() {
       ld.textContent = JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Product",
-        name: "Mega Pack Higiene y Seguridad Blindada",
+        name: "Sistema Maestro de Capacitaciones HyS",
         description: PAGE_DESC,
         image: HERO_IMAGE,
         brand: {
           "@type": "Brand",
-          name: "Mega Pack Higiene y Seguridad Blindada",
+          name: "Sistema Maestro de Capacitaciones HyS",
         },
         offers: {
           "@type": "Offer",
           price: "19990",
           priceCurrency: "ARS",
           availability: "https://schema.org/InStock",
-          url: "https://mega-pack-higiene-y-seguridad-blindada.impultienda.ar/checkout",
+          url: "https://sistema-maestro-de-capacitaciones.impultienda.ar/checkout",
         },
       });
       document.head.appendChild(ld);
@@ -107,27 +107,27 @@ export function App() {
         mainEntity: [
           {
             q: "¿Es en papel o digital?",
-            a: "Es un producto 100% digital. Recibís todos los bloques de forma inmediata en tu correo electrónico, con formularios y guías listos para usar e imprimir en casa o en cualquier centro de copiado las veces que necesites.",
+            a: "Es un producto 100% digital. Recibís todos los módulos de forma inmediata en tu correo electrónico, con el manual principal, los 5 bonos y todo el material listo para usar e imprimir en casa o en cualquier centro de copiado las veces que necesites.",
           },
           {
-            q: "¿Necesito ser experto en administración para usarlo?",
-            a: "No. Todo el sistema está diseñado para usarse directamente, sin conocimientos previos de gestión administrativa. Si sabés imprimir y completar un formulario, podés usar este sistema desde el primer día.",
+            q: "¿Necesito experiencia previa para usarlo?",
+            a: "No. El sistema incluye el Capítulo 1 dedicado exclusivamente a explicarte cómo usar todo sin improvisar. En menos de una hora ya vas a saber exactamente qué usar, cuándo y cómo adaptarlo a cada cliente.",
           },
           {
             q: "¿Sirve para profesionales de cualquier provincia de Argentina?",
-            a: "Sí. Todo el sistema está basado en la normativa nacional vigente: Ley 19.587, Decreto 351/79 y resoluciones de la SRT aplicables en todo el territorio argentino.",
+            a: "Sí. Todo el contenido está basado en la normativa nacional vigente (Ley 19.587, Decreto 351 y resoluciones SRT) aplicable en todo el territorio argentino.",
           },
           {
-            q: "¿Qué pasa si ya tengo algunos documentos armados?",
-            a: "Perfecto. El sistema complementa lo que ya tenés. Vas a poder identificar qué falta, reemplazar los modelos incompletos y ordenar todo bajo un mismo sistema coherente y profesional.",
+            q: "¿Qué pasa si ya tengo algunas capacitaciones armadas?",
+            a: "El sistema se complementa con lo que ya tenés. No reemplaza tu trabajo: lo organiza, lo completa y lo eleva de nivel. Podés incorporar tus materiales al sistema y tener todo en un solo lugar.",
           },
           {
             q: "¿Cuándo recibo el material?",
-            a: "Inmediatamente después de tu compra. Recibís un correo con el acceso a todos los archivos para descargar en el momento.",
+            a: "De forma inmediata. Apenas confirmada la compra, recibís el acceso completo en tu correo electrónico. En menos de 5 minutos ya podés estar revisando el sistema.",
           },
           {
             q: "¿Sirve si recién me recibí o si tengo pocos clientes?",
-            a: "Sí, y es el mejor momento para empezar. Arrancar con el sistema correcto desde el principio te ahorra años de correcciones y te protege desde el primer cliente.",
+            a: "Es el momento ideal para empezar con el pie derecho. Este sistema te da desde el primer día la estructura, el material y el respaldo legal que le lleva años construir a otros profesionales.",
           },
         ].map((item) => ({
           "@type": "Question",

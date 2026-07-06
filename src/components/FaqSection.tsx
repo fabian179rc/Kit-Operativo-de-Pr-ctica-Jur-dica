@@ -4,36 +4,36 @@ import { Plus, Minus } from 'lucide-react';
 const faqs = [
 {
   q: '¿Es en papel o digital?',
-  a: 'Es un producto 100% digital. Recibís todos los bloques de forma inmediata en tu correo electrónico, con formularios y guías listos para usar e imprimir en casa o en cualquier centro de copiado las veces que necesites.'
+  a: 'Es un producto 100% digital. Recibís todos los módulos de forma inmediata en tu correo electrónico, con el manual principal, los 5 bonos y todo el material listo para usar e imprimir en casa o en cualquier centro de copiado las veces que necesites.'
 },
 {
-  q: '¿Necesito ser experto en administración para usarlo?',
-  a: 'No. Todo el sistema está diseñado para usarse directamente, sin conocimientos previos de gestión administrativa. Si sabés imprimir y completar un formulario, podés usar este sistema desde el primer día.'
+  q: '¿Necesito experiencia previa para usarlo?',
+  a: 'No. El sistema incluye el Capítulo 1 dedicado exclusivamente a explicarte cómo usar todo sin improvisar. En menos de una hora ya vas a saber exactamente qué usar, cuándo y cómo adaptarlo a cada cliente.'
 },
 {
   q: '¿Sirve para profesionales de cualquier provincia de Argentina?',
-  a: 'Sí. Todo el sistema está basado en la normativa nacional vigente: Ley 19.587, Decreto 351/79 y resoluciones de la SRT aplicables en todo el territorio argentino.'
+  a: 'Sí. Todo el contenido está basado en la normativa nacional vigente (Ley 19.587, Decreto 351 y resoluciones SRT) aplicable en todo el territorio argentino.'
 },
 {
-  q: '¿Qué pasa si ya tengo algunos documentos armados?',
-  a: 'Perfecto. El sistema complementa lo que ya tenés. Vas a poder identificar qué falta, reemplazar los modelos incompletos y ordenar todo bajo un mismo sistema coherente y profesional.'
+  q: '¿Qué pasa si ya tengo algunas capacitaciones armadas?',
+  a: 'El sistema se complementa con lo que ya tenés. No reemplaza tu trabajo: lo organiza, lo completa y lo eleva de nivel. Podés incorporar tus materiales al sistema y tener todo en un solo lugar.'
 },
 {
   q: '¿Cuándo recibo el material?',
-  a: 'Inmediatamente después de tu compra. Recibís un correo con el acceso a todos los archivos para descargar en el momento.'
+  a: 'De forma inmediata. Apenas confirmada la compra, recibís el acceso completo en tu correo electrónico. En menos de 5 minutos ya podés estar revisando el sistema.'
 },
 {
   q: '¿Sirve si recién me recibí o si tengo pocos clientes?',
-  a: 'Sí, y es el mejor momento para empezar. Arrancar con el sistema correcto desde el principio te ahorra años de correcciones y te protege desde el primer cliente.'
+  a: 'Es el momento ideal para empezar con el pie derecho. Este sistema te da desde el primer día la estructura, el material y el respaldo legal que le lleva años construir a otros profesionales.'
 }];
 
 export function FaqSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
   return (
-    <section className="py-14 md:py-20 bg-[#f9f8f6]">
+    <section className="py-10 md:py-14 bg-transparent">
       <div className="container mx-auto px-4 max-w-3xl">
-        <div className="text-center mb-10 md:mb-12">
-          <span className="inline-block px-6 py-2.5 mb-5 rounded-full bg-[#566049] text-white font-semibold tracking-[0.18em] uppercase text-xs">
+        <div className="text-center mb-8">
+          <span className="inline-block px-6 py-2.5 mb-5 rounded-full border border-white/40 bg-[#566049] text-white font-semibold tracking-[0.18em] uppercase text-xs">
             Preguntas Frecuentes
           </span>
           <h2 className="font-heading text-4xl md:text-5xl font-bold text-[#2f3a2c] leading-tight">

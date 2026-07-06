@@ -2,41 +2,25 @@ import React from "react";
 import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 const features = [
-  {
-    lead: "Respaldo Legal Real",
-    rest:
-      "Documentación completa y organizada para trabajar con mayor seguridad ante inspecciones y auditorías.",
-  },
-  {
-    lead: "Control Total de cada Cliente",
-    rest:
-      "Toda la información de cada empresa en un solo lugar, siempre actualizada y fácil de encontrar.",
-  },
-  {
-    lead: "Tranquilidad Profesional",
-    rest:
-      "Dejá de crear documentos desde cero y dedicá ese tiempo a conseguir y atender más clientes.",
-  },
-  {
-    lead: "Orden Sostenible",
-    rest:
-      "Un sistema simple para mantener toda tu gestión organizada durante todo el año.",
-  },
+  "Capacitaciones Profesionales Sin Preparación Extra",
+  "Cumplimiento Legal Real",
+  "Control Total del Año",
+  "Tranquilidad Profesional",
 ];
 
 export function FeaturesSection() {
   return (
-    <section className="py-16 md:py-24 bg-[#f9f8f6]">
+    <section className="py-10 md:py-14 bg-transparent">
       <div className="container mx-auto px-4 max-w-2xl">
-        <div className="text-center mb-10">
+        <div className="text-center mb-8">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-[#2f3a2c]">
-            ¿Qué vas a lograr con este sistema?
+            ¿QUÉ VAS A LOGRAR CON ESTE SISTEMA?
           </h2>
         </div>
 
-        <div className="flex flex-col gap-4">
+        <ul className="space-y-4">
           {features.map((feature, i) => (
-            <motion.div
+            <motion.li
               key={i}
               initial={{
                 opacity: 0,
@@ -56,14 +40,11 @@ export function FeaturesSection() {
             >
               <CheckCircle2 className="w-5 h-5 flex-shrink-0 mt-1 text-[#d4a017]" />
               <p className="text-slate-600 leading-relaxed">
-                <span className="font-bold text-[#2f3a2c]">
-                  {feature.lead}
-                </span>{" "}
-                — {feature.rest}
+                <span className="font-bold text-[#2f3a2c]">{feature}</span>
               </p>
-            </motion.div>
+            </motion.li>
           ))}
-        </div>
+        </ul>
       </div>
     </section>
   );

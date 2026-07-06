@@ -4,41 +4,36 @@ import { Gift } from 'lucide-react';
 const bonuses = [
 {
   num: 1,
-  title: 'Kit Express de Primera Visita Segura',
-  desc: 'Todo lo necesario para iniciar un cliente nuevo con orden, documentos y checklists listos para usar.',
-  image: "mp-bono1.webp"
+  desc: 'Certificados, registros, formularios y actas listos para documentar cada capacitación.',
+  image: "sm-bono1.webp"
 },
 {
   num: 2,
-  title: 'Matriz de Documentos Críticos por Tipo de Cliente',
-  desc: 'Guía rápida para saber qué documentación necesita cada tipo de empresa, sin improvisar.',
-  image: "mp-bono2.webp"
+  desc: 'Evaluaciones, respuestas y seguimiento listos para medir el aprendizaje y respaldar cada capacitación.',
+  image: "sm-bono2.webp"
 },
 {
   num: 3,
-  title: 'Guía Rápida de Observaciones y Desvíos Profesionales',
-  desc: 'Guía con observaciones y frases modelo para redactar informes técnicos claros, profesionales y con respaldo.',
-  image: "mp-bono3.webp"
+  desc: 'Dinámicas y ejercicios prácticos listos para lograr capacitaciones más participativas y memorables.',
+  image: "sm-bono3.webp"
 },
 {
   num: 4,
-  title: 'Checklist de Cierre de Visita y Seguimiento',
-  desc: 'Checklist para cerrar cada visita con orden, registrar pendientes y planificar los próximos pasos.',
-  image: "mp-bono4.webp"
+  desc: 'Matrices, cronogramas y tableros listos para gestionar y controlar todo el plan anual.',
+  image: "sm-bono4.webp"
 },
 {
   num: 5,
-  title: 'Mini Manual de Presentación Profesional del Servicio',
-  desc: 'Guía con frases y scripts para presentar tus servicios con mayor claridad y profesionalismo.',
-  image: "mp-bono5.webp"
+  desc: 'Infografías, carteles y material visual listos para imprimir y reforzar cada capacitación.',
+  image: "sm-bono5.webp"
 }];
 
 export function BonusesSection() {
   return (
-    <section className="py-16 md:py-24 bg-[#f9f8f6]">
+    <section className="py-10 md:py-14 bg-transparent">
       <div className="container mx-auto px-4 max-w-4xl">
-        <div className="text-center mb-10">
-          <span className="inline-flex items-center gap-2 px-6 py-2.5 mb-5 rounded-full bg-[#4A553F] text-white font-semibold tracking-[0.18em] uppercase text-xs">
+        <div className="text-center mb-8">
+          <span className="inline-flex items-center gap-2 px-6 py-2.5 mb-5 rounded-full border border-white/40 bg-[#4A553F] text-white font-semibold tracking-[0.18em] uppercase text-xs">
             <Gift className="w-4 h-4 text-[#d4a017]" />
             5 Bonos Incluidos
           </span>
@@ -71,7 +66,7 @@ export function BonusesSection() {
               <div className="relative rounded-xl overflow-hidden mb-3 h-56 bg-[#f4efe2] flex items-center justify-center">
                 <img
                   src={`${import.meta.env.BASE_URL}${b.image}`}
-                  alt={`Bono ${b.num}: ${b.title}`}
+                  alt={`Bono ${b.num}: ${b.desc}`}
                   width={400}
                   height={500}
                   loading="lazy"
@@ -85,12 +80,9 @@ export function BonusesSection() {
                 </span>
               </div>
               <div className="px-2 pb-2">
-                <h3 className="font-heading font-bold text-[#2f3a2c] text-xl mb-1.5">
-                  {b.title}
-                </h3>
-                <p className="text-slate-500 text-sm leading-snug">
+                <h3 className="font-heading font-bold text-[#2f3a2c] text-[15px]">
                   {b.desc}
-                </p>
+                </h3>
               </div>
             </motion.div>
           )}
@@ -102,7 +94,7 @@ export function BonusesSection() {
             Todo incluido en
           </p>
           <h3 className="font-heading font-bold text-[#2f3a2c] text-3xl md:text-4xl mb-3">
-            el Mega Pack
+            el Sistema Maestro
           </h3>
           <p className="text-slate-600">
             Los 5 bonos son gratis con tu compra hoy.

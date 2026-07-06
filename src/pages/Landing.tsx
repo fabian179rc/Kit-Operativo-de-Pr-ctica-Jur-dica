@@ -3,15 +3,15 @@ import { HeroSection } from '../components/HeroSection';
 import { ProblemSection } from '../components/ProblemSection';
 import { SolutionSection } from '../components/SolutionSection';
 import { FeaturesSection } from '../components/FeaturesSection';
-import { BloquesSection } from '../components/BloquesSection';
+import { ContentSection } from '../components/ContentSection';
 import { BonusesSection } from '../components/BonusesSection';
-import { ProcessesSection } from '../components/ProcessesSection';
 import { PricingSection } from '../components/PricingSection';
 import { GuaranteeSection } from '../components/GuaranteeSection';
 import { TestimonialsBottom } from '../components/TestimonialsBottom';
 import { FaqSection } from '../components/FaqSection';
 import { FinalPricingCTA } from '../components/FinalPricingCTA';
 import { Footer } from '../components/Footer';
+import { FloatingCTA } from '../components/FloatingCTA';
 export function Landing() {
   return <main className="min-h-screen bg-transparent">
       <HeroSection />
@@ -23,13 +23,10 @@ export function Landing() {
         <FeaturesSection />
       </div>
       <div className="cv-section">
-        <BloquesSection />
+        <ContentSection />
       </div>
       <div className="cv-section">
         <BonusesSection />
-      </div>
-      <div className="cv-section">
-        <ProcessesSection />
       </div>
       <PricingSection />
       <div className="cv-section">
@@ -45,5 +42,6 @@ export function Landing() {
         <FinalPricingCTA />
       </div>
       <Footer />
+      <FloatingCTA />
     </main>;
 }

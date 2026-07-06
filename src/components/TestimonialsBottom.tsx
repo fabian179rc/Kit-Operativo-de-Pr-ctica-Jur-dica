@@ -7,36 +7,29 @@ const testimonials = [
   color: 'bg-pink-100 text-pink-700',
   name: 'Martín G.',
   location: 'Técnico en HyS — Buenos Aires',
-  text: 'Tenía los formularios de EPP de algunos clientes firmados y de otros no. Con el pack los imprimí todos, los llevé en mi próxima visita y por primera vez siento que tengo el legajo realmente completo. Una tranquilidad enorme.'
+  text: 'Tenía que capacitar el lunes a las 8 AM y el domingo a la noche todavía no tenía las diapositivas. Con el Sistema Maestro abrí el capítulo correspondiente, adapté dos cosas al rubro y en 20 minutos tenía todo listo. Nunca más volví a improvisar.'
 },
 {
   initial: 'C',
   color: 'bg-blue-100 text-blue-700',
   name: 'Carolina R.',
   location: 'Licenciada en HyS — Córdoba',
-  text: 'El modelo de Programa de Seguridad me cambió la vida. Antes me llevaba medio día armar uno desde cero. Ahora lo tengo listo en una hora y con todo lo que la ART necesita ver.'
+  text: 'El bloque de riesgos críticos solo ya valió todo. Por fin tengo material sólido para trabajo en altura y espacios confinados que resiste cualquier auditoría. Los registros son completos y tienen todo lo que la ART necesita ver.'
 },
 {
   initial: 'D',
   color: 'bg-emerald-100 text-emerald-700',
   name: 'Diego T.',
   location: 'Técnico en HyS — Rosario',
-  text: 'El Bloque de Blindaje Legal solo ya valió todo. Por fin entendí qué firmar, qué no firmar nunca y cómo protegerme cuando el empleador no quiere corregir los desvíos.'
-},
-{
-  initial: 'P',
-  color: 'bg-amber-100 text-amber-700',
-  name: 'Paula B.',
-  location: 'Licenciada en HyS — Mendoza',
-  text: 'Los checklists de auditoría me salvaron en una inspección sorpresa. Tenía todo documentado y ordenado. El inspector se fue sin ninguna observación grave. Nunca me había sentido tan seguro.'
+  text: 'Los cronogramas del Bono 4 me cambiaron la vida. Antes llevaba el año en la cabeza y siempre se me pasaba algo. Ahora tengo todo en un tablero, sé qué vence, qué falta y qué tengo que llevar a cada visita.'
 }];
 
 export function TestimonialsBottom() {
   return (
-    <section className="py-12 md:py-16 bg-[#f9f8f6]">
+    <section className="py-10 md:py-14 bg-transparent">
       <div className="container mx-auto px-4 max-w-4xl">
-        <div className="text-center mb-12">
-          <MessageCircle className="w-10 h-10 text-[#d4a017] mx-auto mb-4" />
+        <div className="text-center mb-8 flex flex-col items-center">
+          <MessageCircle className="w-10 h-10 text-[#d4a017] mb-3" />
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-[#2f3a2c]">
             Lo que otros profesionales de HyS están diciendo
           </h2>
@@ -60,21 +53,21 @@ export function TestimonialsBottom() {
             transition={{
               delay: i * 0.1
             }}
-            className="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 flex flex-col h-full">
+            className="bg-white rounded-2xl p-5 shadow-sm border border-slate-200 flex flex-col h-full">
 
-              <div className="flex text-[#d4a017] mb-4">
+              <div className="flex text-[#d4a017] mb-3">
                 {[...Array(5)].map((_, i) =>
-              <Star key={i} className="w-4 h-4 fill-current" />
+              <Star key={i} className="w-3.5 h-3.5 fill-current" />
               )}
               </div>
 
-              <p className="text-slate-700 text-lg leading-relaxed mb-6 italic flex-grow">
+              <p className="text-slate-700 text-[15px] leading-relaxed mb-4 italic flex-grow">
                 "{t.text}"
               </p>
 
-              <div className="flex items-center border-t border-slate-100 pt-4 mt-auto">
+              <div className="flex items-center border-t border-slate-100 pt-3 mt-auto">
                 <div
-                className={`w-10 h-10 rounded-full flex items-center justify-center font-bold ${t.color} mr-3 flex-shrink-0`}>
+                className={`w-9 h-9 rounded-full flex items-center justify-center font-bold text-sm ${t.color} mr-3 flex-shrink-0`}>
 
                   {t.initial}
                 </div>

@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 import { getCheckoutUrl } from "../utils/checkoutUrl";
 export function FinalPricingCTA() {
   return (
-    <section className="py-14 md:py-20 bg-[#f9f8f6] text-[#2f3a2c] text-center relative overflow-hidden">
+    <section className="py-10 md:py-14 bg-transparent text-[#2f3a2c] text-center relative overflow-hidden">
       <div
         aria-hidden="true"
         className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none"
@@ -12,25 +12,26 @@ export function FinalPricingCTA() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[80%] rounded-full bg-[#d4a017]/10 blur-[100px]" />
       </div>
       <div className="container mx-auto px-4 max-w-3xl relative z-10">
-        <span className="inline-block px-6 py-2.5 mb-5 rounded-full bg-[#4A553F] text-white font-semibold tracking-[0.18em] uppercase text-xs">
-          Última Oportunidad
-        </span>
-        <h2 className="text-3xl md:text-5xl font-bold font-heading text-[#2f3a2c] mb-6 leading-tight">
+        <div className="mb-5">
+          <span className="inline-block px-6 py-2.5 rounded-full border border-white/40 bg-[#4A553F] text-white font-semibold tracking-[0.18em] uppercase text-xs">
+            Última Oportunidad
+          </span>
+        </div>
+        <h2 className="text-3xl md:text-5xl font-bold font-heading text-[#2f3a2c] mb-5 leading-tight">
           Tu carrera merece funcionar con orden, respaldo y tranquilidad
           real.
         </h2>
-        <p className="text-lg text-slate-600 mb-10 max-w-2xl mx-auto">
-          No dejes que el caos documental te siga pesando ni que una
-          inspección te agarre desprotegido. Empezá hoy con un sistema que
-          ya funciona y que podés implementar en menos de una semana.
+        <p className="text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
+          Todo un año de capacitaciones resuelto. Más tiempo para tus
+          clientes y menos horas preparando material.
         </p>
 
-        <div className="bg-white border border-amber-100 rounded-3xl p-8 shadow-lg shadow-black/5 max-w-xl mx-auto mb-8">
+        <div className="bg-white border border-amber-100 rounded-3xl p-6 md:p-7 shadow-lg shadow-black/5 max-w-xl mx-auto mb-6">
           <h3 className="font-bold text-[#2f3a2c] mb-2 text-[12px]">
-            Kit Completo: Mega Pack Higiene y Seguridad Blindada + 5 Bonos
+            Kit Completo: Sistema Maestro de Capacitaciones HyS + 5 Bonos
             GRATIS
           </h3>
-          <div className="text-slate-400 line-through mb-2">$74.940 ARS</div>
+          <div className="text-slate-500 line-through mb-2">$75.490 ARS</div>
           <div className="text-4xl font-bold text-[#B85C43] mb-6">
             $19.990 ARS
           </div>
@@ -42,12 +43,12 @@ export function FinalPricingCTA() {
             whileTap={{
               scale: 0.98,
             }}
-            className="flex items-center justify-center gap-2 w-full bg-[#B85C43] hover:bg-[#A34F38] text-white font-bold text-[13px] px-3 py-6 rounded-full shadow-lg shadow-[#B85C43]/30 transition-colors mb-2"
+            className="flex items-center justify-center gap-3 w-full bg-[#B85C43] hover:bg-[#A34F38] text-white font-bold text-lg md:text-xl px-6 py-5 rounded-full shadow-lg shadow-[#B85C43]/30 transition-colors mb-4"
           >
-            <span className="text-center whitespace-nowrap">
-              🚀 SÍ, QUIERO MI MEGA PACK HOY
+            <span className="text-center">
+              🚀 SÍ, QUIERO MI SISTEMA MAESTRO HOY
             </span>
-            <ArrowRight className="w-5 h-5 flex-shrink-0" />
+            <ArrowRight className="w-6 h-6 flex-shrink-0" />
           </motion.a>
         </div>
 
