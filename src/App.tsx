@@ -58,7 +58,7 @@ export function App() {
       "viewport",
       "width=device-width, initial-scale=1, viewport-fit=cover",
     );
-    setMeta("name", "theme-color", "#F9F8F6");
+    setMeta("name", "theme-color", "#E3F1EB");
     setMeta("name", "robots", "index, follow");
     setMeta("property", "og:type", "website");
     setMeta("property", "og:title", PAGE_TITLE);

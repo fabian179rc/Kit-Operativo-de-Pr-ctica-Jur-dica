@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 import { scrollToOffer } from "../utils/scrollToOffer";
 export function HeroSection() {
   return (
-    <section className="relative md:pt-0 md:pb-24 overflow-hidden bg-[#f9f8f6] pt-0 pb-[30px]">
+    <section className="relative md:pt-0 md:pb-24 overflow-hidden bg-[#e3f1eb] pt-0 pb-[30px]">
       <div
         aria-hidden="true"
         className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none"
       >
-        <div className="absolute -top-[10%] left-1/2 -translate-x-1/2 w-[80%] h-[60%] rounded-full bg-[#b85c43]/10 blur-3xl" />
+        <div className="absolute -top-[10%] left-1/2 -translate-x-1/2 w-[80%] h-[60%] rounded-full bg-[#c06b52]/10 blur-3xl" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10 max-w-[1100px] text-center pt-0">
@@ -24,7 +24,7 @@ export function HeroSection() {
           transition={{
             duration: 0.5,
           }}
-          className="inline-flex items-center gap-2 px-4 py-1.5 mb-[22px] md:mb-8 md:px-6 md:py-2.5 rounded-full bg-[#4a553f] text-white font-bold tracking-[0.1em] uppercase text-[10.5px] md:text-[12px] mt-0"
+          className="inline-flex items-center gap-2 px-4 py-1.5 mb-[22px] md:mb-8 md:px-6 md:py-2.5 rounded-full bg-[#24504a] text-white font-bold tracking-[0.1em] uppercase text-[10.5px] md:text-[12px] mt-0"
         >
           ✨ SISTEMA MAESTRO DE INSPECCIONES HyS
         </motion.div>
@@ -42,10 +42,10 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.1,
           }}
-          className="font-heading md:text-5xl mb-[35px] md:mb-6 max-w-3xl mx-auto text-[29px] font-semibold leading-[1.2] md:leading-tight text-[#2f3a2c]"
+          className="font-heading md:text-5xl mb-[35px] md:mb-6 max-w-3xl mx-auto text-[29px] font-semibold leading-[1.2] md:leading-tight text-[#1c3733]"
         >
           Cada inspección te roba horas. Eso se termina HOY.{" "}
-          <span className="italic text-[#8a6a4f]">Descargá, abrí y usá..</span>
+          <span className="italic text-[#a3763f]">Descargá, abrí y usá..</span>
         </motion.h2>
 
         <motion.div
@@ -88,7 +88,7 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.3,
           }}
-          className="md:text-xl text-[#4b5347] my-[40px] md:my-10 max-w-2xl mx-auto text-[13.75px] leading-snug md:leading-normal font-medium"
+          className="md:text-xl text-[#4f6b66] my-[40px] md:my-10 max-w-2xl mx-auto text-[13.75px] leading-snug md:leading-normal font-medium"
         >
           Checklists, informes y seguimiento listos para usar desde el primer
           día.
@@ -118,19 +118,19 @@ export function HeroSection() {
             whileTap={{
               scale: 0.98,
             }}
-            className="flex items-center justify-center gap-2 md:gap-3 w-full sm:w-auto bg-[#b85c43] hover:bg-[#a34f38] text-white font-extrabold px-3 py-[12px] md:px-10 md:py-5 rounded-full shadow-lg shadow-[#b85c43]/30 transition-colors mb-[28px] md:mb-6 text-[13.75px] md:text-[20px] whitespace-nowrap"
+            className="flex items-center justify-center gap-2 md:gap-3 w-full sm:w-auto bg-[#c06b52] hover:bg-[#a85944] text-white font-extrabold px-3 py-[12px] md:px-10 md:py-5 rounded-full shadow-lg shadow-[#c06b52]/30 transition-colors mb-[28px] md:mb-6 text-[13.75px] md:text-[20px] whitespace-nowrap"
           >
             🚀 ¡SÍ, QUIERO MI SISTEMA DE INSPECCION!
           </motion.a>
 
-          <div className="flex flex-wrap justify-center gap-1.5 md:gap-4 text-[13.25px] md:text-sm font-semibold text-[#4b5347]">
+          <div className="flex flex-wrap justify-center gap-1.5 md:gap-4 text-[13.25px] md:text-sm font-semibold text-[#4f6b66]">
             <span>
               <span aria-hidden="true">⭐⭐⭐⭐⭐</span> 4.9/5 — Reseñas
               verificadas
             </span>
             <span
               aria-hidden="true"
-              className="hidden sm:inline text-[#c1c8b6]"
+              className="hidden sm:inline text-[#a9c9c0]"
             >
               |
             </span>

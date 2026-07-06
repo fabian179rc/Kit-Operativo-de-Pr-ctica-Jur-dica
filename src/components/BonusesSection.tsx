@@ -39,10 +39,10 @@ const bonuses = [
 
 export function BonusesSection() {
   return (
-    <section className="py-16 md:py-24 bg-[#f9f8f6] pt-[30px] pb-[30px]">
+    <section className="py-16 md:py-24 bg-[#e3f1eb] pt-[30px] pb-[30px]">
       <div className="container mx-auto px-4 max-w-[1100px]">
         <div className="text-center mb-12">
-          <span className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-[#4a553f] text-white font-bold tracking-[0.1em] uppercase text-xs md:text-sm">
+          <span className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-[#24504a] text-white font-bold tracking-[0.1em] uppercase text-xs md:text-sm">
             🎁 5 Bonos Gratis Incluidos
           </span>
         </div>
@@ -65,7 +65,7 @@ export function BonusesSection() {
             transition={{
               delay: i * 0.08
             }}
-            className="bg-white border border-[#e6ddc7] rounded-2xl overflow-hidden shadow-sm">
+            className="bg-white border border-[#dde8e4] rounded-2xl overflow-hidden shadow-sm">
 
               <div className="relative bg-white">
                 <img
@@ -76,15 +76,15 @@ export function BonusesSection() {
                   loading="lazy"
                   decoding="async"
                   className="w-full h-56 object-contain object-top" />
-                <span className="absolute top-3 left-3 bg-[#b85c43] text-white font-bold text-xs uppercase tracking-wide px-3 py-1.5 rounded-full shadow-sm">
+                <span className="absolute top-3 left-3 bg-[#c06b52] text-white font-bold text-xs uppercase tracking-wide px-3 py-1.5 rounded-full shadow-sm">
                   Bono {b.num}
                 </span>
-                <span className="absolute top-3 right-3 inline-flex items-center gap-1 bg-[#4a7a4a] text-white font-bold text-xs uppercase tracking-wide px-3 py-1.5 rounded-full shadow-sm">
+                <span className="absolute top-3 right-3 inline-flex items-center gap-1 bg-[#3a8a6e] text-white font-bold text-xs uppercase tracking-wide px-3 py-1.5 rounded-full shadow-sm">
                   🎁 Gratis
                 </span>
               </div>
               <div className="p-6">
-                <p className="text-[#4b5347] text-[15px] leading-relaxed">
+                <p className="text-[#4f6b66] text-[15px] leading-relaxed">
                   {b.desc}
                 </p>
               </div>

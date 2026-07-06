@@ -24,10 +24,10 @@ const features = [
 
 export function FeaturesSection() {
   return (
-    <section className="py-16 md:py-24 bg-[#f9f8f6] pt-[0px] pb-[0px]">
+    <section className="py-16 md:py-24 bg-[#e3f1eb] pt-[0px] pb-[0px]">
       <div className="container mx-auto px-4 max-w-[1100px]">
         <div className="text-center mb-12">
-          {/* <span className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-[#4a553f] text-white font-bold tracking-[0.1em] uppercase text-xs md:text-sm">
+          {/* <span className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-[#24504a] text-white font-bold tracking-[0.1em] uppercase text-xs md:text-sm">
             ✅ Lo que vas a lograr
           </span> */}
         </div>
@@ -52,8 +52,8 @@ export function FeaturesSection() {
               }}
               className="flex items-center gap-4"
             >
-              <CheckCircle2 className="w-6 h-6 flex-shrink-0 text-[#b85c43]" />
-              <h3 className="font-bold text-[#2f3a2c] text-lg md:text-xl">
+              <CheckCircle2 className="w-6 h-6 flex-shrink-0 text-[#c06b52]" />
+              <h3 className="font-bold text-[#1c3733] text-lg md:text-xl">
                 {feature.title}
               </h3>
             </motion.div>

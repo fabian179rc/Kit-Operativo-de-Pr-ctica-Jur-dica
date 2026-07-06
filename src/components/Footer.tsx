@@ -1,7 +1,7 @@
 import React from 'react';
 export function Footer() {
   return (
-    <footer className="bg-[#232b21] text-white/70 py-16 border-t border-white/10 pt-[30px] pb-[30px]">
+    <footer className="bg-[#16302c] text-white/70 py-16 border-t border-white/10 pt-[30px] pb-[30px]">
       <div className="container mx-auto px-4 max-w-[1100px] text-center">
         <div className="inline-flex items-center justify-center gap-2 px-6 py-2 rounded-full bg-white/5 border border-white/10 text-white font-bold text-sm tracking-widest uppercase mb-8">
           🛡️ SISTEMA MAESTRO DE INSPECCIONES HyS

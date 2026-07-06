@@ -30,10 +30,10 @@ const faqs = [
 export function FaqSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
   return (
-    <section className="py-16 md:py-24 bg-[#f9f8f6] pt-[30px] pb-[30px]">
+    <section className="py-16 md:py-24 bg-[#e3f1eb] pt-[30px] pb-[30px]">
       <div className="container mx-auto px-4 max-w-[1100px]">
         <div className="text-center mb-12">
-          <h2 className="font-heading text-4xl md:text-5xl font-semibold text-[#2f3a2c] leading-tight">
+          <h2 className="font-heading text-4xl md:text-5xl font-semibold text-[#1c3733] leading-tight">
             ❓ Preguntas Frecuentes
           </h2>
         </div>
@@ -44,18 +44,18 @@ export function FaqSection() {
             return (
               <div
                 key={i}
-                className="bg-white rounded-2xl shadow-sm border border-[#e6ddc7]">
+                className="bg-white rounded-2xl shadow-sm border border-[#dde8e4]">
 
                 <button
                   className="w-full px-6 md:px-8 py-6 text-left flex justify-between items-center gap-4 focus:outline-none"
                   onClick={() => setOpenIndex(isOpen ? null : i)}
                   aria-expanded={isOpen}>
 
-                  <span className="font-heading font-bold text-[#2f3a2c] text-lg md:text-xl">
+                  <span className="font-heading font-bold text-[#1c3733] text-lg md:text-xl">
                     {faq.q}
                   </span>
                   <span
-                    className={`flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center transition-colors ${isOpen ? 'bg-[#4a553f] text-white' : 'bg-[#4a553f]/10 text-[#4a553f]'}`}
+                    className={`flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center transition-colors ${isOpen ? 'bg-[#24504a] text-white' : 'bg-[#24504a]/10 text-[#24504a]'}`}
                     aria-hidden="true">
 
                     {isOpen ?
@@ -86,7 +86,7 @@ export function FaqSection() {
                     }}
                     className="overflow-hidden">
 
-                      <div className="px-6 md:px-8 pb-8 -mt-2 text-[#4b5347] leading-relaxed text-[16px] md:text-lg">
+                      <div className="px-6 md:px-8 pb-8 -mt-2 text-[#4f6b66] leading-relaxed text-[16px] md:text-lg">
                         {faq.a}
                       </div>
                     </motion.div>
