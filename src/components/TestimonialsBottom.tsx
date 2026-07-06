@@ -1,0 +1,96 @@
+import React from 'react';
+import { motion } from 'framer-motion';
+import { Star, MessageCircle } from 'lucide-react';
+const testimonials = [
+{
+  initial: 'L',
+  color: 'bg-[#d7ede5] text-[#1c3733]',
+  name: 'Lucas M.',
+  location: 'Técnico en HyS · Buenos Aires',
+  text: 'Antes armaba el programa en hojas sueltas. Ahora tengo el año planificado, con matrices y seguimiento.'
+},
+{
+  initial: 'S',
+  color: 'bg-[#cdeae1] text-[#1c3733]',
+  name: 'Sofía R.',
+  location: 'Licenciada en HyS · Córdoba',
+  text: 'Los checklists por sector solos ya justificaron la compra. Sé exactamente qué recorrer y qué registrar.'
+},
+{
+  initial: 'F',
+  color: 'bg-[#dde8e4] text-[#1c3733]',
+  name: 'Federico T.',
+  location: 'Técnico en HyS · Rosario',
+  text: 'Antes el informe me llevaba horas. Ahora sigo la estructura del sistema y sale en 30 minutos, con evidencia incluida.'
+},
+{
+  initial: 'V',
+  color: 'bg-[#d7ede5] text-[#1c3733]',
+  name: 'Valeria B.',
+  location: 'Responsable HyS · Mendoza',
+  text: 'Cuando vino la auditoría externa, tenía todo: cronograma, registros e indicadores. Nunca había estado tan preparado.'
+}];
+
+export function TestimonialsBottom() {
+  return (
+    <section className="py-16 md:py-24 bg-[#e3f1eb] pt-[30px] pb-[30px]">
+      <div className="container mx-auto px-4 max-w-[1100px]">
+        <div className="text-center mb-16">
+          <MessageCircle className="w-10 h-10 text-[#c79a3f] mx-auto mb-4" />
+          <h2 className="font-heading text-3xl md:text-5xl font-semibold text-[#1c3733]">
+            Lo que dicen otros profesionales de HyS
+          </h2>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          {testimonials.map((t, i) =>
+          <motion.div
+            key={i}
+            initial={{
+              opacity: 0,
+              y: 20
+            }}
+            whileInView={{
+              opacity: 1,
+              y: 0
+            }}
+            viewport={{
+              once: true
+            }}
+            transition={{
+              delay: i * 0.1
+            }}
+            className="bg-white rounded-3xl p-8 md:p-10 shadow-sm border border-[#dde8e4] flex flex-col h-full">
+
+              <div className="flex text-[#c79a3f] mb-6">
+                {[...Array(5)].map((_, i) =>
+              <Star key={i} className="w-6 h-6 fill-current" />
+              )}
+              </div>
+
+              <p className="text-[#1c3733] text-lg leading-relaxed mb-8 italic flex-grow font-medium">
+                "{t.text}"
+              </p>
+
+              <div className="flex items-center border-t border-[#dde8e4] pt-6 mt-auto">
+                <div
+                className={`w-14 h-14 rounded-full flex items-center justify-center font-bold text-xl ${t.color} mr-4 flex-shrink-0`}>
+
+                  {t.initial}
+                </div>
+                <div>
+                  <div className="font-bold text-[#1c3733] text-lg">
+                    {t.name}
+                  </div>
+                  <div className="text-sm font-medium text-[#7c948d]">
+                    {t.location}
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          )}
+        </div>
+      </div>
+    </section>);
+
+}
