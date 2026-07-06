@@ -9,7 +9,7 @@ const PAGE_DESC =
   "Checklists, informes y seguimiento listos para usar desde el primer día.";
 const HERO_IMAGE = `${import.meta.env.BASE_URL}mockup.webp`;
 
-const SITE_URL = "https://maestrodeinspecciones.tupuntodigital.shop";
+const SITE_URL = "https://maestrodeauditor.tupuntodigital.shop";
 function setMeta(attr: "name" | "property", key: string, content: string) {
   let el = document.head.querySelector<HTMLMetaElement>(
     `meta[${attr}="${key}"]`,
