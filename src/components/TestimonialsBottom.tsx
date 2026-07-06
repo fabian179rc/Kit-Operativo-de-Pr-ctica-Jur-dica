@@ -7,21 +7,21 @@ const testimonials = [
   color: 'bg-pink-100 text-pink-700',
   name: 'Martín G.',
   location: 'Técnico en HyS — Buenos Aires',
-  text: 'Tenía que capacitar el lunes a las 8 AM y el domingo a la noche todavía no tenía las diapositivas. Con el Sistema Maestro abrí el capítulo correspondiente, adapté dos cosas al rubro y en 20 minutos tenía todo listo. Nunca más volví a improvisar.'
+  text: 'Tenía que capacitar el lunes y el domingo a la noche no tenía nada listo. Abrí el capítulo, adapté dos cosas y en 20 minutos estaba todo armado. Nunca más improvisé.'
 },
 {
   initial: 'C',
   color: 'bg-blue-100 text-blue-700',
   name: 'Carolina R.',
   location: 'Licenciada en HyS — Córdoba',
-  text: 'El bloque de riesgos críticos solo ya valió todo. Por fin tengo material sólido para trabajo en altura y espacios confinados que resiste cualquier auditoría. Los registros son completos y tienen todo lo que la ART necesita ver.'
+  text: 'El bloque de riesgos críticos solo ya valió todo. Material sólido para altura y espacios confinados, con registros que resisten cualquier auditoría.'
 },
 {
   initial: 'D',
   color: 'bg-emerald-100 text-emerald-700',
   name: 'Diego T.',
   location: 'Técnico en HyS — Rosario',
-  text: 'Los cronogramas del Bono 4 me cambiaron la vida. Antes llevaba el año en la cabeza y siempre se me pasaba algo. Ahora tengo todo en un tablero, sé qué vence, qué falta y qué tengo que llevar a cada visita.'
+  text: 'Los cronogramas del Bono 4 me cambiaron la vida. Antes llevaba el año en la cabeza. Ahora tengo todo en un tablero: sé qué vence y qué falta.'
 }];
 
 export function TestimonialsBottom() {

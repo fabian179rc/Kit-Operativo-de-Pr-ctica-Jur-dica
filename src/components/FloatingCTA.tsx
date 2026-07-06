@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { scrollToOffer } from '../utils/scrollToOffer';
+import React, { useEffect, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { scrollToOffer } from "../utils/scrollToOffer";
 
 export function FloatingCTA() {
   const [visible, setVisible] = useState(false);
@@ -8,8 +8,8 @@ export function FloatingCTA() {
   useEffect(() => {
     const onScroll = () => setVisible(window.scrollY > 600);
     onScroll();
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   return (
