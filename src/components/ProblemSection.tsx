@@ -3,28 +3,28 @@ import { motion } from 'framer-motion';
 const situations = [
 {
   emoji: '😰',
-  title: 'Actuás bajo presión y sin método',
-  desc: 'Cuando ocurre el accidente, tomás fotos al azar, anotás lo que podés y después no sabés cómo ordenar todo para el informe.'
+  title: 'Tu gestión depende de tu memoria',
+  desc: 'Sabés qué riesgo tiene cada puesto, qué EPP necesita cada tarea y qué capacitación venció. Pero todo está en tu cabeza, no en un sistema que cualquiera pueda auditar.'
 },
 {
   emoji: '😩',
-  title: 'Tus investigaciones terminan en "error humano"',
-  desc: 'No porque sea la causa real, sino porque no tenés las herramientas para ir más profundo. Y el riesgo sigue exactamente igual.'
+  title: 'Tenés 100 archivos que no se hablan entre sí',
+  desc: 'La matriz de riesgos dice una cosa. La lista de EPP dice otra. El registro de capacitaciones está en otro Excel. Nada está conectado y todo es inconsistente.'
 },
 {
   emoji: '⏱️',
-  title: 'El informe te lleva días y nadie lo lee',
-  desc: 'Escribís páginas y páginas que la gerencia archiva sin leer. Las recomendaciones quedan sin respuesta y el accidente se repite.'
+  title: 'Perdés horas buscando datos que deberían estar en segundos',
+  desc: 'Cuando un auditor pregunta qué EPP usa el operario de planta B o cuándo vence la capacitación de altura, tenés que buscar en cinco archivos distintos.'
 },
 {
   emoji: '📂',
-  title: 'La escena se altera y perdés evidencia crítica',
-  desc: 'No sabés qué preservar ni cómo documentar antes de que todo cambie. Después es imposible reconstruir lo que pasó.'
+  title: 'Riesgos no evaluados que nadie detectó',
+  desc: 'Si no está en la matriz, no existe para la empresa. Hasta que ocurre el accidente y el fiscal pregunta por qué ese riesgo nunca fue identificado.'
 },
 {
-  emoji: '⚖️',
-  title: 'Tu informe puede usarse en tu contra',
-  desc: 'En un juicio laboral, el primer documento que revisa el perito es el informe de investigación. Si está mal redactado, te expone a vos y a la empresa.'
+  emoji: '📉',
+  title: 'No podés demostrar tu gestión con datos',
+  desc: 'Hacés trabajo real pero no tenés un tablero que muestre el estado de tu sistema. Ante la gerencia o una auditoría, no podés mostrar la radiografía completa de tu gestión.'
 }];
 
 export function ProblemSection() {

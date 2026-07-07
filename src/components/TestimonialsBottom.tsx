@@ -3,32 +3,32 @@ import { motion } from 'framer-motion';
 import { Star, MessageCircle } from 'lucide-react';
 const testimonials = [
 {
-  initial: 'J',
-  color: 'bg-pink-100 text-pink-700',
-  name: 'Javier M.',
-  location: 'Técnico en HyS — Buenos Aires',
-  text: 'Antes llegaba a la escena del accidente y no sabía por dónde empezar. Con el protocolo de los primeros 60 minutos, ahora sé exactamente qué hacer y qué preservar.'
-},
-{
-  initial: 'M',
-  color: 'bg-blue-100 text-blue-700',
-  name: 'Marcela F.',
-  location: 'Licenciada en HyS — Córdoba',
-  text: 'Mis informes siempre terminaban en "error humano". Con el Árbol de Causas del sistema llegué a fallas de proceso que nunca hubiera encontrado solo.'
-},
-{
   initial: 'G',
-  color: 'bg-emerald-100 text-emerald-700',
-  name: 'Guillermo S.',
-  location: 'Consultor HyS — Rosario',
-  text: 'El banco de frases técnicas me cambió la forma de redactar. Mis informes ahora son objetivos, claros y la gerencia los toma en serio por primera vez.'
+  color: 'bg-pink-100 text-pink-700',
+  name: 'Gastón M.',
+  location: 'Licenciado en HyS — Buenos Aires',
+  text: 'Tenía la información de doce clientes desperdigada en carpetas y Excels que no se entendían. Con las matrices del sistema ahora puedo auditar cualquier cliente en minutos.'
 },
 {
-  initial: 'N',
+  initial: 'C',
+  color: 'bg-blue-100 text-blue-700',
+  name: 'Claudia F.',
+  location: 'Técnica en HyS — Córdoba',
+  text: 'La Matriz de EPP Inteligente del Bono 3 sola ya justificó la compra. Nunca más entrego un EPP sin justificación técnica y referencia a norma.'
+},
+{
+  initial: 'R',
+  color: 'bg-emerald-100 text-emerald-700',
+  name: 'Ricardo S.',
+  location: 'Responsable HyS — Rosario',
+  text: 'Cuando vino la auditoría ISO, el auditor revisó mi IPER y mi matriz de capacitación. Estaban interconectadas y sin inconsistencias. Me felicitó por la calidad del sistema.'
+},
+{
+  initial: 'A',
   color: 'bg-amber-100 text-amber-700',
-  name: 'Natalia R.',
-  location: 'Responsable HyS — Mendoza',
-  text: 'Cuando vino el perito de la ART, tenía todo documentado: fotos, croquis, entrevistas, análisis de causas y acciones cerradas. Fue la investigación más sólida que hice en mi carrera.'
+  name: 'Andrea P.',
+  location: 'Coordinadora HyS — Mendoza',
+  text: 'Por primera vez pude mostrarle a la gerencia un tablero con el estado real de toda la gestión. Conseguí presupuesto para tres mejoras que venía pidiendo hace dos años.'
 }];
 
 export function TestimonialsBottom() {

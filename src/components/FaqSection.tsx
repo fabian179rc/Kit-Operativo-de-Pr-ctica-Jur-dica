@@ -7,24 +7,24 @@ const faqs = [
   a: '100% digital. Acceso inmediato para descargar, editar e imprimir desde cualquier dispositivo.'
 },
 {
-  q: '¿Sirve para cualquier tipo de accidente o industria?',
-  a: 'Sí. El sistema incluye metodología aplicable a accidentes en industria, construcción, logística, servicios y comercio. Los formularios y modelos son adaptables a cualquier tipo de evento y contexto.'
+  q: '¿Necesito saber Excel avanzado para usar las matrices?',
+  a: 'No. Las matrices del Bono 1 vienen listas con fórmulas y formatos condicionales. Solo tenés que cargar tus datos. El sistema explica paso a paso cómo usarlas sin conocimientos avanzados.'
 },
 {
-  q: '¿Necesito experiencia previa en investigación de accidentes?',
-  a: 'No. El sistema te guía paso a paso desde la respuesta inmediata hasta el cierre del informe. Funciona tanto si estás investigando tu primer accidente como si querés profesionalizar lo que ya hacés.'
+  q: '¿Sirve para cualquier tipo de industria o actividad?',
+  a: 'Sí. Las matrices son adaptables a industria, construcción, logística, comercio, servicios y cualquier tipo de establecimiento. El criterio técnico es universal y los modelos son editables.'
 },
 {
   q: '¿Sirve para cualquier provincia o país?',
-  a: 'Sí. La metodología es universal. Los modelos siguen los lineamientos de la normativa argentina pero son adaptables a cualquier jurisdicción o sistema de gestión.'
+  a: 'Sí. La metodología es aplicable en cualquier contexto. Los modelos siguen los lineamientos de la normativa argentina pero son adaptables a cualquier jurisdicción o sistema de gestión.'
 },
 {
-  q: '¿Puedo usarlo con distintos clientes o empresas?',
-  a: 'Sí. Los formularios y plantillas son reutilizables para cada evento y cliente. Una sola compra te da herramientas para todas tus investigaciones.'
+  q: '¿Puedo usarlo con varios clientes distintos?',
+  a: 'Sí. Las matrices son reutilizables para cada cliente y establecimiento. Una sola compra te da el sistema completo para toda tu cartera.'
 },
 {
-  q: '¿Ya investigué accidentes antes, me sirve igual?',
-  a: 'Sí. El sistema no solo te da herramientas nuevas, sino que mejora lo que ya hacés: análisis más profundo, informes más sólidos y acciones correctivas que realmente cierran el riesgo.'
+  q: '¿Ya tengo algunas matrices propias, me sirve igual?',
+  a: 'Sí. El sistema te enseña el criterio técnico detrás de cada matriz y cómo interconectarlas. Podés mejorar lo que ya tenés, detectar inconsistencias y completar las que te faltan.'
 }];
 
 export function FaqSection() {

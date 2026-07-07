@@ -4,9 +4,9 @@ import { Landing } from "./pages/Landing";
 import { useScreenInit } from "./useScreenInit";
 const META_PIXEL_ID = "1656160899010195";
 const PAGE_TITLE =
-  "Sistema Maestro de Investigación de Accidentes HyS — Metodología, Formularios e Informes Técnicos";
+  "Sistema Maestro de Matrices HyS — Riesgos, EPP, Capacitaciones y Documentación en un Solo Sistema";
 const PAGE_DESC =
-  "Metodología, formularios e informes técnicos listos para investigar con rigor, encontrar causas reales y cerrar el ciclo preventivo.";
+  "Riesgos, EPP, capacitaciones, documentos, inspecciones y acciones correctivas organizados en un sistema de matrices profesional y listo para usar.";
 const HERO_IMAGE = `${import.meta.env.BASE_URL}sistemamaestro-mockup.webp`;
 
 const SITE_URL = "https://placeholder.com";
@@ -66,7 +66,7 @@ export function App() {
     setMeta("property", "og:locale", "es_AR");
     setMeta("property", "og:image", HERO_IMAGE);
     setMeta("property", "og:url", SITE_URL);
-    setMeta("property", "og:site_name", "Sistema Maestro de Investigación de Accidentes HyS");
+    setMeta("property", "og:site_name", "Sistema Maestro de Matrices HyS");
     setMeta("name", "twitter:card", "summary_large_image");
     setMeta("name", "twitter:image", HERO_IMAGE);
     setMeta("name", "twitter:title", PAGE_TITLE);
@@ -79,12 +79,12 @@ export function App() {
       ld.textContent = JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Product",
-        name: "Sistema Maestro de Investigación de Accidentes HyS",
+        name: "Sistema Maestro de Matrices HyS",
         description: PAGE_DESC,
         image: HERO_IMAGE,
         brand: {
           "@type": "Brand",
-          name: "Sistema Maestro de Investigación de Accidentes HyS",
+          name: "Sistema Maestro de Matrices HyS",
         },
         offers: {
           "@type": "Offer",
@@ -110,24 +110,24 @@ export function App() {
             a: "100% digital. Acceso inmediato para descargar, editar e imprimir desde cualquier dispositivo.",
           },
           {
-            q: "¿Sirve para cualquier tipo de accidente o industria?",
-            a: "Sí. El sistema incluye metodología aplicable a accidentes en industria, construcción, logística, servicios y comercio. Los formularios y modelos son adaptables a cualquier tipo de evento y contexto.",
+            q: "¿Necesito saber Excel avanzado para usar las matrices?",
+            a: "No. Las matrices del Bono 1 vienen listas con fórmulas y formatos condicionales. Solo tenés que cargar tus datos. El sistema explica paso a paso cómo usarlas sin conocimientos avanzados.",
           },
           {
-            q: "¿Necesito experiencia previa en investigación de accidentes?",
-            a: "No. El sistema te guía paso a paso desde la respuesta inmediata hasta el cierre del informe. Funciona tanto si estás investigando tu primer accidente como si querés profesionalizar lo que ya hacés.",
+            q: "¿Sirve para cualquier tipo de industria o actividad?",
+            a: "Sí. Las matrices son adaptables a industria, construcción, logística, comercio, servicios y cualquier tipo de establecimiento. El criterio técnico es universal y los modelos son editables.",
           },
           {
             q: "¿Sirve para cualquier provincia o país?",
-            a: "Sí. La metodología es universal. Los modelos siguen los lineamientos de la normativa argentina pero son adaptables a cualquier jurisdicción o sistema de gestión.",
+            a: "Sí. La metodología es aplicable en cualquier contexto. Los modelos siguen los lineamientos de la normativa argentina pero son adaptables a cualquier jurisdicción o sistema de gestión.",
           },
           {
-            q: "¿Puedo usarlo con distintos clientes o empresas?",
-            a: "Sí. Los formularios y plantillas son reutilizables para cada evento y cliente. Una sola compra te da herramientas para todas tus investigaciones.",
+            q: "¿Puedo usarlo con varios clientes distintos?",
+            a: "Sí. Las matrices son reutilizables para cada cliente y establecimiento. Una sola compra te da el sistema completo para toda tu cartera.",
           },
           {
-            q: "¿Ya investigué accidentes antes, me sirve igual?",
-            a: "Sí. El sistema no solo te da herramientas nuevas, sino que mejora lo que ya hacés: análisis más profundo, informes más sólidos y acciones correctivas que realmente cierran el riesgo.",
+            q: "¿Ya tengo algunas matrices propias, me sirve igual?",
+            a: "Sí. El sistema te enseña el criterio técnico detrás de cada matriz y cómo interconectarlas. Podés mejorar lo que ya tenés, detectar inconsistencias y completar las que te faltan.",
           },
         ].map((item) => ({
           "@type": "Question",

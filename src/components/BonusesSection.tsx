@@ -4,32 +4,32 @@ import { Gift } from 'lucide-react';
 const bonuses = [
 {
   num: 1,
-  title: 'Formulario Maestro de Investigación de Accidentes',
-  desc: 'Una plantilla completa de 10 páginas que te guía paso a paso desde los datos generales, descripción del evento, recolección de evidencia, análisis de causas hasta el plan de acción correctiva. Abrís el formulario, seguís el orden y no se te escapa ningún dato crítico bajo presión.',
+  title: 'Pack de 8 Matrices Automatizadas en Excel',
+  desc: 'Ocho planillas profesionales listas con fórmulas, formatos condicionales y filtros de búsqueda para riesgos, EPP, capacitación, documentación, emergencias, requisitos legales, acciones correctivas e indicadores. Abrís, cargás tus datos y el sistema organiza todo automáticamente.',
   image: "sm-bono1.webp"
 },
 {
   num: 2,
-  title: 'Guion de Entrevistas Profesionales para Testigos y Afectados',
-  desc: 'Un set de 30 preguntas técnicas organizadas por momento de la entrevista para extraer información objetiva sin generar culpa, miedo ni silencio. Incluye preguntas para el accidentado, testigos directos, supervisores y responsables operativos.',
+  title: 'Catálogo de +150 Combinaciones Peligro-Riesgo-Control',
+  desc: 'Un diccionario técnico con más de ciento cincuenta combinaciones listas para copiar y adaptar en tu IPER. Organizadas por tipo de actividad, tarea y sector. Ideal para completar matrices de riesgo sin empezar desde cero y sin omitir peligros críticos que después aparecen en una auditoría.',
   image: "sm-bono2.webp"
 },
 {
   num: 3,
-  title: 'Calculadora de Costos de Accidentes',
-  desc: 'Una herramienta en Excel para calcular y presentar el costo real del accidente ante la dirección: costos directos, indirectos, horas perdidas, daños materiales, impacto productivo y proyección de ahorro con inversión en prevención.',
+  title: 'Matriz de EPP Inteligente por Riesgo y Norma',
+  desc: 'Un selector técnico donde identificás el riesgo y obtenés el tipo de EPP recomendado con referencia a normas IRAM, ANSI y EN. Incluye categorías para protección de cabeza, ojos, cara, auditiva, respiratoria, manos, pies y cuerpo. Ideal para justificar técnicamente cada equipo entregado y dejar trazabilidad de la elección.',
   image: "sm-bono3.webp"
 },
 {
   num: 4,
-  title: 'Banco de +100 Frases Técnicas para Informes de Investigación',
-  desc: 'Frases profesionales listas para usar al describir hechos, condiciones inseguras, causas inmediatas, causas raíz y recomendaciones. Redactá informes más sólidos, objetivos y legalmente defendibles sin buscar las palabras correctas.',
+  title: 'Guía de Seguimiento de Requisitos Legales HyS',
+  desc: 'Una metodología paso a paso para identificar, clasificar y mapear la normativa aplicable a cada cliente o establecimiento sin perderse en el boletín oficial. Incluye criterios para filtrar por actividad, provincia, tipo de riesgo y obligación, y un modelo de matriz de requisitos legales editable y auditable.',
   image: "sm-bono4.webp"
 },
 {
   num: 5,
-  title: 'Galería de Árboles de Causas Resueltos',
-  desc: 'Diez casos reales analizados con metodología de Árbol de Causas: caída en altura, atrapamiento, contacto eléctrico, golpe por objeto, sobreesfuerzo y más. Entendés la lógica del análisis aplicada a situaciones reales y podés replicarla en tu próxima investigación.',
+  title: 'Checklist de Auditoría de Matrices HyS',
+  desc: 'Una lista de treinta puntos de control para verificar si tus matrices son técnicamente consistentes, están actualizadas y resisten una auditoría externa. Detectá inconsistencias entre la matriz de riesgos y la de EPP, puestos sin capacitación asignada, documentos vencidos sin alerta y acciones correctivas sin cierre antes de que lo haga el auditor.',
   image: "sm-bono5.webp"
 }];
 

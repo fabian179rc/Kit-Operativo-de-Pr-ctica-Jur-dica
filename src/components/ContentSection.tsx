@@ -3,32 +3,32 @@ import { motion } from 'framer-motion';
 import { PackageOpen } from 'lucide-react';
 
 const modulos = [
-  { emoji: '🗺️', label: 'De Buscar Culpables a Encontrar Soluciones' },
-  { emoji: '📐', label: 'Protocolo de Respuesta Inmediata' },
-  { emoji: '📅', label: 'Recolección de Evidencia con Método Forense' },
-  { emoji: '⚠️', label: 'El Arte de la Entrevista sin Culpa' },
-  { emoji: '✅', label: 'Análisis de Causas Inmediatas' },
-  { emoji: '🔍', label: 'Análisis de Causas Raíz' },
-  { emoji: '📸', label: 'Clasificación y Severidad del Evento' },
-  { emoji: '📝', label: 'Redacción del Informe Técnico Profesional' },
-  { emoji: '🛠️', label: 'Acciones Correctivas que Generan Cambios' },
-  { emoji: '📊', label: 'Seguimiento y Cierre Trazable' },
-  { emoji: '🏭', label: 'Costos del Accidente como Herramienta de Gestión' },
-  { emoji: '🏆', label: 'Preparación ante Demandas y Pericias' },
+  { emoji: '🗺️', label: 'La Matriz como Centro de Gravedad' },
+  { emoji: '📐', label: 'Ingeniería de Datos HyS' },
+  { emoji: '📅', label: 'IPER Profesional' },
+  { emoji: '⚠️', label: 'Matriz de Requisitos Legales' },
+  { emoji: '✅', label: 'Matriz de EPP por Puesto y Tarea' },
+  { emoji: '🔍', label: 'Matriz de Capacitación y Competencias' },
+  { emoji: '📸', label: 'Matriz de Documentación Crítica' },
+  { emoji: '📝', label: 'Matriz de Elementos de Emergencia' },
+  { emoji: '🛠️', label: 'Matriz de Acciones Correctivas' },
+  { emoji: '📊', label: 'Interconectividad entre Matrices' },
+  { emoji: '🏭', label: 'Presentación de Datos a Gerencia' },
+  { emoji: '🏆', label: 'Mantenimiento e Iteración del Sistema' },
 ];
 
 const temas = [
-  { emoji: '📋', label: 'Protocolo de respuesta inmediata' },
-  { emoji: '🔍', label: 'Recolección de evidencia' },
-  { emoji: '⚠️', label: 'Entrevistas profesionales' },
-  { emoji: '📝', label: 'Análisis de causas raíz' },
-  { emoji: '📊', label: 'Redacción de informes' },
+  { emoji: '📋', label: 'Identificación de peligros' },
+  { emoji: '🔍', label: 'Evaluación de riesgos' },
+  { emoji: '⚠️', label: 'Control de EPP por puesto' },
+  { emoji: '📝', label: 'Capacitación por exposición' },
+  { emoji: '📊', label: 'Requisitos legales aplicables' },
   { emoji: '✅', label: 'Acciones correctivas' },
-  { emoji: '👷', label: 'Clasificación de eventos' },
-  { emoji: '🏗️', label: 'Investigación en obra' },
-  { emoji: '🔥', label: 'Accidentes eléctricos y mecánicos' },
-  { emoji: '🧯', label: 'Costos y gestión directiva' },
-  { emoji: '📈', label: 'Cierre trazable del ciclo' },
+  { emoji: '👷', label: 'Documentación crítica' },
+  { emoji: '🏗️', label: 'Elementos de emergencia' },
+  { emoji: '🔥', label: 'Interconexión de matrices' },
+  { emoji: '🧯', label: 'Indicadores de gestión' },
+  { emoji: '📈', label: 'Presentación a gerencia' },
   { emoji: '➕', label: 'Y mucho más...' },
 ];
 
@@ -36,8 +36,8 @@ const rubros = [
   { emoji: '🏭', label: 'Industria' },
   { emoji: '🏗️', label: 'Construcción' },
   { emoji: '🚚', label: 'Logística' },
-  { emoji: '🛎️', label: 'Servicios' },
   { emoji: '🏬', label: 'Comercio' },
+  { emoji: '🛎️', label: 'Servicios' },
 ];
 
 export function ContentSection() {
@@ -99,8 +99,8 @@ export function ContentSection() {
             ))}
           </div>
           <p className="text-center text-slate-600 text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
-            💡 Cada módulo viene con formularios, modelos de redacción y
-            herramientas listas para usar desde el primer evento.
+            💡 Cada módulo viene con criterios técnicos, modelos de
+            matrices y formatos listos para implementar de inmediato.
           </p>
         </div>
 
@@ -125,8 +125,8 @@ export function ContentSection() {
             ))}
           </div>
           <p className="text-[#e6ddc7] text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
-            La metodología es universal. Los modelos siguen los
-            lineamientos generales de la{' '}
+            La metodología es aplicable en cualquier contexto. Los modelos
+            siguen los lineamientos de la{' '}
             <span className="font-bold text-white">
               normativa argentina
             </span>{' '}

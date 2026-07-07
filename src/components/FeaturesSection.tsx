@@ -2,12 +2,12 @@ import React from "react";
 import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 const features = [
-  "Protocolo de respuesta inmediata para los primeros 60 minutos",
-  "Método forense para recolectar evidencia antes de que se pierda",
-  "Técnicas de entrevista profesional sin culpar ni presionar",
-  "Análisis de causas raíz con métodos probados y aplicables",
-  "Redacción de informes técnicos claros, objetivos y defendibles",
-  "Acciones correctivas que generan cambios reales y trazables",
+  "Metodología completa para construir matrices desde cero con criterio técnico",
+  "IPER profesional con métodos de valoración aplicables a cualquier industria",
+  "Matriz de EPP vinculada directamente al riesgo residual de cada puesto",
+  "Matriz de capacitación con mapa de quién debe saber qué y cuándo",
+  "Control de documentación crítica, vencimientos y habilitaciones",
+  "Sistema interconectado auditable en minutos ante cualquier inspección",
 ];
 
 export function FeaturesSection() {
