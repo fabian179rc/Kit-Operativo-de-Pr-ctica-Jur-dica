@@ -2,12 +2,12 @@ import React from "react";
 import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 const features = [
-  "Análisis de amenazas y vulnerabilidades por tipo de establecimiento",
-  "Diseño de medios de escape, señalización y dotación de equipos",
-  "Estructura completa de roles, brigadas y responsabilidades",
-  "Procedimientos operativos de respuesta por tipo de emergencia",
-  "Sistema de simulacros planificados, ejecutados y documentados",
-  "Evidencia trazable y defendible ante ART, SRT, bomberos y auditorías",
+  "Protocolo de respuesta inmediata para los primeros 60 minutos",
+  "Método forense para recolectar evidencia antes de que se pierda",
+  "Técnicas de entrevista profesional sin culpar ni presionar",
+  "Análisis de causas raíz con métodos probados y aplicables",
+  "Redacción de informes técnicos claros, objetivos y defendibles",
+  "Acciones correctivas que generan cambios reales y trazables",
 ];
 
 export function FeaturesSection() {

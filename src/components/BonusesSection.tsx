@@ -4,32 +4,32 @@ import { Gift } from 'lucide-react';
 const bonuses = [
 {
   num: 1,
-  title: 'Plantillas Editables de Plan de Emergencias',
-  desc: 'Modelos completos en Word para industria, comercio, depósito, oficinas y establecimientos educativos. Cargás los datos de tu cliente, adaptás los roles y tenés el plan listo para presentar.',
+  title: 'Formulario Maestro de Investigación de Accidentes',
+  desc: 'Una plantilla completa de 10 páginas que te guía paso a paso desde los datos generales, descripción del evento, recolección de evidencia, análisis de causas hasta el plan de acción correctiva. Abrís el formulario, seguís el orden y no se te escapa ningún dato crítico bajo presión.',
   image: "sm-bono1.webp"
 },
 {
   num: 2,
-  title: 'Kit Maestro de Simulacros',
-  desc: 'Guiones de práctica, planilla de observación en campo, acta de realización e informe final de resultados. Todo lo que necesitás para que un simulacro deje evidencia profesional y aprendizaje real.',
+  title: 'Guion de Entrevistas Profesionales para Testigos y Afectados',
+  desc: 'Un set de 30 preguntas técnicas organizadas por momento de la entrevista para extraer información objetiva sin generar culpa, miedo ni silencio. Incluye preguntas para el accidentado, testigos directos, supervisores y responsables operativos.',
   image: "sm-bono2.webp"
 },
 {
   num: 3,
-  title: 'Banco de Procedimientos Operativos de Respuesta',
-  desc: 'Guiones listos para adaptar ante incendio, derrame químico, accidente grave, emergencia médica y amenaza. Entregale a cada rol un procedimiento claro, corto y ejecutable en el momento crítico.',
+  title: 'Calculadora de Costos de Accidentes',
+  desc: 'Una herramienta en Excel para calcular y presentar el costo real del accidente ante la dirección: costos directos, indirectos, horas perdidas, daños materiales, impacto productivo y proyección de ahorro con inversión en prevención.',
   image: "sm-bono3.webp"
 },
 {
   num: 4,
-  title: 'Checklist de Auditoría de Medios de Escape',
-  desc: 'Lista de verificación profesional para inspeccionar rutas de evacuación, puertas, luces de emergencia, señalización, matafuegos y obstrucciones. Detectá fallas antes de que las encuentre un inspector.',
+  title: 'Banco de +100 Frases Técnicas para Informes de Investigación',
+  desc: 'Frases profesionales listas para usar al describir hechos, condiciones inseguras, causas inmediatas, causas raíz y recomendaciones. Redactá informes más sólidos, objetivos y legalmente defendibles sin buscar las palabras correctas.',
   image: "sm-bono4.webp"
 },
 {
   num: 5,
-  title: 'Registro de Brigadistas y Capacitación Específica',
-  desc: 'Formatos para documentar la designación oficial, la formación técnica y las prácticas de cada brigadista. Demostrá que tu brigada no es solo un nombre en un papel sino un equipo capacitado y registrado.',
+  title: 'Galería de Árboles de Causas Resueltos',
+  desc: 'Diez casos reales analizados con metodología de Árbol de Causas: caída en altura, atrapamiento, contacto eléctrico, golpe por objeto, sobreesfuerzo y más. Entendés la lógica del análisis aplicada a situaciones reales y podés replicarla en tu próxima investigación.',
   image: "sm-bono5.webp"
 }];
 

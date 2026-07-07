@@ -3,32 +3,32 @@ import { motion } from 'framer-motion';
 import { Star, MessageCircle } from 'lucide-react';
 const testimonials = [
 {
-  initial: 'L',
+  initial: 'J',
   color: 'bg-pink-100 text-pink-700',
-  name: 'Laura M.',
-  location: 'Técnica en HyS — Buenos Aires',
-  text: 'Tenía un plan de evacuación que nadie conocía. Con este sistema armé los roles, hice el primer simulacro real y por primera vez tengo evidencia documentada de todo.'
+  name: 'Javier M.',
+  location: 'Técnico en HyS — Buenos Aires',
+  text: 'Antes llegaba a la escena del accidente y no sabía por dónde empezar. Con el protocolo de los primeros 60 minutos, ahora sé exactamente qué hacer y qué preservar.'
 },
 {
-  initial: 'D',
+  initial: 'M',
   color: 'bg-blue-100 text-blue-700',
-  name: 'Diego F.',
-  location: 'Licenciado en HyS — Córdoba',
-  text: 'El Kit de Simulacros del Bono 2 cambió todo. Antes el simulacro era un caos. Ahora tengo guion, planilla de observación e informe. La ART quedó impresionada.'
+  name: 'Marcela F.',
+  location: 'Licenciada en HyS — Córdoba',
+  text: 'Mis informes siempre terminaban en "error humano". Con el Árbol de Causas del sistema llegué a fallas de proceso que nunca hubiera encontrado solo.'
 },
 {
-  initial: 'P',
+  initial: 'G',
   color: 'bg-emerald-100 text-emerald-700',
-  name: 'Paula S.',
-  location: 'Responsable HyS — Rosario',
-  text: 'Los Procedimientos Operativos de Respuesta me sacaron un peso enorme. Ahora cada brigadista tiene su guion. Saben exactamente qué hacer ante un incendio.'
+  name: 'Guillermo S.',
+  location: 'Consultor HyS — Rosario',
+  text: 'El banco de frases técnicas me cambió la forma de redactar. Mis informes ahora son objetivos, claros y la gerencia los toma en serio por primera vez.'
 },
 {
-  initial: 'H',
+  initial: 'N',
   color: 'bg-amber-100 text-amber-700',
-  name: 'Hernán V.',
-  location: 'Consultor HyS — Mendoza',
-  text: 'Cuando vino la inspección de Bomberos, tenía todo: plan actualizado, registros de capacitación, fichas de brigadistas y el último informe de simulacro. Cero observaciones.'
+  name: 'Natalia R.',
+  location: 'Responsable HyS — Mendoza',
+  text: 'Cuando vino el perito de la ART, tenía todo documentado: fotos, croquis, entrevistas, análisis de causas y acciones cerradas. Fue la investigación más sólida que hice en mi carrera.'
 }];
 
 export function TestimonialsBottom() {

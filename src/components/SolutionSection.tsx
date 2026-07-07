@@ -9,10 +9,10 @@ export function SolutionSection() {
             LA SOLUCIÓN — UN SISTEMA TODO EN UNO
           </span>
           <h2 className="font-heading md:text-5xl font-bold text-[#2f3a2c] mb-6 max-w-3xl mx-auto text-[24px]">
-            El único sistema que convierte tu plan de emergencias de
-            documento estático en{" "}
+            El único sistema que te guía desde el minuto cero del accidente
+            hasta el cierre con{" "}
             <span className="text-[#5C6851] italic">
-              respuesta operativa real
+              evidencia defendible
             </span>
           </h2>
         </div>
@@ -36,7 +36,7 @@ export function SolutionSection() {
         >
           <img
             src={`${import.meta.env.BASE_URL}sistemamaestro-mockup.webp`}
-            alt="Sistema Maestro de Emergencias HyS"
+            alt="Sistema Maestro de Investigación de Accidentes HyS"
             width={672}
             height={672}
             loading="lazy"
@@ -47,8 +47,8 @@ export function SolutionSection() {
 
         <div className="bg-white/60 border border-amber-100 text-[#2f3a2c] rounded-3xl p-6 md:p-8 shadow-sm">
           <p className="md:text-xl font-medium text-slate-700 text-[16px]">
-            Sin planes de papel. Sin roles vacíos. Sin simulacros que no
-            dejan evidencia.
+            Sin improvisar en la escena. Sin informes que nadie lee. Sin
+            causas superficiales que no resuelven nada.
           </p>
         </div>
       </div>

@@ -3,41 +3,41 @@ import { motion } from 'framer-motion';
 import { PackageOpen } from 'lucide-react';
 
 const modulos = [
-  { emoji: '🗺️', label: 'Del Plan de Papel al Sistema Operativo' },
-  { emoji: '📐', label: 'Análisis de Amenazas y Vulnerabilidades' },
-  { emoji: '📅', label: 'Diseño de Medios de Escape' },
-  { emoji: '⚠️', label: 'Dotación y Control de Equipos contra Incendio' },
-  { emoji: '✅', label: 'Estructura de Roles y Brigadas' },
-  { emoji: '🔍', label: 'Redacción del Plan de Evacuación' },
-  { emoji: '📸', label: 'Procedimientos Operativos de Respuesta (POR)' },
-  { emoji: '📝', label: 'Sistema Profesional de Simulacros' },
-  { emoji: '🛠️', label: 'Capacitación de Brigadas y Personal' },
-  { emoji: '📊', label: 'Primeros Auxilios Integrados al Sistema' },
-  { emoji: '🏭', label: 'Comunicación de Crisis' },
-  { emoji: '🏆', label: 'Mejora Continua y Revisión del Sistema' },
+  { emoji: '🗺️', label: 'De Buscar Culpables a Encontrar Soluciones' },
+  { emoji: '📐', label: 'Protocolo de Respuesta Inmediata' },
+  { emoji: '📅', label: 'Recolección de Evidencia con Método Forense' },
+  { emoji: '⚠️', label: 'El Arte de la Entrevista sin Culpa' },
+  { emoji: '✅', label: 'Análisis de Causas Inmediatas' },
+  { emoji: '🔍', label: 'Análisis de Causas Raíz' },
+  { emoji: '📸', label: 'Clasificación y Severidad del Evento' },
+  { emoji: '📝', label: 'Redacción del Informe Técnico Profesional' },
+  { emoji: '🛠️', label: 'Acciones Correctivas que Generan Cambios' },
+  { emoji: '📊', label: 'Seguimiento y Cierre Trazable' },
+  { emoji: '🏭', label: 'Costos del Accidente como Herramienta de Gestión' },
+  { emoji: '🏆', label: 'Preparación ante Demandas y Pericias' },
 ];
 
 const temas = [
-  { emoji: '📋', label: 'Análisis de amenazas' },
-  { emoji: '🔍', label: 'Diseño de evacuación' },
-  { emoji: '⚠️', label: 'Roles y brigadas' },
-  { emoji: '📝', label: 'Plan de emergencias' },
-  { emoji: '📊', label: 'Procedimientos de respuesta' },
-  { emoji: '✅', label: 'Simulacros con evidencia' },
-  { emoji: '👷', label: 'Capacitación de brigadistas' },
-  { emoji: '🏗️', label: 'Equipos contra incendio' },
-  { emoji: '🔥', label: 'Respuesta ante incendios' },
-  { emoji: '🧯', label: 'Primeros auxilios integrados' },
-  { emoji: '📈', label: 'Comunicación de crisis' },
+  { emoji: '📋', label: 'Protocolo de respuesta inmediata' },
+  { emoji: '🔍', label: 'Recolección de evidencia' },
+  { emoji: '⚠️', label: 'Entrevistas profesionales' },
+  { emoji: '📝', label: 'Análisis de causas raíz' },
+  { emoji: '📊', label: 'Redacción de informes' },
+  { emoji: '✅', label: 'Acciones correctivas' },
+  { emoji: '👷', label: 'Clasificación de eventos' },
+  { emoji: '🏗️', label: 'Investigación en obra' },
+  { emoji: '🔥', label: 'Accidentes eléctricos y mecánicos' },
+  { emoji: '🧯', label: 'Costos y gestión directiva' },
+  { emoji: '📈', label: 'Cierre trazable del ciclo' },
   { emoji: '➕', label: 'Y mucho más...' },
 ];
 
 const rubros = [
-  { emoji: '🏭', label: 'Industrias' },
-  { emoji: '🏬', label: 'Comercios' },
-  { emoji: '📦', label: 'Depósitos' },
-  { emoji: '🏢', label: 'Oficinas' },
-  { emoji: '🏫', label: 'Establecimientos Educativos' },
+  { emoji: '🏭', label: 'Industria' },
+  { emoji: '🏗️', label: 'Construcción' },
+  { emoji: '🚚', label: 'Logística' },
+  { emoji: '🛎️', label: 'Servicios' },
+  { emoji: '🏬', label: 'Comercio' },
 ];
 
 export function ContentSection() {
@@ -99,8 +99,8 @@ export function ContentSection() {
             ))}
           </div>
           <p className="text-center text-slate-600 text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
-            💡 Cada módulo viene con plantillas, modelos de redacción y
-            formatos listos para implementar de inmediato.
+            💡 Cada módulo viene con formularios, modelos de redacción y
+            herramientas listas para usar desde el primer evento.
           </p>
         </div>
 
@@ -125,12 +125,13 @@ export function ContentSection() {
             ))}
           </div>
           <p className="text-[#e6ddc7] text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
-            La metodología es aplicable en cualquier contexto. Los modelos
-            siguen los lineamientos generales de la{' '}
+            La metodología es universal. Los modelos siguen los
+            lineamientos generales de la{' '}
             <span className="font-bold text-white">
               normativa argentina
             </span>{' '}
-            pero son adaptables a cualquier jurisdicción.
+            pero son adaptables a cualquier jurisdicción o sistema de
+            gestión.
           </p>
         </motion.div>
       </div>

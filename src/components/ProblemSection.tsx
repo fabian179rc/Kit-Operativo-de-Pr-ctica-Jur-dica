@@ -3,28 +3,28 @@ import { motion } from 'framer-motion';
 const situations = [
 {
   emoji: '😰',
-  title: 'Tu plan de emergencias es un PDF que nadie leyó',
-  desc: 'Existe en una carpeta, tiene fecha, tiene firma. Pero si hoy ocurre un incendio, nadie sabe qué hacer ni adónde ir.'
+  title: 'Actuás bajo presión y sin método',
+  desc: 'Cuando ocurre el accidente, tomás fotos al azar, anotás lo que podés y después no sabés cómo ordenar todo para el informe.'
 },
 {
   emoji: '😩',
-  title: 'Los roles de emergencia son nombres en un papel',
-  desc: 'El coordinador no sabe que lo es. El brigadista no fue capacitado. El punto de reunión está bloqueado por pallets.'
+  title: 'Tus investigaciones terminan en "error humano"',
+  desc: 'No porque sea la causa real, sino porque no tenés las herramientas para ir más profundo. Y el riesgo sigue exactamente igual.'
 },
 {
   emoji: '⏱️',
-  title: 'Hacés simulacros que no sirven para nada',
-  desc: 'La gente sale, da una vuelta y vuelve. No hay evaluación, no hay registro, no hay aprendizaje. Y la ART igual te lo aprueba.'
+  title: 'El informe te lleva días y nadie lo lee',
+  desc: 'Escribís páginas y páginas que la gerencia archiva sin leer. Las recomendaciones quedan sin respuesta y el accidente se repite.'
 },
 {
   emoji: '📂',
-  title: 'No tenés evidencia de que el sistema funciona',
-  desc: 'Si ocurre una tragedia y el fiscal te pregunta qué hiciste para preparar a tu gente, ¿qué documentación vas a mostrar?'
+  title: 'La escena se altera y perdés evidencia crítica',
+  desc: 'No sabés qué preservar ni cómo documentar antes de que todo cambie. Después es imposible reconstruir lo que pasó.'
 },
 {
   emoji: '⚖️',
-  title: 'La responsabilidad penal es tuya si el plan falla',
-  desc: 'En una emergencia real, el plan de papel no te protege. Solo te protege el sistema que implementaste, practicaste y documentaste.'
+  title: 'Tu informe puede usarse en tu contra',
+  desc: 'En un juicio laboral, el primer documento que revisa el perito es el informe de investigación. Si está mal redactado, te expone a vos y a la empresa.'
 }];
 
 export function ProblemSection() {

@@ -7,24 +7,24 @@ const faqs = [
   a: '100% digital. Acceso inmediato para descargar, editar e imprimir desde cualquier dispositivo.'
 },
 {
-  q: '¿Sirve para cualquier tipo de establecimiento?',
-  a: 'Sí. El sistema incluye modelos para industrias, comercios, depósitos, oficinas y establecimientos educativos. Cada plantilla es adaptable al tipo de cliente y actividad.'
+  q: '¿Sirve para cualquier tipo de accidente o industria?',
+  a: 'Sí. El sistema incluye metodología aplicable a accidentes en industria, construcción, logística, servicios y comercio. Los formularios y modelos son adaptables a cualquier tipo de evento y contexto.'
 },
 {
-  q: '¿Necesito experiencia previa en emergencias?',
-  a: 'No. El sistema te guía paso a paso desde el análisis de amenazas hasta la documentación final. Funciona tanto si estás empezando como si ya tenés experiencia y querés profesionalizar lo que hacés.'
+  q: '¿Necesito experiencia previa en investigación de accidentes?',
+  a: 'No. El sistema te guía paso a paso desde la respuesta inmediata hasta el cierre del informe. Funciona tanto si estás investigando tu primer accidente como si querés profesionalizar lo que ya hacés.'
 },
 {
   q: '¿Sirve para cualquier provincia o país?',
-  a: 'Sí. La metodología es aplicable en cualquier contexto. Los modelos siguen los lineamientos generales de la normativa argentina pero son adaptables a cualquier jurisdicción.'
+  a: 'Sí. La metodología es universal. Los modelos siguen los lineamientos de la normativa argentina pero son adaptables a cualquier jurisdicción o sistema de gestión.'
 },
 {
-  q: '¿Puedo usarlo con varios clientes distintos?',
-  a: 'Sí. Las plantillas son editables y reutilizables. Una sola compra te da herramientas para todos tus clientes y establecimientos.'
+  q: '¿Puedo usarlo con distintos clientes o empresas?',
+  a: 'Sí. Los formularios y plantillas son reutilizables para cada evento y cliente. Una sola compra te da herramientas para todas tus investigaciones.'
 },
 {
-  q: '¿Cuándo recibo el acceso?',
-  a: 'Inmediatamente después de confirmar tu pago. Recibís el link de descarga en tu correo en menos de 5 minutos.'
+  q: '¿Ya investigué accidentes antes, me sirve igual?',
+  a: 'Sí. El sistema no solo te da herramientas nuevas, sino que mejora lo que ya hacés: análisis más profundo, informes más sólidos y acciones correctivas que realmente cierran el riesgo.'
 }];
 
 export function FaqSection() {

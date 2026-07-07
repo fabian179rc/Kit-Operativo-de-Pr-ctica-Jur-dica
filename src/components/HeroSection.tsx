@@ -26,7 +26,7 @@ export function HeroSection() {
           }}
           className="inline-flex items-center gap-2 px-6 py-2.5 mb-5 rounded-full border border-white/40 bg-[#4A553F] text-white font-semibold tracking-[0.18em] uppercase text-[8px]"
         >
-          ✨ SISTEMA MAESTRO DE EMERGENCIAS HyS
+          ✨ SISTEMA MAESTRO DE INVESTIGACIÓN DE ACCIDENTES HyS
         </motion.div>
 
         <motion.h1
@@ -44,8 +44,8 @@ export function HeroSection() {
           }}
           className="font-heading md:text-6xl font-extrabold text-[#2f3a2c] mb-4 text-[26px]"
         >
-          Tu plan de emergencias existe en papel. Pero si hoy suena la
-          alarma, ¿qué pasa realmente?{" "}
+          Ocurrió un accidente. Los próximos 60 minutos definen todo. ¿Sabés
+          exactamente qué hacer?{" "}
           <span className="text-[#B85C43]">Eso se termina HOY.</span>
         </motion.h1>
 
@@ -66,7 +66,7 @@ export function HeroSection() {
         >
           <img
             src={`${import.meta.env.BASE_URL}sistemamaestro-mockup.webp`}
-            alt="Sistema Maestro de Emergencias HyS"
+            alt="Sistema Maestro de Investigación de Accidentes HyS"
             width={672}
             height={672}
             loading="eager"
@@ -91,8 +91,9 @@ export function HeroSection() {
           }}
           className="md:text-xl text-slate-600 mb-6 max-w-2xl mx-auto text-[12px] mt-8"
         >
-          Descargá, abrí y usá. Planes, roles, simulacros y evidencia
-          documental listos para implementar desde el primer día.
+          Descargá, abrí y usá. Metodología, formularios e informes
+          técnicos listos para investigar con rigor, encontrar causas
+          reales y cerrar el ciclo preventivo.
         </motion.p>
 
         <motion.div
@@ -121,7 +122,7 @@ export function HeroSection() {
             }}
             className="flex items-center justify-center gap-3 w-full sm:w-auto bg-[#B85C43] hover:bg-[#A34F38] text-white font-bold px-8 py-4 rounded-full shadow-lg shadow-[#B85C43]/30 transition-colors mb-14 text-[16px]"
           >
-            🚀 ¡SÍ, QUIERO MI SISTEMA DE EMERGENCIAS!
+            🚀 ¡SÍ, QUIERO MI SISTEMA DE INVESTIGACIÓN!
           </motion.a>
 
           <div className="flex flex-wrap justify-center gap-4 text-sm font-medium text-slate-600">
