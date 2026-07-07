@@ -12,6 +12,7 @@ import { FaqSection } from '../components/FaqSection';
 import { FinalPricingCTA } from '../components/FinalPricingCTA';
 import { Footer } from '../components/Footer';
 import { FloatingCTA } from '../components/FloatingCTA';
+import { SocialProofToast } from '../components/SocialProofToast';
 export function Landing() {
   return <main className="min-h-screen bg-transparent">
       <HeroSection />
@@ -43,5 +44,6 @@ export function Landing() {
       </div>
       <Footer />
       <FloatingCTA />
+      <SocialProofToast />
     </main>;
 }
