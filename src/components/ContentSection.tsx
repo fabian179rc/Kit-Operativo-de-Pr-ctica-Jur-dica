@@ -3,41 +3,39 @@ import { motion } from 'framer-motion';
 import { PackageOpen } from 'lucide-react';
 
 const modulos = [
-  { emoji: '🗺️', label: 'La Matriz como Centro de Gravedad' },
-  { emoji: '📐', label: 'Ingeniería de Datos HyS' },
-  { emoji: '📅', label: 'IPER Profesional' },
-  { emoji: '⚠️', label: 'Matriz de Requisitos Legales' },
-  { emoji: '✅', label: 'Matriz de EPP por Puesto y Tarea' },
-  { emoji: '🔍', label: 'Matriz de Capacitación y Competencias' },
-  { emoji: '📸', label: 'Matriz de Documentación Crítica' },
-  { emoji: '📝', label: 'Matriz de Elementos de Emergencia' },
-  { emoji: '🛠️', label: 'Matriz de Acciones Correctivas' },
-  { emoji: '📊', label: 'Interconectividad entre Matrices' },
-  { emoji: '🏭', label: 'Presentación de Datos a Gerencia' },
-  { emoji: '🏆', label: 'Mantenimiento e Iteración del Sistema' },
+  { emoji: '🗺️', label: 'Mindset del Consultor Elite' },
+  { emoji: '📐', label: 'Nicho y Posicionamiento' },
+  { emoji: '📅', label: 'El Diagnóstico de Venta' },
+  { emoji: '⚠️', label: 'Propuestas High-Ticket que Cierran' },
+  { emoji: '✅', label: 'Onboarding de Clientes' },
+  { emoji: '🔍', label: 'El Sistema Operativo Semanal' },
+  { emoji: '📸', label: 'Gestión Documental Eficiente' },
+  { emoji: '📝', label: 'Comunicación con Autoridad' },
+  { emoji: '🛠️', label: 'Renovaciones e Incrementos de Honorarios' },
+  { emoji: '📊', label: 'Marketing para Prevencionistas' },
+  { emoji: '🏭', label: 'Finanzas para Consultores' },
+  { emoji: '🏆', label: 'Escalado de la Consultora' },
 ];
 
 const temas = [
-  { emoji: '📋', label: 'Identificación de peligros' },
-  { emoji: '🔍', label: 'Evaluación de riesgos' },
-  { emoji: '⚠️', label: 'Control de EPP por puesto' },
-  { emoji: '📝', label: 'Capacitación por exposición' },
-  { emoji: '📊', label: 'Requisitos legales aplicables' },
-  { emoji: '✅', label: 'Acciones correctivas' },
-  { emoji: '👷', label: 'Documentación crítica' },
-  { emoji: '🏗️', label: 'Elementos de emergencia' },
-  { emoji: '🔥', label: 'Interconexión de matrices' },
-  { emoji: '🧯', label: 'Indicadores de gestión' },
-  { emoji: '📈', label: 'Presentación a gerencia' },
+  { emoji: '📋', label: 'Posicionamiento y nicho' },
+  { emoji: '🔍', label: 'Diagnóstico de venta' },
+  { emoji: '⚠️', label: 'Propuestas que cierran' },
+  { emoji: '📝', label: 'Onboarding de clientes' },
+  { emoji: '📊', label: 'Sistema operativo semanal' },
+  { emoji: '✅', label: 'Gestión documental' },
+  { emoji: '👷', label: 'Comunicación con autoridad' },
+  { emoji: '🏗️', label: 'Renovaciones y aumentos' },
+  { emoji: '🔥', label: 'Marketing para consultores' },
+  { emoji: '🧯', label: 'Finanzas y rentabilidad' },
+  { emoji: '📈', label: 'Escalado y delegación' },
   { emoji: '➕', label: 'Y mucho más...' },
 ];
 
-const rubros = [
-  { emoji: '🏭', label: 'Industria' },
-  { emoji: '🏗️', label: 'Construcción' },
-  { emoji: '🚚', label: 'Logística' },
-  { emoji: '🏬', label: 'Comercio' },
-  { emoji: '🛎️', label: 'Servicios' },
+const etapas = [
+  { emoji: '🌱', label: 'Consultores que recién empiezan' },
+  { emoji: '📈', label: 'Consultores que ya tienen clientes' },
+  { emoji: '🌎', label: 'Cualquier mercado o país' },
 ];
 
 export function ContentSection() {
@@ -99,8 +97,8 @@ export function ContentSection() {
             ))}
           </div>
           <p className="text-center text-slate-600 text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
-            💡 Cada módulo viene con criterios técnicos, modelos de
-            matrices y formatos listos para implementar de inmediato.
+            💡 Cada módulo viene con guiones, plantillas comerciales y
+            herramientas listas para implementar de inmediato.
           </p>
         </div>
 
@@ -111,10 +109,10 @@ export function ContentSection() {
           className="bg-[#4A553F] rounded-3xl p-5 md:p-7 shadow-sm text-center"
         >
           <h3 className="font-heading font-bold text-white text-xl md:text-2xl mb-5">
-            🏢 Adaptado a los rubros que más lo necesitan
+            🎯 Sirve en cualquier etapa de tu consultora
           </h3>
           <div className="flex flex-wrap justify-center gap-3 mb-6">
-            {rubros.map((r, i) => (
+            {etapas.map((r, i) => (
               <span
                 key={i}
                 className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white rounded-full px-4 py-2 text-sm font-semibold"
@@ -125,13 +123,10 @@ export function ContentSection() {
             ))}
           </div>
           <p className="text-[#e6ddc7] text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
-            La metodología es aplicable en cualquier contexto. Los modelos
-            siguen los lineamientos de la{' '}
-            <span className="font-bold text-white">
-              normativa argentina
-            </span>{' '}
-            pero son adaptables a cualquier jurisdicción o sistema de
-            gestión.
+            Los principios de negocio, ventas y gestión de clientes son{' '}
+            <span className="font-bold text-white">universales</span>. Las
+            plantillas y herramientas son adaptables a cualquier mercado y
+            contexto.
           </p>
         </motion.div>
       </div>

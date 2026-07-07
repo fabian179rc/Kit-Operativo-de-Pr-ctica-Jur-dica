@@ -7,24 +7,24 @@ const faqs = [
   a: '100% digital. Acceso inmediato para descargar, editar e imprimir desde cualquier dispositivo.'
 },
 {
-  q: '¿Necesito saber Excel avanzado para usar las matrices?',
-  a: 'No. Las matrices del Bono 1 vienen listas con fórmulas y formatos condicionales. Solo tenés que cargar tus datos. El sistema explica paso a paso cómo usarlas sin conocimientos avanzados.'
+  q: '¿Sirve si recién estoy empezando como consultor independiente?',
+  a: 'Sí. El sistema te da la base que necesitás para arrancar de forma profesional desde el primer cliente. Evitás los errores más costosos que cometen los consultores en los primeros años.'
 },
 {
-  q: '¿Sirve para cualquier tipo de industria o actividad?',
-  a: 'Sí. Las matrices son adaptables a industria, construcción, logística, comercio, servicios y cualquier tipo de establecimiento. El criterio técnico es universal y los modelos son editables.'
+  q: '¿Sirve si ya tengo clientes pero quiero crecer?',
+  a: 'Sí. El sistema está diseñado para ordenar lo que ya tenés, identificar qué está limitando tu crecimiento y darte herramientas concretas para escalar sin caos.'
 },
 {
   q: '¿Sirve para cualquier provincia o país?',
-  a: 'Sí. La metodología es aplicable en cualquier contexto. Los modelos siguen los lineamientos de la normativa argentina pero son adaptables a cualquier jurisdicción o sistema de gestión.'
+  a: 'Sí. Los principios de negocio, ventas y gestión de clientes son universales. Las plantillas y herramientas son adaptables a cualquier mercado y contexto.'
 },
 {
-  q: '¿Puedo usarlo con varios clientes distintos?',
-  a: 'Sí. Las matrices son reutilizables para cada cliente y establecimiento. Una sola compra te da el sistema completo para toda tu cartera.'
+  q: '¿Cuándo recibo el acceso?',
+  a: 'Inmediatamente después de confirmar tu pago. Recibís el link de descarga en tu correo en menos de cinco minutos.'
 },
 {
-  q: '¿Ya tengo algunas matrices propias, me sirve igual?',
-  a: 'Sí. El sistema te enseña el criterio técnico detrás de cada matriz y cómo interconectarlas. Podés mejorar lo que ya tenés, detectar inconsistencias y completar las que te faltan.'
+  q: '¿Ya tengo algunos procesos propios, me sirve igual?',
+  a: 'Sí. El sistema complementa y mejora lo que ya hacés. Podés adoptar solo las herramientas que te faltan y profesionalizar las que ya tenés.'
 }];
 
 export function FaqSection() {

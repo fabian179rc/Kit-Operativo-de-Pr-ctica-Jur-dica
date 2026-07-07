@@ -9,9 +9,10 @@ export function SolutionSection() {
             LA SOLUCIÓN — UN SISTEMA TODO EN UNO
           </span>
           <h2 className="font-heading md:text-5xl font-bold text-[#2f3a2c] mb-6 max-w-3xl mx-auto text-[24px]">
-            El único sistema que organiza toda tu gestión HyS en matrices{" "}
+            El único sistema que transforma tu práctica independiente en
+            una consultora HyS{" "}
             <span className="text-[#5C6851] italic">
-              interconectadas, auditables y listas para usar
+              profesional, ordenada y rentable
             </span>
           </h2>
         </div>
@@ -35,7 +36,7 @@ export function SolutionSection() {
         >
           <img
             src={`${import.meta.env.BASE_URL}sistemamaestro-mockup.webp`}
-            alt="Sistema Maestro de Matrices HyS"
+            alt="Sistema Maestro para Consultores HyS"
             width={672}
             height={672}
             loading="lazy"
@@ -46,8 +47,8 @@ export function SolutionSection() {
 
         <div className="bg-white/60 border border-amber-100 text-[#2f3a2c] rounded-3xl p-6 md:p-8 shadow-sm">
           <p className="md:text-xl font-medium text-slate-700 text-[16px]">
-            Sin datos dispersos. Sin riesgos sin evaluar. Sin gestión que
-            depende de tu memoria.
+            Sin cobrar barato. Sin trabajar sin límites. Sin clientes que
+            no valoran tu firma.
           </p>
         </div>
       </div>

@@ -3,32 +3,32 @@ import { motion } from 'framer-motion';
 import { Star, MessageCircle } from 'lucide-react';
 const testimonials = [
 {
-  initial: 'G',
+  initial: 'M',
   color: 'bg-pink-100 text-pink-700',
-  name: 'Gastón M.',
-  location: 'Licenciado en HyS — Buenos Aires',
-  text: 'Tenía la información de doce clientes desperdigada en carpetas y Excels que no se entendían. Con las matrices del sistema ahora puedo auditar cualquier cliente en minutos.'
+  name: 'Mariano G.',
+  location: 'Consultor HyS — Buenos Aires',
+  text: 'Mandaba presupuestos en Word y casi nunca me respondían. Usé la plantilla de propuesta del Bono 1 y cerré dos clientes nuevos en la misma semana.'
 },
 {
-  initial: 'C',
+  initial: 'L',
   color: 'bg-blue-100 text-blue-700',
-  name: 'Claudia F.',
-  location: 'Técnica en HyS — Córdoba',
-  text: 'La Matriz de EPP Inteligente del Bono 3 sola ya justificó la compra. Nunca más entrego un EPP sin justificación técnica y referencia a norma.'
+  name: 'Laura F.',
+  location: 'Licenciada en HyS — Córdoba',
+  text: 'Tenía clientes que me llamaban a cualquier hora por cualquier cosa. Con el kit de onboarding establecí reglas claras desde el día uno. Cambió todo.'
 },
 {
-  initial: 'R',
+  initial: 'P',
   color: 'bg-emerald-100 text-emerald-700',
-  name: 'Ricardo S.',
-  location: 'Responsable HyS — Rosario',
-  text: 'Cuando vino la auditoría ISO, el auditor revisó mi IPER y mi matriz de capacitación. Estaban interconectadas y sin inconsistencias. Me felicitó por la calidad del sistema.'
+  name: 'Pablo S.',
+  location: 'Técnico en HyS — Rosario',
+  text: 'Gracias al módulo de honorarios pude aumentar mis tarifas un cuarenta por ciento en la renovación anual. Solo uno de doce clientes no renovó.'
 },
 {
-  initial: 'A',
+  initial: 'S',
   color: 'bg-amber-100 text-amber-700',
-  name: 'Andrea P.',
-  location: 'Coordinadora HyS — Mendoza',
-  text: 'Por primera vez pude mostrarle a la gerencia un tablero con el estado real de toda la gestión. Conseguí presupuesto para tres mejoras que venía pidiendo hace dos años.'
+  name: 'Silvana R.',
+  location: 'Consultora HyS — Mendoza',
+  text: 'El CRM del Bono 2 me ordenó la vida. Ahora sé exactamente qué facturé, qué cobré y qué cliente me da más rentabilidad en menos tiempo.'
 }];
 
 export function TestimonialsBottom() {

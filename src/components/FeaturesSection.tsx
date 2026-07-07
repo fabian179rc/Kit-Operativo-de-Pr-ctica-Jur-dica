@@ -2,12 +2,12 @@ import React from "react";
 import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 const features = [
-  "Metodología completa para construir matrices desde cero con criterio técnico",
-  "IPER profesional con métodos de valoración aplicables a cualquier industria",
-  "Matriz de EPP vinculada directamente al riesgo residual de cada puesto",
-  "Matriz de capacitación con mapa de quién debe saber qué y cuándo",
-  "Control de documentación crítica, vencimientos y habilitaciones",
-  "Sistema interconectado auditable en minutos ante cualquier inspección",
+  "Posicionamiento claro para dejar de competir por precio",
+  "Diagnóstico de venta que hace que el cliente te pida el presupuesto",
+  "Propuestas profesionales que destacan valor y cierran contratos",
+  "Sistema operativo semanal para gestionar 20 clientes sin caos",
+  "Protocolo de onboarding que marca las reglas desde el día uno",
+  "Estrategia de incremento de honorarios sin perder clientes",
 ];
 
 export function FeaturesSection() {

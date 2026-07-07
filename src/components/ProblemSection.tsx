@@ -3,28 +3,28 @@ import { motion } from 'framer-motion';
 const situations = [
 {
   emoji: '😰',
-  title: 'Tu gestión depende de tu memoria',
-  desc: 'Sabés qué riesgo tiene cada puesto, qué EPP necesita cada tarea y qué capacitación venció. Pero todo está en tu cabeza, no en un sistema que cualquiera pueda auditar.'
+  title: 'Cobrás barato para no perder el cliente',
+  desc: 'Ajustás tu precio cada vez que sentís resistencia. Terminás trabajando el doble por la mitad de lo que vale tu servicio.'
 },
 {
   emoji: '😩',
-  title: 'Tenés 100 archivos que no se hablan entre sí',
-  desc: 'La matriz de riesgos dice una cosa. La lista de EPP dice otra. El registro de capacitaciones está en otro Excel. Nada está conectado y todo es inconsistente.'
+  title: 'Hacés de todo por el mismo precio',
+  desc: 'Visitas, documentación, capacitaciones, trámites, emergencias a las once de la noche. Sin límites. Sin alcance. Sin rentabilidad.'
 },
 {
   emoji: '⏱️',
-  title: 'Perdés horas buscando datos que deberían estar en segundos',
-  desc: 'Cuando un auditor pregunta qué EPP usa el operario de planta B o cuándo vence la capacitación de altura, tenés que buscar en cinco archivos distintos.'
+  title: 'Tu negocio se detiene cuando vos parás',
+  desc: 'No tenés procesos. No tenés sistemas. Si no estás corriendo, no entra un peso. Eso no es una consultora, es un autoempleo agotador.'
 },
 {
   emoji: '📂',
-  title: 'Riesgos no evaluados que nadie detectó',
-  desc: 'Si no está en la matriz, no existe para la empresa. Hasta que ocurre el accidente y el fiscal pregunta por qué ese riesgo nunca fue identificado.'
+  title: 'Tus propuestas mueren en el visto',
+  desc: 'Mandás un presupuesto en Word o por WhatsApp y nunca más te responden. No sabés cómo presentar tu valor para que el cliente diga que sí.'
 },
 {
   emoji: '📉',
-  title: 'No podés demostrar tu gestión con datos',
-  desc: 'Hacés trabajo real pero no tenés un tablero que muestre el estado de tu sistema. Ante la gerencia o una auditoría, no podés mostrar la radiografía completa de tu gestión.'
+  title: 'Tus clientes no te ven como una inversión',
+  desc: 'Te ven como un costo que pueden recortar. No como un socio estratégico que los protege legalmente y les ahorra dinero.'
 }];
 
 export function ProblemSection() {

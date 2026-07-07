@@ -59,16 +59,16 @@ export function PricingSection() {
           🔥 Oferta de Lanzamiento
         </span>
         <h2 className="font-heading text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
-          Sistema Maestro de{" "}
+          Sistema Maestro para{" "}
           <em className="italic font-bold text-[#f0e6d2]">
-            Matrices HyS
+            Consultores HyS
           </em>
         </h2>
 
         <div className="relative inline-block mb-2 w-full max-w-md mx-auto">
           <img
             src={`${import.meta.env.BASE_URL}sistemamaestro-mockup.webp`}
-            alt="Sistema Maestro de Matrices HyS"
+            alt="Sistema Maestro para Consultores HyS"
             width={672}
             height={672}
             loading="lazy"
@@ -146,7 +146,7 @@ export function PricingSection() {
             className="flex items-center justify-center gap-3 w-full bg-[#B85C43] hover:bg-[#A34F38] text-white font-bold text-lg md:text-xl px-6 py-5 rounded-full shadow-lg shadow-[#B85C43]/30 transition-colors mb-6"
           >
             <span className="flex items-center gap-2 text-center">
-              🚀 SÍ, QUIERO MI SISTEMA DE MATRICES
+              🚀 SÍ, QUIERO MI SISTEMA DE CONSULTORA
             </span>
             <ArrowRight className="w-6 h-6 flex-shrink-0" />
           </motion.a>

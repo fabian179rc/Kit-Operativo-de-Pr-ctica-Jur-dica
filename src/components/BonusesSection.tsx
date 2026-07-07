@@ -4,32 +4,32 @@ import { Gift } from 'lucide-react';
 const bonuses = [
 {
   num: 1,
-  title: 'Pack de 8 Matrices Automatizadas en Excel',
-  desc: 'Ocho planillas profesionales listas con fórmulas, formatos condicionales y filtros de búsqueda para riesgos, EPP, capacitación, documentación, emergencias, requisitos legales, acciones correctivas e indicadores. Abrís, cargás tus datos y el sistema organiza todo automáticamente.',
+  title: 'Pack de Plantillas de Propuestas Comerciales',
+  desc: 'Modelos profesionales diseñados para presentar servicios mensuales, auditorías y capacitaciones de forma visual, ordenada y persuasiva. Incluye estructura para destacar el problema del cliente, la solución que ofrecés, el alcance del servicio, los entregables y el valor de la inversión. Dejá de mandar presupuestos en Word y empezá a presentar propuestas que posicionan tu consultora como referente.',
   image: "sm-bono1.webp"
 },
 {
   num: 2,
-  title: 'Catálogo de +150 Combinaciones Peligro-Riesgo-Control',
-  desc: 'Un diccionario técnico con más de ciento cincuenta combinaciones listas para copiar y adaptar en tu IPER. Organizadas por tipo de actividad, tarea y sector. Ideal para completar matrices de riesgo sin empezar desde cero y sin omitir peligros críticos que después aparecen en una auditoría.',
+  title: 'CRM para Consultores HyS en Excel',
+  desc: 'Una planilla completa para controlar prospectos, estados de propuestas, clientes activos, vencimientos de contratos, facturación mensual y rentabilidad por cliente. Ideal para dejar de gestionar con la memoria y tener en un solo lugar la radiografía comercial y financiera de toda tu consultora.',
   image: "sm-bono2.webp"
 },
 {
   num: 3,
-  title: 'Matriz de EPP Inteligente por Riesgo y Norma',
-  desc: 'Un selector técnico donde identificás el riesgo y obtenés el tipo de EPP recomendado con referencia a normas IRAM, ANSI y EN. Incluye categorías para protección de cabeza, ojos, cara, auditiva, respiratoria, manos, pies y cuerpo. Ideal para justificar técnicamente cada equipo entregado y dejar trazabilidad de la elección.',
+  title: 'Guion de Primera Reunión y Manejo de Objeciones',
+  desc: 'Qué decir en cada etapa de la reunión inicial para descubrir el problema del cliente, generar urgencia y posicionar tu servicio como la solución obvia. Incluye respuestas profesionales para las objeciones más frecuentes: está caro, ya tengo alguien que me firma, lo tengo que pensar y necesito consultarlo.',
   image: "sm-bono3.webp"
 },
 {
   num: 4,
-  title: 'Guía de Seguimiento de Requisitos Legales HyS',
-  desc: 'Una metodología paso a paso para identificar, clasificar y mapear la normativa aplicable a cada cliente o establecimiento sin perderse en el boletín oficial. Incluye criterios para filtrar por actividad, provincia, tipo de riesgo y obligación, y un modelo de matriz de requisitos legales editable y auditable.',
+  title: 'Kit de Onboarding Profesional para Nuevos Clientes',
+  desc: 'Email de bienvenida, formulario de pedido de documentación inicial, guía de reglas del servicio y protocolo de comunicación. Todo lo que necesitás para arrancar cada relación comercial con autoridad, orden y claridad desde el primer día sin depender de la memoria ni de WhatsApp.',
   image: "sm-bono4.webp"
 },
 {
   num: 5,
-  title: 'Checklist de Auditoría de Matrices HyS',
-  desc: 'Una lista de treinta puntos de control para verificar si tus matrices son técnicamente consistentes, están actualizadas y resisten una auditoría externa. Detectá inconsistencias entre la matriz de riesgos y la de EPP, puestos sin capacitación asignada, documentos vencidos sin alerta y acciones correctivas sin cierre antes de que lo haga el auditor.',
+  title: 'Guía de Honorarios para Consultores HyS',
+  desc: 'Una guía de referencia para calcular y justificar tus honorarios según tipo de industria, cantidad de empleados, nivel de riesgo, complejidad del servicio y frecuencia de visitas. Incluye rangos orientativos por tipo de servicio y metodología para presentar incrementos anuales sin perder clientes.',
   image: "sm-bono5.webp"
 }];
 
