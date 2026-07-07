@@ -7,20 +7,20 @@ const faqs = [
   a: '100% digital. Acceso inmediato para descargar, editar e imprimir desde cualquier dispositivo.'
 },
 {
-  q: '¿Sirve para obras y también para industrias o servicios?',
-  a: 'Sí. El sistema incluye modelos específicos para construcción, servicios industriales, mantenimiento y contratistas. Cada plantilla es adaptable a tu tipo de cliente.'
+  q: '¿Sirve para cualquier tipo de establecimiento?',
+  a: 'Sí. El sistema incluye modelos para industrias, comercios, depósitos, oficinas y establecimientos educativos. Cada plantilla es adaptable al tipo de cliente y actividad.'
 },
 {
-  q: '¿Necesito experiencia previa en programas de seguridad?',
-  a: 'No. El sistema está diseñado para guiarte desde el relevamiento inicial hasta la entrega final, paso a paso. Funciona tanto si estás empezando como si ya tenés experiencia y querés optimizar tu trabajo.'
+  q: '¿Necesito experiencia previa en emergencias?',
+  a: 'No. El sistema te guía paso a paso desde el análisis de amenazas hasta la documentación final. Funciona tanto si estás empezando como si ya tenés experiencia y querés profesionalizar lo que hacés.'
 },
 {
   q: '¿Sirve para cualquier provincia o país?',
-  a: 'Sí. La estructura técnica es universal. Los modelos siguen los lineamientos generales de la legislación argentina pero son adaptables a cualquier normativa provincial o regional.'
+  a: 'Sí. La metodología es aplicable en cualquier contexto. Los modelos siguen los lineamientos generales de la normativa argentina pero son adaptables a cualquier jurisdicción.'
 },
 {
   q: '¿Puedo usarlo con varios clientes distintos?',
-  a: 'Sí. Las plantillas son editables y reutilizables. Una sola compra te da herramientas para todos tus clientes.'
+  a: 'Sí. Las plantillas son editables y reutilizables. Una sola compra te da herramientas para todos tus clientes y establecimientos.'
 },
 {
   q: '¿Cuándo recibo el acceso?',

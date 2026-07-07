@@ -18,17 +18,17 @@ export function FinalPricingCTA() {
           </span>
         </div>
         <h2 className="text-3xl md:text-5xl font-bold font-heading text-[#2f3a2c] mb-5 leading-tight">
-          Tu programa de seguridad merece ser un documento profesional.
+          Tu sistema de emergencias merece ser operativo, no decorativo.
         </h2>
         <p className="text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
-          Un sistema claro, coherente y defendible — listo para usar desde
-          hoy.
+          Un plan claro, con roles reales, simulacros documentados y
+          evidencia defendible — listo para usar desde hoy.
         </p>
 
         <div className="bg-white border border-amber-100 rounded-3xl p-6 md:p-7 shadow-lg shadow-black/5 max-w-xl mx-auto mb-6">
           <h3 className="font-bold text-[#2f3a2c] mb-2 text-[12px]">
-            Kit Completo: Sistema Maestro de Programas de Seguridad HyS + 5
-            Bonos GRATIS
+            Kit Completo: Sistema Maestro de Emergencias HyS + 5 Bonos
+            GRATIS
           </h3>
           <div className="text-slate-500 line-through mb-2">$74.940 ARS</div>
           <div className="text-4xl font-bold text-[#B85C43] mb-6">
@@ -45,7 +45,7 @@ export function FinalPricingCTA() {
             className="flex items-center justify-center gap-3 w-full bg-[#B85C43] hover:bg-[#A34F38] text-white font-bold text-lg md:text-xl px-6 py-5 rounded-full shadow-lg shadow-[#B85C43]/30 transition-colors mb-4"
           >
             <span className="text-center">
-              🚀 SÍ, QUIERO MI SISTEMA
+              🚀 SÍ, QUIERO MI SISTEMA DE EMERGENCIAS
             </span>
             <ArrowRight className="w-6 h-6 flex-shrink-0" />
           </motion.a>

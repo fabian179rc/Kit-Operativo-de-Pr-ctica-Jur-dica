@@ -9,9 +9,10 @@ export function SolutionSection() {
             LA SOLUCIÓN — UN SISTEMA TODO EN UNO
           </span>
           <h2 className="font-heading md:text-5xl font-bold text-[#2f3a2c] mb-6 max-w-3xl mx-auto text-[24px]">
-            El único sistema que convierte el Programa de Seguridad en tu{" "}
+            El único sistema que convierte tu plan de emergencias de
+            documento estático en{" "}
             <span className="text-[#5C6851] italic">
-              herramienta de blindaje profesional
+              respuesta operativa real
             </span>
           </h2>
         </div>
@@ -35,7 +36,7 @@ export function SolutionSection() {
         >
           <img
             src={`${import.meta.env.BASE_URL}sistemamaestro-mockup.webp`}
-            alt="Sistema Maestro de Programas de Seguridad HyS"
+            alt="Sistema Maestro de Emergencias HyS"
             width={672}
             height={672}
             loading="lazy"
@@ -46,8 +47,8 @@ export function SolutionSection() {
 
         <div className="bg-white/60 border border-amber-100 text-[#2f3a2c] rounded-3xl p-6 md:p-8 shadow-sm">
           <p className="md:text-xl font-medium text-slate-700 text-[16px]">
-            Sin copia y pega. Sin incoherencias técnicas. Sin programas que no
-            resisten una inspección.
+            Sin planes de papel. Sin roles vacíos. Sin simulacros que no
+            dejan evidencia.
           </p>
         </div>
       </div>

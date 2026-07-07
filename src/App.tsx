@@ -4,9 +4,9 @@ import { Landing } from "./pages/Landing";
 import { useScreenInit } from "./useScreenInit";
 const META_PIXEL_ID = "1656160899010195";
 const PAGE_TITLE =
-  "Sistema Maestro de Programas de Seguridad HyS — Estructura, Redacción y Gestión Profesional";
+  "Sistema Maestro de Emergencias HyS — Planes, Roles y Simulacros Documentados";
 const PAGE_DESC =
-  "Estructura, redacción y gestión de programas de seguridad profesionales, listos para presentar, defender y firmar con confianza.";
+  "Planes, roles, simulacros y evidencia documental listos para implementar desde el primer día.";
 const HERO_IMAGE = `${import.meta.env.BASE_URL}sistemamaestro-mockup.webp`;
 
 const SITE_URL = "https://placeholder.com";
@@ -66,7 +66,7 @@ export function App() {
     setMeta("property", "og:locale", "es_AR");
     setMeta("property", "og:image", HERO_IMAGE);
     setMeta("property", "og:url", SITE_URL);
-    setMeta("property", "og:site_name", "Sistema Maestro de Programas de Seguridad HyS");
+    setMeta("property", "og:site_name", "Sistema Maestro de Emergencias HyS");
     setMeta("name", "twitter:card", "summary_large_image");
     setMeta("name", "twitter:image", HERO_IMAGE);
     setMeta("name", "twitter:title", PAGE_TITLE);
@@ -79,12 +79,12 @@ export function App() {
       ld.textContent = JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Product",
-        name: "Sistema Maestro de Programas de Seguridad HyS",
+        name: "Sistema Maestro de Emergencias HyS",
         description: PAGE_DESC,
         image: HERO_IMAGE,
         brand: {
           "@type": "Brand",
-          name: "Sistema Maestro de Programas de Seguridad HyS",
+          name: "Sistema Maestro de Emergencias HyS",
         },
         offers: {
           "@type": "Offer",
@@ -110,20 +110,20 @@ export function App() {
             a: "100% digital. Acceso inmediato para descargar, editar e imprimir desde cualquier dispositivo.",
           },
           {
-            q: "¿Sirve para obras y también para industrias o servicios?",
-            a: "Sí. El sistema incluye modelos específicos para construcción, servicios industriales, mantenimiento y contratistas. Cada plantilla es adaptable a tu tipo de cliente.",
+            q: "¿Sirve para cualquier tipo de establecimiento?",
+            a: "Sí. El sistema incluye modelos para industrias, comercios, depósitos, oficinas y establecimientos educativos. Cada plantilla es adaptable al tipo de cliente y actividad.",
           },
           {
-            q: "¿Necesito experiencia previa en programas de seguridad?",
-            a: "No. El sistema está diseñado para guiarte desde el relevamiento inicial hasta la entrega final, paso a paso. Funciona tanto si estás empezando como si ya tenés experiencia y querés optimizar tu trabajo.",
+            q: "¿Necesito experiencia previa en emergencias?",
+            a: "No. El sistema te guía paso a paso desde el análisis de amenazas hasta la documentación final. Funciona tanto si estás empezando como si ya tenés experiencia y querés profesionalizar lo que hacés.",
           },
           {
             q: "¿Sirve para cualquier provincia o país?",
-            a: "Sí. La estructura técnica es universal. Los modelos siguen los lineamientos generales de la legislación argentina pero son adaptables a cualquier normativa provincial o regional.",
+            a: "Sí. La metodología es aplicable en cualquier contexto. Los modelos siguen los lineamientos generales de la normativa argentina pero son adaptables a cualquier jurisdicción.",
           },
           {
             q: "¿Puedo usarlo con varios clientes distintos?",
-            a: "Sí. Las plantillas son editables y reutilizables. Una sola compra te da herramientas para todos tus clientes.",
+            a: "Sí. Las plantillas son editables y reutilizables. Una sola compra te da herramientas para todos tus clientes y establecimientos.",
           },
           {
             q: "¿Cuándo recibo el acceso?",

@@ -4,32 +4,32 @@ import { Gift } from 'lucide-react';
 const bonuses = [
 {
   num: 1,
-  title: 'El Generador de Plantillas Editables',
-  desc: 'Modelos base completos en PDF para programas de construcción, industria y servicios. Abrís, cargás los datos de tu cliente y tenés la estructura lista.',
+  title: 'Plantillas Editables de Plan de Emergencias',
+  desc: 'Modelos completos en Word para industria, comercio, depósito, oficinas y establecimientos educativos. Cargás los datos de tu cliente, adaptás los roles y tenés el plan listo para presentar.',
   image: "sm-bono1.webp"
 },
 {
   num: 2,
-  title: 'Catálogo de +300 Medidas Preventivas',
-  desc: 'Banco de frases técnicas organizadas por riesgo y tarea. Altura, electricidad, izaje, espacios confinados, excavaciones, herramientas, EPP y más. Copiás, adaptás y listo.',
+  title: 'Kit Maestro de Simulacros',
+  desc: 'Guiones de práctica, planilla de observación en campo, acta de realización e informe final de resultados. Todo lo que necesitás para que un simulacro deje evidencia profesional y aprendizaje real.',
   image: "sm-bono2.webp"
 },
 {
   num: 3,
-  title: 'Guía de Redacción de PTS Críticos',
-  desc: 'Plantillas listas para Trabajos en Caliente, Bloqueo de Energías, Izaje de Cargas y Trabajos en Altura. Con la estructura exacta que exigen las ART y la SRT.',
+  title: 'Banco de Procedimientos Operativos de Respuesta',
+  desc: 'Guiones listos para adaptar ante incendio, derrame químico, accidente grave, emergencia médica y amenaza. Entregale a cada rol un procedimiento claro, corto y ejecutable en el momento crítico.',
   image: "sm-bono3.webp"
 },
 {
   num: 4,
-  title: 'Checklist Pre-Entrega de 50 Puntos',
-  desc: 'La lista de verificación definitiva para revisar tu programa antes de imprimirlo. Detectá firmas faltantes, PTS ausentes, incoherencias técnicas y anexos incompletos.',
+  title: 'Checklist de Auditoría de Medios de Escape',
+  desc: 'Lista de verificación profesional para inspeccionar rutas de evacuación, puertas, luces de emergencia, señalización, matafuegos y obstrucciones. Detectá fallas antes de que las encuentre un inspector.',
   image: "sm-bono4.webp"
 },
 {
   num: 5,
-  title: 'Registro Maestro de Entrega y Capacitación',
-  desc: 'El formulario que demuestra que el personal conoció, recibió y entendió el programa. Evidencia trazable lista para auditorías y juicios.',
+  title: 'Registro de Brigadistas y Capacitación Específica',
+  desc: 'Formatos para documentar la designación oficial, la formación técnica y las prácticas de cada brigadista. Demostrá que tu brigada no es solo un nombre en un papel sino un equipo capacitado y registrado.',
   image: "sm-bono5.webp"
 }];
 

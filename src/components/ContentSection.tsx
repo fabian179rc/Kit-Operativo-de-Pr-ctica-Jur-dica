@@ -3,39 +3,41 @@ import { motion } from 'framer-motion';
 import { PackageOpen } from 'lucide-react';
 
 const modulos = [
-  { emoji: '🗺️', label: 'Filosofía del Blindaje Documental' },
-  { emoji: '📐', label: 'El Relevamiento Inteligente' },
-  { emoji: '📅', label: 'Estructura Base del Programa' },
-  { emoji: '⚠️', label: 'Matriz de Riesgos Integrada' },
-  { emoji: '✅', label: 'Redacción Técnica Profesional' },
-  { emoji: '🔍', label: 'Medidas Preventivas por Etapa' },
-  { emoji: '📸', label: 'Procedimientos de Trabajo Seguro (PTS)' },
-  { emoji: '📝', label: 'Gestión de Contratistas y Terceros' },
-  { emoji: '🛠️', label: 'El Protocolo de Firmas' },
-  { emoji: '📊', label: 'Defensa ante la Autoridad' },
-  { emoji: '🏭', label: 'Auditoría del Programa en Campo' },
-  { emoji: '🏆', label: 'Casos de Estudio Reales' },
+  { emoji: '🗺️', label: 'Del Plan de Papel al Sistema Operativo' },
+  { emoji: '📐', label: 'Análisis de Amenazas y Vulnerabilidades' },
+  { emoji: '📅', label: 'Diseño de Medios de Escape' },
+  { emoji: '⚠️', label: 'Dotación y Control de Equipos contra Incendio' },
+  { emoji: '✅', label: 'Estructura de Roles y Brigadas' },
+  { emoji: '🔍', label: 'Redacción del Plan de Evacuación' },
+  { emoji: '📸', label: 'Procedimientos Operativos de Respuesta (POR)' },
+  { emoji: '📝', label: 'Sistema Profesional de Simulacros' },
+  { emoji: '🛠️', label: 'Capacitación de Brigadas y Personal' },
+  { emoji: '📊', label: 'Primeros Auxilios Integrados al Sistema' },
+  { emoji: '🏭', label: 'Comunicación de Crisis' },
+  { emoji: '🏆', label: 'Mejora Continua y Revisión del Sistema' },
 ];
 
 const temas = [
-  { emoji: '📋', label: 'Relevamiento previo' },
-  { emoji: '🔍', label: 'Análisis de etapas y tareas' },
-  { emoji: '⚠️', label: 'Evaluación de riesgos' },
-  { emoji: '📝', label: 'Redacción del programa' },
-  { emoji: '📊', label: 'Matrices de riesgos' },
-  { emoji: '✅', label: 'Medidas preventivas' },
-  { emoji: '👷', label: 'PTS críticos' },
-  { emoji: '🏗️', label: 'Obras y servicios' },
-  { emoji: '🔥', label: 'Gestión de contratistas' },
-  { emoji: '📈', label: 'Defensa ante inspecciones' },
+  { emoji: '📋', label: 'Análisis de amenazas' },
+  { emoji: '🔍', label: 'Diseño de evacuación' },
+  { emoji: '⚠️', label: 'Roles y brigadas' },
+  { emoji: '📝', label: 'Plan de emergencias' },
+  { emoji: '📊', label: 'Procedimientos de respuesta' },
+  { emoji: '✅', label: 'Simulacros con evidencia' },
+  { emoji: '👷', label: 'Capacitación de brigadistas' },
+  { emoji: '🏗️', label: 'Equipos contra incendio' },
+  { emoji: '🔥', label: 'Respuesta ante incendios' },
+  { emoji: '🧯', label: 'Primeros auxilios integrados' },
+  { emoji: '📈', label: 'Comunicación de crisis' },
   { emoji: '➕', label: 'Y mucho más...' },
 ];
 
 const rubros = [
-  { emoji: '🏗️', label: 'Construcción' },
-  { emoji: '🏭', label: 'Servicios Industriales' },
-  { emoji: '🔧', label: 'Mantenimiento' },
-  { emoji: '📄', label: 'Contratistas' },
+  { emoji: '🏭', label: 'Industrias' },
+  { emoji: '🏬', label: 'Comercios' },
+  { emoji: '📦', label: 'Depósitos' },
+  { emoji: '🏢', label: 'Oficinas' },
+  { emoji: '🏫', label: 'Establecimientos Educativos' },
 ];
 
 export function ContentSection() {
@@ -74,7 +76,10 @@ export function ContentSection() {
         </div>
 
         <div className="mb-8">
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          <h3 className="font-heading font-bold text-[#2f3a2c] text-xl md:text-2xl mb-4 text-center">
+            🎯 Cubre los Procesos Más Importantes
+          </h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-4">
             {temas.map((t, i) => (
               <motion.div
                 key={i}
@@ -93,6 +98,10 @@ export function ContentSection() {
               </motion.div>
             ))}
           </div>
+          <p className="text-center text-slate-600 text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
+            💡 Cada módulo viene con plantillas, modelos de redacción y
+            formatos listos para implementar de inmediato.
+          </p>
         </div>
 
         <motion.div
@@ -116,12 +125,12 @@ export function ContentSection() {
             ))}
           </div>
           <p className="text-[#e6ddc7] text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
-            La estructura técnica es universal. Los modelos siguen los
-            lineamientos generales de la{' '}
+            La metodología es aplicable en cualquier contexto. Los modelos
+            siguen los lineamientos generales de la{' '}
             <span className="font-bold text-white">
-              legislación argentina
+              normativa argentina
             </span>{' '}
-            pero son adaptables a cualquier normativa provincial o regional.
+            pero son adaptables a cualquier jurisdicción.
           </p>
         </motion.div>
       </div>

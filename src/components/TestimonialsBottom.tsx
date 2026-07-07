@@ -3,32 +3,32 @@ import { motion } from 'framer-motion';
 import { Star, MessageCircle } from 'lucide-react';
 const testimonials = [
 {
-  initial: 'M',
+  initial: 'L',
   color: 'bg-pink-100 text-pink-700',
-  name: 'Martín G.',
-  location: 'Técnico en HyS — Buenos Aires',
-  text: 'Antes tardaba tres días en armar un programa de obra. Ahora cargo los datos, adapto las medidas preventivas del catálogo y en una tarde tengo todo listo para presentar.'
+  name: 'Laura M.',
+  location: 'Técnica en HyS — Buenos Aires',
+  text: 'Tenía un plan de evacuación que nadie conocía. Con este sistema armé los roles, hice el primer simulacro real y por primera vez tengo evidencia documentada de todo.'
 },
 {
-  initial: 'C',
+  initial: 'D',
   color: 'bg-blue-100 text-blue-700',
-  name: 'Carolina F.',
-  location: 'Licenciada en HyS — Córdoba',
-  text: 'La ART me rechazó dos veces el programa antes de tener este sistema. Desde que uso la Checklist Pre-Entrega, nunca más tuve un rechazo.'
+  name: 'Diego F.',
+  location: 'Licenciado en HyS — Córdoba',
+  text: 'El Kit de Simulacros del Bono 2 cambió todo. Antes el simulacro era un caos. Ahora tengo guion, planilla de observación e informe. La ART quedó impresionada.'
 },
 {
-  initial: 'R',
+  initial: 'P',
   color: 'bg-emerald-100 text-emerald-700',
-  name: 'Roberto S.',
-  location: 'Consultor HyS — Rosario',
-  text: 'Los PTS críticos del Bono 3 solos ya valieron la compra. Tenía miedo de armar el de espacios confinados. Ahora lo entrego con confianza.'
+  name: 'Paula S.',
+  location: 'Responsable HyS — Rosario',
+  text: 'Los Procedimientos Operativos de Respuesta me sacaron un peso enorme. Ahora cada brigadista tiene su guion. Saben exactamente qué hacer ante un incendio.'
 },
 {
-  initial: 'A',
+  initial: 'H',
   color: 'bg-amber-100 text-amber-700',
-  name: 'Andrea P.',
-  location: 'Responsable HyS — Mendoza',
-  text: 'Cuando hubo un accidente leve en obra, el inspector revisó mi programa. Estaba todo: riesgos, medidas, firmas, PTS. No tuve ningún problema.'
+  name: 'Hernán V.',
+  location: 'Consultor HyS — Mendoza',
+  text: 'Cuando vino la inspección de Bomberos, tenía todo: plan actualizado, registros de capacitación, fichas de brigadistas y el último informe de simulacro. Cero observaciones.'
 }];
 
 export function TestimonialsBottom() {

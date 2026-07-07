@@ -2,12 +2,12 @@ import React from "react";
 import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 const features = [
-  "Relevamiento previo estructurado para no saltarte nada crítico",
-  "Redacción técnica profesional con frases modelo listas para adaptar",
-  "Integración exacta entre Matriz de Riesgos y cuerpo del programa",
-  "Procedimientos de Trabajo Seguro (PTS) ejecutables en campo",
-  "Gestión de contratistas y terceros dentro del programa",
-  "Documentación completa, firmada y defendible ante ART, SRT y juicios",
+  "Análisis de amenazas y vulnerabilidades por tipo de establecimiento",
+  "Diseño de medios de escape, señalización y dotación de equipos",
+  "Estructura completa de roles, brigadas y responsabilidades",
+  "Procedimientos operativos de respuesta por tipo de emergencia",
+  "Sistema de simulacros planificados, ejecutados y documentados",
+  "Evidencia trazable y defendible ante ART, SRT, bomberos y auditorías",
 ];
 
 export function FeaturesSection() {

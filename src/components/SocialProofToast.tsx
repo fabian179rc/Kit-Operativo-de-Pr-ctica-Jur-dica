@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
 
-const PRODUCT_NAME = "Sistema Maestro de Programas de Seguridad HyS";
+const PRODUCT_NAME = "Sistema Maestro de Emergencias HyS";
 
 const proofs = [
   { name: "Verónica J.", location: "Tegucigalpa", time: "hace 15 minutos" },

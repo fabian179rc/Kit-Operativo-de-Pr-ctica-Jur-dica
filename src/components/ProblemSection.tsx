@@ -3,28 +3,28 @@ import { motion } from 'framer-motion';
 const situations = [
 {
   emoji: '😰',
-  title: 'Empezás cada programa desde cero',
-  desc: 'Buscás el archivo de otra obra, copiás, pegás y rezás para que nadie note que no tiene nada que ver con este cliente.'
+  title: 'Tu plan de emergencias es un PDF que nadie leyó',
+  desc: 'Existe en una carpeta, tiene fecha, tiene firma. Pero si hoy ocurre un incendio, nadie sabe qué hacer ni adónde ir.'
 },
 {
   emoji: '😩',
-  title: 'El programa no refleja la obra real',
-  desc: 'La Matriz de Riesgos dice una cosa. El cuerpo del programa dice otra. Si hay un accidente, esa incoherencia es tu problema.'
+  title: 'Los roles de emergencia son nombres en un papel',
+  desc: 'El coordinador no sabe que lo es. El brigadista no fue capacitado. El punto de reunión está bloqueado por pallets.'
 },
 {
   emoji: '⏱️',
-  title: 'Perdés días en redactar lo que debería llevarte horas',
-  desc: 'Tenés tres obras nuevas entrando y no podés dedicarle tres días a cada programa. Pero tampoco podés entregar algo mediocre.'
+  title: 'Hacés simulacros que no sirven para nada',
+  desc: 'La gente sale, da una vuelta y vuelve. No hay evaluación, no hay registro, no hay aprendizaje. Y la ART igual te lo aprueba.'
 },
 {
   emoji: '📂',
-  title: 'Te piden el programa y no sabés si está completo',
-  desc: 'Faltan firmas, falta un PTS, faltan los anexos. La ART lo rechaza y volvés a empezar.'
+  title: 'No tenés evidencia de que el sistema funciona',
+  desc: 'Si ocurre una tragedia y el fiscal te pregunta qué hiciste para preparar a tu gente, ¿qué documentación vas a mostrar?'
 },
 {
   emoji: '⚖️',
-  title: 'Firmás documentos que no podrías defender ante un perito',
-  desc: 'El día que tengas que explicar ante un juicio qué decía tu programa de seguridad, ¿vas a poder hacerlo con confianza?'
+  title: 'La responsabilidad penal es tuya si el plan falla',
+  desc: 'En una emergencia real, el plan de papel no te protege. Solo te protege el sistema que implementaste, practicaste y documentaste.'
 }];
 
 export function ProblemSection() {
