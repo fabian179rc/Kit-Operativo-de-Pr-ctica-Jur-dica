@@ -6,13 +6,12 @@ export function SolutionSection() {
       <div className="container mx-auto px-4 max-w-4xl text-center">
         <div className="mb-6">
           <span className="inline-block px-6 py-2.5 mb-5 rounded-full border border-white/40 bg-[#4A553F] text-white font-semibold tracking-[0.18em] uppercase text-xs">
-            LA SOLUCIÓN QUE ESPERABAS — UN SISTEMA TODO EN UNO
+            LA SOLUCIÓN — UN SISTEMA TODO EN UNO
           </span>
           <h2 className="font-heading md:text-5xl font-bold text-[#2f3a2c] mb-6 max-w-3xl mx-auto text-[24px]">
-            El único sistema que tu gestión de capacitaciones necesita para
-            funcionar con{" "}
+            El único sistema que convierte el Programa de Seguridad en tu{" "}
             <span className="text-[#5C6851] italic">
-              orden, respaldo y control real durante todo el año
+              herramienta de blindaje profesional
             </span>
           </h2>
         </div>
@@ -36,7 +35,7 @@ export function SolutionSection() {
         >
           <img
             src={`${import.meta.env.BASE_URL}sistemamaestro-mockup.webp`}
-            alt="Sistema Maestro de Capacitaciones HyS"
+            alt="Sistema Maestro de Programas de Seguridad HyS"
             width={672}
             height={672}
             loading="lazy"
@@ -47,8 +46,8 @@ export function SolutionSection() {
 
         <div className="bg-white/60 border border-amber-100 text-[#2f3a2c] rounded-3xl p-6 md:p-8 shadow-sm">
           <p className="md:text-xl font-medium text-slate-700 text-[16px]">
-            Dejá de improvisar cada capacitación. Tené las 52 semanas del año
-            completamente resueltas desde el primer día.
+            Sin copia y pega. Sin incoherencias técnicas. Sin programas que no
+            resisten una inspección.
           </p>
         </div>
       </div>

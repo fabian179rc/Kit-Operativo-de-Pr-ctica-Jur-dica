@@ -38,7 +38,7 @@ jobs:
         run: npm run build
 
       - name: Ensure custom domain CNAME
-        run: echo "sistemamaestrohys.tupuntodigital.shop" > dist/CNAME
+        run: echo "placeholder.com" > dist/CNAME
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

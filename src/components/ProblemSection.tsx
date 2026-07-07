@@ -3,23 +3,28 @@ import { motion } from 'framer-motion';
 const situations = [
 {
   emoji: '😰',
-  title: 'El Domingo a la Noche que No Para',
-  desc: 'Mañana capacitás... y todavía no tenés la presentación lista.'
+  title: 'Empezás cada programa desde cero',
+  desc: 'Buscás el archivo de otra obra, copiás, pegás y rezás para que nadie note que no tiene nada que ver con este cliente.'
 },
 {
   emoji: '😩',
-  title: 'El Miedo a que te Agarren sin Material',
-  desc: '¿Tus registros resistirían una auditoría?'
-},
-{
-  emoji: '⚖️',
-  title: 'La Responsabilidad Legal que Pesa',
-  desc: '¿Sabés qué documentación respalda realmente cada capacitación?'
+  title: 'El programa no refleja la obra real',
+  desc: 'La Matriz de Riesgos dice una cosa. El cuerpo del programa dice otra. Si hay un accidente, esa incoherencia es tu problema.'
 },
 {
   emoji: '⏱️',
-  title: 'El Tiempo que se va en Preparar desde Cero',
-  desc: 'Cada nuevo cliente significa volver a empezar desde cero.'
+  title: 'Perdés días en redactar lo que debería llevarte horas',
+  desc: 'Tenés tres obras nuevas entrando y no podés dedicarle tres días a cada programa. Pero tampoco podés entregar algo mediocre.'
+},
+{
+  emoji: '📂',
+  title: 'Te piden el programa y no sabés si está completo',
+  desc: 'Faltan firmas, falta un PTS, faltan los anexos. La ART lo rechaza y volvés a empezar.'
+},
+{
+  emoji: '⚖️',
+  title: 'Firmás documentos que no podrías defender ante un perito',
+  desc: 'El día que tengas que explicar ante un juicio qué decía tu programa de seguridad, ¿vas a poder hacerlo con confianza?'
 }];
 
 export function ProblemSection() {
@@ -30,13 +35,6 @@ export function ProblemSection() {
           <h2 className="font-heading text-3xl md:text-5xl font-bold mb-4 text-[#2f3a2c] uppercase">
             ¿Te reconocés en esto?
           </h2>
-          <p className="text-xl font-bold text-[#5C6851] mb-4 italic">
-            ¿Preparar capacitaciones te quita más tiempo del que debería?
-          </p>
-          <p className="text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">
-            Si sos Técnico o Licenciado en Higiene y Seguridad, probablemente
-            vivís alguna de estas situaciones:
-          </p>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-6">

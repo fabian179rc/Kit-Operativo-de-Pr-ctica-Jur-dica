@@ -56,19 +56,19 @@ export function PricingSection() {
     >
       <div className="container mx-auto px-4 max-w-2xl text-center relative z-10">
         <span className="inline-block px-6 py-2.5 mb-6 rounded-full border border-white/30 bg-white/10 text-white/90 font-semibold tracking-[0.18em] uppercase text-xs">
-          Oferta Especial — Pack Completo
+          🔥 Oferta de Lanzamiento
         </span>
         <h2 className="font-heading text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
-          Accedé al sistema ahora y empezá{" "}
+          Sistema Maestro de{" "}
           <em className="italic font-bold text-[#f0e6d2]">
-            el cambio hoy mismo
+            Programas de Seguridad HyS
           </em>
         </h2>
 
         <div className="relative inline-block mb-2 w-full max-w-md mx-auto">
           <img
             src={`${import.meta.env.BASE_URL}sistemamaestro-mockup.webp`}
-            alt="Sistema Maestro de Capacitaciones HyS"
+            alt="Sistema Maestro de Programas de Seguridad HyS"
             width={672}
             height={672}
             loading="lazy"
@@ -101,7 +101,7 @@ export function PricingSection() {
         <div className="bg-white rounded-3xl shadow-2xl shadow-black/10 p-7 md:p-8 text-center">
           <div className="text-slate-500 text-base md:text-lg mb-3">
             Precio Normal :{" "}
-            <span className="line-through">$75.490 ARS</span>
+            <span className="line-through">$74.940 ARS</span>
           </div>
 
           <div className="inline-flex items-center gap-2 bg-[#B85C43] text-white font-bold px-5 py-2.5 rounded-full text-sm mb-5">
@@ -116,7 +116,7 @@ export function PricingSection() {
             Pagás una sola vez. Acceso para siempre.
           </p>
           <p className="text-[#B85C43] font-semibold text-base leading-snug mb-6">
-            🔥 ¡Última oportunidad! El precio sube al finalizar el contador.
+            ⏳ El precio sube al terminar el lanzamiento.
           </p>
 
           <div className="flex justify-center gap-3 mb-7">
@@ -146,7 +146,7 @@ export function PricingSection() {
             className="flex items-center justify-center gap-3 w-full bg-[#B85C43] hover:bg-[#A34F38] text-white font-bold text-lg md:text-xl px-6 py-5 rounded-full shadow-lg shadow-[#B85C43]/30 transition-colors mb-6"
           >
             <span className="flex items-center gap-2 text-center">
-              🚀 SÍ, QUIERO EL SISTEMA MAESTRO HOY
+              🚀 SÍ, QUIERO MI SISTEMA
             </span>
             <ArrowRight className="w-6 h-6 flex-shrink-0" />
           </motion.a>

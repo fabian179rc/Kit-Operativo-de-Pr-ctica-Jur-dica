@@ -15,15 +15,13 @@ export function GuaranteeSection() {
         </div>
 
         <div className="bg-white/60 border border-amber-100 rounded-3xl p-6 md:p-8 shadow-sm">
-          <h3 className="text-xl font-bold text-[#2f3a2c] mb-3">
-            Te entregamos exactamente lo que prometemos
-          </h3>
           <p className="text-slate-600 leading-relaxed mb-6">
-            Tenés 7 días para revisar el sistema completo. Si no es lo que
-            prometemos, te devolvemos el 100% de tu dinero, sin vueltas.
+            Revisá todo el sistema con total tranquilidad. Si en 7 días
+            sentís que no cumple lo que prometemos, te devolvemos el 100% de
+            tu dinero. Sin formularios. Sin explicaciones. Sin riesgo.
           </p>
           <div className="inline-flex bg-white px-4 py-2 rounded-full border border-amber-200 text-[#6f7a64] font-bold text-sm shadow-sm">
-            Riesgo Cero Garantizado
+            Riesgo Cero Garantizado ✅
           </div>
         </div>
       </div>

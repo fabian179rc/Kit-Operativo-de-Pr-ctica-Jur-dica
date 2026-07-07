@@ -3,28 +3,28 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, Minus } from 'lucide-react';
 const faqs = [
 {
-  q: '¿Es en papel o digital?',
-  a: 'Es un producto 100% digital. Recibís todos los módulos de forma inmediata en tu correo electrónico, con el manual principal, los 5 bonos y todo el material listo para usar e imprimir en casa o en cualquier centro de copiado las veces que necesites.'
+  q: '¿Es físico o digital?',
+  a: '100% digital. Acceso inmediato para descargar, editar e imprimir desde cualquier dispositivo.'
 },
 {
-  q: '¿Necesito experiencia previa para usarlo?',
-  a: 'No. El sistema incluye el Capítulo 1 dedicado exclusivamente a explicarte cómo usar todo sin improvisar. En menos de una hora ya vas a saber exactamente qué usar, cuándo y cómo adaptarlo a cada cliente.'
+  q: '¿Sirve para obras y también para industrias o servicios?',
+  a: 'Sí. El sistema incluye modelos específicos para construcción, servicios industriales, mantenimiento y contratistas. Cada plantilla es adaptable a tu tipo de cliente.'
 },
 {
-  q: '¿Sirve para profesionales de cualquier provincia de Argentina?',
-  a: 'Sí. Todo el contenido está basado en la normativa nacional vigente (Ley 19.587, Decreto 351 y resoluciones SRT) aplicable en todo el territorio argentino.'
+  q: '¿Necesito experiencia previa en programas de seguridad?',
+  a: 'No. El sistema está diseñado para guiarte desde el relevamiento inicial hasta la entrega final, paso a paso. Funciona tanto si estás empezando como si ya tenés experiencia y querés optimizar tu trabajo.'
 },
 {
-  q: '¿Qué pasa si ya tengo algunas capacitaciones armadas?',
-  a: 'El sistema se complementa con lo que ya tenés. No reemplaza tu trabajo: lo organiza, lo completa y lo eleva de nivel. Podés incorporar tus materiales al sistema y tener todo en un solo lugar.'
+  q: '¿Sirve para cualquier provincia o país?',
+  a: 'Sí. La estructura técnica es universal. Los modelos siguen los lineamientos generales de la legislación argentina pero son adaptables a cualquier normativa provincial o regional.'
 },
 {
-  q: '¿Cuándo recibo el material?',
-  a: 'De forma inmediata. Apenas confirmada la compra, recibís el acceso completo en tu correo electrónico. En menos de 5 minutos ya podés estar revisando el sistema.'
+  q: '¿Puedo usarlo con varios clientes distintos?',
+  a: 'Sí. Las plantillas son editables y reutilizables. Una sola compra te da herramientas para todos tus clientes.'
 },
 {
-  q: '¿Sirve si recién me recibí o si tengo pocos clientes?',
-  a: 'Es el momento ideal para empezar con el pie derecho. Este sistema te da desde el primer día la estructura, el material y el respaldo legal que le lleva años construir a otros profesionales.'
+  q: '¿Cuándo recibo el acceso?',
+  a: 'Inmediatamente después de confirmar tu pago. Recibís el link de descarga en tu correo en menos de 5 minutos.'
 }];
 
 export function FaqSection() {

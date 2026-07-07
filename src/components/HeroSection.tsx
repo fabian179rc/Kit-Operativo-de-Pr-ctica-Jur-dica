@@ -26,7 +26,7 @@ export function HeroSection() {
           }}
           className="inline-flex items-center gap-2 px-6 py-2.5 mb-5 rounded-full border border-white/40 bg-[#4A553F] text-white font-semibold tracking-[0.18em] uppercase text-[8px]"
         >
-          ✨ SISTEMA COMPLETO PARA PROFESIONALES DE HIGIENE Y SEGURIDAD
+          ✨ SISTEMA MAESTRO DE PROGRAMAS DE SEGURIDAD HyS
         </motion.div>
 
         <motion.h1
@@ -44,8 +44,9 @@ export function HeroSection() {
           }}
           className="font-heading md:text-6xl font-extrabold text-[#2f3a2c] mb-4 text-[26px]"
         >
-          52 semanas de capacitaciones listas para implementar..{" "}
-          <span className="text-[#B85C43]">Todo resuelto.</span>
+          Cada programa que redactás desde cero es tiempo que perdés y riesgo
+          que asumís.{" "}
+          <span className="text-[#B85C43]">Eso se termina HOY.</span>
         </motion.h1>
 
         <motion.div
@@ -65,7 +66,7 @@ export function HeroSection() {
         >
           <img
             src={`${import.meta.env.BASE_URL}sistemamaestro-mockup.webp`}
-            alt="Sistema Maestro de Capacitaciones HyS"
+            alt="Sistema Maestro de Programas de Seguridad HyS"
             width={672}
             height={672}
             loading="eager"
@@ -90,9 +91,9 @@ export function HeroSection() {
           }}
           className="md:text-xl text-slate-600 mb-6 max-w-2xl mx-auto text-[12px] mt-8"
         >
-          Presentaciones, evaluaciones, registros, certificados y cronogramas
-          listos para usar desde el primer día. Sin preparar desde cero. Sin
-          improvisar.
+          Descargá, abrí y usá. Estructura, redacción y gestión de programas
+          de seguridad profesionales, listos para presentar, defender y
+          firmar con confianza.
         </motion.p>
 
         <motion.div
@@ -121,7 +122,7 @@ export function HeroSection() {
             }}
             className="flex items-center justify-center gap-3 w-full sm:w-auto bg-[#B85C43] hover:bg-[#A34F38] text-white font-bold px-8 py-4 rounded-full shadow-lg shadow-[#B85C43]/30 transition-colors mb-14 text-[16px]"
           >
-            🚀 SÍ, QUIERO MI SISTEMA MAESTRO
+            🚀 ¡SÍ, QUIERO MI SISTEMA!
           </motion.a>
 
           <div className="flex flex-wrap justify-center gap-4 text-sm font-medium text-slate-600">

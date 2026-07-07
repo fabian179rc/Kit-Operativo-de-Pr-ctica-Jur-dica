@@ -4,27 +4,32 @@ import { Gift } from 'lucide-react';
 const bonuses = [
 {
   num: 1,
-  desc: 'Certificados, registros, formularios y actas listos para documentar cada capacitación.',
+  title: 'El Generador de Plantillas Editables',
+  desc: 'Modelos base completos en PDF para programas de construcción, industria y servicios. Abrís, cargás los datos de tu cliente y tenés la estructura lista.',
   image: "sm-bono1.webp"
 },
 {
   num: 2,
-  desc: 'Evaluaciones, respuestas y seguimiento listos para medir el aprendizaje y respaldar cada capacitación.',
+  title: 'Catálogo de +300 Medidas Preventivas',
+  desc: 'Banco de frases técnicas organizadas por riesgo y tarea. Altura, electricidad, izaje, espacios confinados, excavaciones, herramientas, EPP y más. Copiás, adaptás y listo.',
   image: "sm-bono2.webp"
 },
 {
   num: 3,
-  desc: 'Dinámicas y ejercicios prácticos listos para lograr capacitaciones más participativas y memorables.',
+  title: 'Guía de Redacción de PTS Críticos',
+  desc: 'Plantillas listas para Trabajos en Caliente, Bloqueo de Energías, Izaje de Cargas y Trabajos en Altura. Con la estructura exacta que exigen las ART y la SRT.',
   image: "sm-bono3.webp"
 },
 {
   num: 4,
-  desc: 'Matrices, cronogramas y tableros listos para gestionar y controlar todo el plan anual.',
+  title: 'Checklist Pre-Entrega de 50 Puntos',
+  desc: 'La lista de verificación definitiva para revisar tu programa antes de imprimirlo. Detectá firmas faltantes, PTS ausentes, incoherencias técnicas y anexos incompletos.',
   image: "sm-bono4.webp"
 },
 {
   num: 5,
-  desc: 'Infografías, carteles y material visual listos para imprimir y reforzar cada capacitación.',
+  title: 'Registro Maestro de Entrega y Capacitación',
+  desc: 'El formulario que demuestra que el personal conoció, recibió y entendió el programa. Evidencia trazable lista para auditorías y juicios.',
   image: "sm-bono5.webp"
 }];
 
@@ -35,11 +40,11 @@ export function BonusesSection() {
         <div className="text-center mb-8">
           <span className="inline-flex items-center gap-2 px-6 py-2.5 mb-5 rounded-full border border-white/40 bg-[#4A553F] text-white font-semibold tracking-[0.18em] uppercase text-xs">
             <Gift className="w-4 h-4 text-[#d4a017]" />
-            5 Bonos Incluidos
+            5 Bonos Gratis Incluidos
           </span>
           <h2 className="font-heading font-bold text-[#2f3a2c] text-3xl md:text-5xl leading-tight">
             Y además, recibís{" "}
-            <span className="italic text-[#5C6851]">5 bonos de lujo</span>
+            <span className="italic text-[#5C6851]">5 bonos gratis</span>
           </h2>
         </div>
 
@@ -66,7 +71,7 @@ export function BonusesSection() {
               <div className="relative rounded-xl overflow-hidden mb-3 h-56 bg-[#f4efe2] flex items-center justify-center">
                 <img
                   src={`${import.meta.env.BASE_URL}${b.image}`}
-                  alt={`Bono ${b.num}: ${b.desc}`}
+                  alt={`Bono ${b.num}: ${b.title}`}
                   width={400}
                   height={500}
                   loading="lazy"
@@ -80,9 +85,12 @@ export function BonusesSection() {
                 </span>
               </div>
               <div className="px-2 pb-2">
-                <h3 className="font-heading font-bold text-[#2f3a2c] text-[15px]">
-                  {b.desc}
+                <h3 className="font-heading font-bold text-[#2f3a2c] text-[15px] mb-1.5">
+                  Bono {b.num}: {b.title}
                 </h3>
+                <p className="text-slate-600 text-sm leading-snug">
+                  {b.desc}
+                </p>
               </div>
             </motion.div>
           )}
