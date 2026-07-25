@@ -11,7 +11,7 @@ export function HeroSection() {
         <div className="absolute -top-[10%] left-1/2 -translate-x-1/2 w-[80%] h-[60%] rounded-full bg-[#d4a017]/5 blur-3xl" />
       </div>
 
-      <div className="container mx-auto px-4 relative z-10 max-w-3xl text-center">
+      <div className="container mx-auto px-4 relative z-10 max-w-3xl md:max-w-6xl lg:max-w-7xl text-center">
         <motion.div
           initial={{
             opacity: 0,
@@ -24,7 +24,7 @@ export function HeroSection() {
           transition={{
             duration: 0.5,
           }}
-          className="inline-flex items-center gap-2 px-6 py-2.5 mb-5 rounded-full border border-white/40 bg-[#4A553F] text-white font-semibold tracking-[0.18em] uppercase text-[8px]"
+          className="inline-flex items-center gap-2 px-6 py-2.5 mb-6 md:mb-6 rounded-full border border-white/15 bg-[#24352A] text-[#F3EFE3] font-semibold tracking-[0.18em] uppercase text-[8px]"
         >
           ✨ SISTEMA MAESTRO PARA CONSULTORES HyS
         </motion.div>
@@ -42,11 +42,10 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.1,
           }}
-          className="font-heading md:text-6xl font-extrabold text-[#2f3a2c] mb-4 text-[26px]"
+          className="font-heading font-extrabold text-[#F3EFE3] mb-4 md:mb-8 text-[32px] leading-snug sm:text-3xl md:text-5xl md:leading-tight lg:text-6xl"
         >
-          Sabés de seguridad pero tu consultora no crece. Corrés todo el
-          día, cobrás poco y los clientes no te valoran.{" "}
-          <span className="text-[#B85C43]">Eso se termina HOY.</span>
+          El sistema que ordena tu consultora...{" "}
+          <span className="text-[#C97A4A]">en una semana.</span>
         </motion.h1>
 
         <motion.div
@@ -62,7 +61,7 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.2,
           }}
-          className="mx-auto mb-6 w-full max-w-[300px] sm:max-w-sm md:max-w-md"
+          className="mx-auto mb-8 md:mb-8 w-full max-w-[380px] sm:max-w-sm md:max-w-md"
         >
           <img
             src={`${import.meta.env.BASE_URL}sistemamaestro-mockup.webp`}
@@ -89,7 +88,7 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.3,
           }}
-          className="md:text-xl text-slate-600 mb-6 max-w-2xl mx-auto text-[12px] mt-8"
+          className="md:text-xl text-[#A9B39E] mb-8 md:mb-8 max-w-2xl mx-auto text-[12px] leading-relaxed"
         >
           Descargá, abrí y usá. Posicionamiento, propuestas, procesos y
           gestión de clientes para construir una consultora HyS profesional
@@ -109,7 +108,7 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.4,
           }}
-          className="flex flex-col items-center mt-14"
+          className="flex flex-col items-center mt-2 md:mt-2"
         >
           <motion.a
             href="#comprar"
@@ -120,19 +119,19 @@ export function HeroSection() {
             whileTap={{
               scale: 0.98,
             }}
-            className="flex items-center justify-center gap-3 w-full sm:w-auto bg-[#B85C43] hover:bg-[#A34F38] text-white font-bold px-8 py-4 rounded-full shadow-lg shadow-[#B85C43]/30 transition-colors mb-14 text-[16px]"
+            className="flex items-center justify-center gap-2 sm:gap-3 w-full sm:w-auto bg-[#C97A4A] hover:bg-[#B8683A] text-[#16211A] font-bold px-5 py-3 sm:px-6 sm:py-3.5 md:px-8 md:py-4 rounded-full shadow-lg shadow-[#C97A4A]/30 transition-colors mb-8 md:mb-8 text-[11.5px] sm:text-base md:text-lg whitespace-nowrap md:whitespace-normal"
           >
             🚀 ¡SÍ, QUIERO MI SISTEMA DE CONSULTORA!
           </motion.a>
 
-          <div className="flex flex-wrap justify-center gap-4 text-sm font-medium text-slate-600">
+          <div className="flex flex-wrap justify-center gap-4 text-sm font-medium text-[#A9B39E]">
             <span>
               <span aria-hidden="true">⭐⭐⭐⭐⭐</span> 4.9/5 — Reseñas
               verificadas
             </span>
             <span
               aria-hidden="true"
-              className="hidden sm:inline text-slate-300"
+              className="hidden sm:inline text-white/15"
             >
               |
             </span>

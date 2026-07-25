@@ -9,7 +9,7 @@ const PAGE_DESC =
   "Posicionamiento, propuestas, procesos y gestión de clientes para construir una consultora HyS profesional y rentable.";
 const HERO_IMAGE = `${import.meta.env.BASE_URL}sistemamaestro-mockup.webp`;
 
-const SITE_URL = "https://placeholder.com";
+const SITE_URL = "https://maestroconsultores.tupuntodigital.shop";
 function setMeta(attr: "name" | "property", key: string, content: string) {
   let el = document.head.querySelector<HTMLMetaElement>(
     `meta[${attr}="${key}"]`,
@@ -58,7 +58,7 @@ export function App() {
       "viewport",
       "width=device-width, initial-scale=1, viewport-fit=cover",
     );
-    setMeta("name", "theme-color", "#F9F8F6");
+    setMeta("name", "theme-color", "#16211A");
     setMeta("name", "robots", "index, follow");
     setMeta("property", "og:type", "website");
     setMeta("property", "og:title", PAGE_TITLE);

@@ -32,7 +32,7 @@ export function ProblemSection() {
     <section className="py-10 md:py-14 bg-transparent">
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-8">
-          <h2 className="font-heading text-3xl md:text-5xl font-bold mb-4 text-[#2f3a2c] uppercase">
+          <h2 className="font-heading text-3xl md:text-5xl font-bold mb-4 text-[#F3EFE3] uppercase">
             ¿Te reconocés en esto?
           </h2>
         </div>
@@ -55,13 +55,17 @@ export function ProblemSection() {
             transition={{
               delay: i * 0.1
             }}
-            className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+            className="bg-[#1E2E22] p-4 md:p-6 rounded-2xl shadow-sm border border-white/10">
 
-              <div className="text-3xl mb-3">{item.emoji}</div>
-              <h3 className="text-lg font-bold text-[#2f3a2c] mb-2">
-                {item.title}
-              </h3>
-              <p className="text-slate-600 leading-relaxed">
+              <div className="flex items-center gap-2 mb-1.5 md:mb-2">
+                <span className="text-xl md:text-3xl flex-shrink-0">
+                  {item.emoji}
+                </span>
+                <h3 className="text-base md:text-lg font-bold text-[#F3EFE3]">
+                  {item.title}
+                </h3>
+              </div>
+              <p className="text-sm md:text-base text-[#A9B39E] leading-relaxed">
                 {item.desc}
               </p>
             </motion.div>

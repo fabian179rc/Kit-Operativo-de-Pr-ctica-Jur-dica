@@ -1,7 +1,7 @@
 import React from 'react';
 export function Footer() {
   return (
-    <footer className="bg-[#232b21] text-[#c1c8b6] py-10 border-t border-[#3a4434]">
+    <footer className="bg-[#101A14] text-[#A9B39E] py-10 border-t border-[#24352A]">
       <div className="container mx-auto px-4 max-w-5xl text-center">
         <div className="text-white font-bold text-xl mb-6 flex items-center justify-center gap-2">
           🛡️ SISTEMA MAESTRO PARA CONSULTORES HyS
@@ -28,7 +28,7 @@ export function Footer() {
           </a>
         </div>
 
-        <div className="text-xs text-[#a4ad96]">
+        <div className="text-xs text-[#7C8877]">
           <p>
             © 2026 Sistema Maestro para Consultores HyS — Todos los
             derechos reservados.
