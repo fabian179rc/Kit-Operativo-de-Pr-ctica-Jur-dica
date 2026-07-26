@@ -7,7 +7,7 @@ const PAGE_TITLE =
   "Sistema Maestro para Consultores HyS — Posicionamiento, Propuestas y Gestión de Clientes";
 const PAGE_DESC =
   "Posicionamiento, propuestas, procesos y gestión de clientes para construir una consultora HyS profesional y rentable.";
-const HERO_IMAGE = `${import.meta.env.BASE_URL}sistemamaestro-mockup.webp`;
+const HERO_IMAGE = `${import.meta.env.BASE_URL}mockup9.png`;
 
 const SITE_URL = "https://maestroconsultores.tupuntodigital.shop";
 function setMeta(attr: "name" | "property", key: string, content: string) {

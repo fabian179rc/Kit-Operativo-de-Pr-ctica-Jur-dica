@@ -67,10 +67,10 @@ export function PricingSection() {
 
         <div className="relative inline-block mb-2 w-full max-w-md mx-auto">
           <img
-            src={`${import.meta.env.BASE_URL}sistemamaestro-mockup.webp`}
+            src={`${import.meta.env.BASE_URL}mockup9.png`}
             alt="Sistema Maestro para Consultores HyS"
-            width={672}
-            height={672}
+            width={1254}
+            height={1254}
             loading="lazy"
             decoding="async"
             className="w-full h-auto rounded-2xl shadow-2xl shadow-black/20"

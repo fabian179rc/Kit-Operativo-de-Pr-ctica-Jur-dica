@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { scrollToOffer } from "../utils/scrollToOffer";
 export function HeroSection() {
   return (
-    <section className="relative md:min-h-[100svh] flex flex-col justify-start md:justify-center overflow-hidden bg-transparent py-6">
+    <section className="relative md:min-h-[100svh] flex flex-col justify-start md:justify-center overflow-hidden bg-transparent py-6 md:py-2">
       <div
         aria-hidden="true"
         className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none"
@@ -24,7 +24,7 @@ export function HeroSection() {
           transition={{
             duration: 0.5,
           }}
-          className="inline-flex items-center gap-2 px-6 py-2.5 mb-6 md:mb-6 rounded-full border border-white/15 bg-[#24352A] text-[#F3EFE3] font-semibold tracking-[0.18em] uppercase text-[8px]"
+          className="inline-flex items-center gap-2 px-6 py-2.5 mb-6 md:mb-3 rounded-full border border-white/15 bg-[#24352A] text-[#F3EFE3] font-semibold tracking-[0.18em] uppercase text-[8px]"
         >
           ✨ SISTEMA MAESTRO PARA CONSULTORES HyS
         </motion.div>
@@ -42,7 +42,7 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.1,
           }}
-          className="font-heading font-extrabold text-[#F3EFE3] mb-4 md:mb-8 text-[32px] leading-snug sm:text-3xl md:text-5xl md:leading-tight lg:text-6xl"
+          className="font-heading font-extrabold text-[#F3EFE3] mb-4 md:mb-3 text-[32px] leading-snug sm:text-3xl md:text-5xl md:leading-tight lg:text-6xl"
         >
           El sistema que ordena tu consultora...{" "}
           <span className="text-[#C97A4A]">en una semana.</span>
@@ -61,13 +61,13 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.2,
           }}
-          className="mx-auto mb-8 md:mb-8 w-full max-w-[380px] sm:max-w-sm md:max-w-md"
+          className="mx-auto mb-8 md:mb-3 w-full max-w-[380px] sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-lg"
         >
           <img
-            src={`${import.meta.env.BASE_URL}sistemamaestro-mockup.webp`}
+            src={`${import.meta.env.BASE_URL}mockup9.png`}
             alt="Sistema Maestro para Consultores HyS"
-            width={672}
-            height={672}
+            width={1254}
+            height={1254}
             loading="eager"
             fetchPriority="high"
             decoding="async"
@@ -88,7 +88,7 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.3,
           }}
-          className="md:text-xl text-[#A9B39E] mb-8 md:mb-8 max-w-2xl mx-auto text-[12px] leading-relaxed"
+          className="md:text-xl text-[#A9B39E] mb-8 md:mb-3 max-w-2xl mx-auto text-[12px] leading-relaxed"
         >
           Descargá, abrí y usá. Posicionamiento, propuestas, procesos y
           gestión de clientes para construir una consultora HyS profesional
@@ -119,7 +119,7 @@ export function HeroSection() {
             whileTap={{
               scale: 0.98,
             }}
-            className="flex items-center justify-center gap-2 sm:gap-3 w-full sm:w-auto bg-[#C97A4A] hover:bg-[#B8683A] text-[#16211A] font-bold px-5 py-3 sm:px-6 sm:py-3.5 md:px-8 md:py-4 rounded-full shadow-lg shadow-[#C97A4A]/30 transition-colors mb-8 md:mb-8 text-[11.5px] sm:text-base md:text-lg whitespace-nowrap md:whitespace-normal"
+            className="flex items-center justify-center gap-2 sm:gap-3 w-full sm:w-auto bg-[#C97A4A] hover:bg-[#B8683A] text-[#16211A] font-bold px-5 py-3 sm:px-6 sm:py-3.5 md:px-8 md:py-3 rounded-full shadow-lg shadow-[#C97A4A]/30 transition-colors mb-8 md:mb-3 text-[11.5px] sm:text-base md:text-lg whitespace-nowrap md:whitespace-normal"
           >
             🚀 ¡SÍ, QUIERO MI SISTEMA DE CONSULTORA!
           </motion.a>
