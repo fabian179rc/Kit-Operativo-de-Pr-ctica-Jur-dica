@@ -4,12 +4,12 @@ import { Landing } from "./pages/Landing";
 import { useScreenInit } from "./useScreenInit";
 const META_PIXEL_ID = "1656160899010195";
 const PAGE_TITLE =
-  "Sistema Maestro para Consultores HyS — Posicionamiento, Propuestas y Gestión de Clientes";
+  "The Gridiron Guardian — Youth Flag Football Playbook & Coaching System";
 const PAGE_DESC =
-  "Posicionamiento, propuestas, procesos y gestión de clientes para construir una consultora HyS profesional y rentable.";
+  "Plays, drills, practice plans, communication scripts, and field tools — all in one printable PDF system for dad-coaches and youth instructors.";
 const HERO_IMAGE = `${import.meta.env.BASE_URL}mockup9.png`;
 
-const SITE_URL = "https://maestroconsultores.tupuntodigital.shop";
+const SITE_URL = "https://theguardian.tupuntodigital.shop";
 function setMeta(attr: "name" | "property", key: string, content: string) {
   let el = document.head.querySelector<HTMLMetaElement>(
     `meta[${attr}="${key}"]`,
@@ -38,7 +38,7 @@ export function App() {
   useScreenInit();
   useEffect(() => {
     if (typeof document === "undefined") return;
-    document.documentElement.lang = "es-AR";
+    document.documentElement.lang = "en-US";
     document.title = PAGE_TITLE;
     addLink("preconnect", "/cdn.magicpatterns.com", {
       crossorigin: "",
@@ -63,10 +63,10 @@ export function App() {
     setMeta("property", "og:type", "website");
     setMeta("property", "og:title", PAGE_TITLE);
     setMeta("property", "og:description", PAGE_DESC);
-    setMeta("property", "og:locale", "es_AR");
+    setMeta("property", "og:locale", "en_US");
     setMeta("property", "og:image", HERO_IMAGE);
     setMeta("property", "og:url", SITE_URL);
-    setMeta("property", "og:site_name", "Sistema Maestro para Consultores HyS");
+    setMeta("property", "og:site_name", "The Gridiron Guardian");
     setMeta("name", "twitter:card", "summary_large_image");
     setMeta("name", "twitter:image", HERO_IMAGE);
     setMeta("name", "twitter:title", PAGE_TITLE);
@@ -79,19 +79,19 @@ export function App() {
       ld.textContent = JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Product",
-        name: "Sistema Maestro para Consultores HyS",
+        name: "The Gridiron Guardian",
         description: PAGE_DESC,
         image: HERO_IMAGE,
         brand: {
           "@type": "Brand",
-          name: "Sistema Maestro para Consultores HyS",
+          name: "The Gridiron Guardian",
         },
         offers: {
           "@type": "Offer",
-          price: "19990",
-          priceCurrency: "ARS",
+          price: "27",
+          priceCurrency: "USD",
           availability: "https://schema.org/InStock",
-          url: "https://placeholder.impultienda.ar/checkout",
+          url: "https://the-gridiron-guardian.impultienda.ar/checkout",
         },
       });
       document.head.appendChild(ld);
@@ -106,28 +106,28 @@ export function App() {
         "@type": "FAQPage",
         mainEntity: [
           {
-            q: "¿Es físico o digital?",
-            a: "100% digital. Acceso inmediato para descargar, editar e imprimir desde cualquier dispositivo.",
+            q: "Is this a physical or digital product?",
+            a: "100% digital. You receive instant access after purchase to download and use on any device.",
           },
           {
-            q: "¿Sirve si recién estoy empezando como consultor independiente?",
-            a: "Sí. El sistema te da la base que necesitás para arrancar de forma profesional desde el primer cliente. Evitás los errores más costosos que cometen los consultores en los primeros años.",
+            q: "Is this for beginners or experienced coaches?",
+            a: "Both. The system is designed to help volunteer dad-coaches and professional youth instructors.",
           },
           {
-            q: "¿Sirve si ya tengo clientes pero quiero crecer?",
-            a: "Sí. El sistema está diseñado para ordenar lo que ya tenés, identificar qué está limitando tu crecimiento y darte herramientas concretas para escalar sin caos.",
+            q: "What age group is this designed for?",
+            a: "Players ages 6 to 12. Includes specific adjustments for younger (6-8) and older (9-12) groups.",
           },
           {
-            q: "¿Sirve para cualquier provincia o país?",
-            a: "Sí. Los principios de negocio, ventas y gestión de clientes son universales. Las plantillas y herramientas son adaptables a cualquier mercado y contexto.",
+            q: "Do I need special software to use it?",
+            a: "No. All files are PDF format. You can open, print, and use them with any device.",
           },
           {
-            q: "¿Cuándo recibo el acceso?",
-            a: "Inmediatamente después de confirmar tu pago. Recibís el link de descarga en tu correo en menos de cinco minutos.",
+            q: "Can I print the materials?",
+            a: "Yes. Everything is designed to be printed and used on the field.",
           },
           {
-            q: "¿Ya tengo algunos procesos propios, me sirve igual?",
-            a: "Sí. El sistema complementa y mejora lo que ya hacés. Podés adoptar solo las herramientas que te faltan y profesionalizar las que ya tenés.",
+            q: "Is this specific to one league or location?",
+            a: "No. The system is adaptable to any youth flag football league in the United States.",
           },
         ].map((item) => ({
           "@type": "Question",

@@ -3,32 +3,25 @@ import { motion } from 'framer-motion';
 import { Star, MessageCircle } from 'lucide-react';
 const testimonials = [
 {
-  initial: 'M',
+  initial: 'J',
   color: 'bg-pink-100 text-pink-700',
-  name: 'Mariano G.',
-  location: 'Consultor HyS — Buenos Aires',
-  text: 'Mandaba presupuestos en Word y casi nunca me respondían. Usé la plantilla de propuesta del Bono 1 y cerré dos clientes nuevos en la misma semana.'
-},
-{
-  initial: 'L',
-  color: 'bg-blue-100 text-blue-700',
-  name: 'Laura F.',
-  location: 'Licenciada en HyS — Córdoba',
-  text: 'Tenía clientes que me llamaban a cualquier hora por cualquier cosa. Con el kit de onboarding establecí reglas claras desde el día uno. Cambió todo.'
-},
-{
-  initial: 'P',
-  color: 'bg-emerald-100 text-emerald-700',
-  name: 'Pablo S.',
-  location: 'Técnico en HyS — Rosario',
-  text: 'Gracias al módulo de honorarios pude aumentar mis tarifas un cuarenta por ciento en la renovación anual. Solo uno de doce clientes no renovó.'
+  name: 'Jason M.',
+  location: 'Volunteer Dad-Coach, Texas',
+  text: "Before this, I was showing up to Saturday games with a printed sheet from Google. The Gridiron Guardian gave me a real system. My kids are more focused and the other parents actually think I know what I'm doing now."
 },
 {
   initial: 'S',
-  color: 'bg-amber-100 text-amber-700',
-  name: 'Silvana R.',
-  location: 'Consultora HyS — Mendoza',
-  text: 'El CRM del Bono 2 me ordenó la vida. Ahora sé exactamente qué facturé, qué cobré y qué cliente me da más rentabilidad en menos tiempo.'
+  color: 'bg-blue-100 text-blue-700',
+  name: 'Sarah K.',
+  location: 'Youth Flag Football Instructor, Florida',
+  text: 'The wristband inserts were the game changer. I printed them, the kids put them on, and for the first time in two seasons they actually ran the right routes.'
+},
+{
+  initial: 'M',
+  color: 'bg-emerald-100 text-emerald-700',
+  name: 'Mike D.',
+  location: 'Youth Sports Coordinator, California',
+  text: 'The practice templates saved me at least 3 hours a week. I used to spend Sunday nights planning. Now I spend 10 minutes and I’m done.'
 }];
 
 export function TestimonialsBottom() {
@@ -38,7 +31,7 @@ export function TestimonialsBottom() {
         <div className="text-center mb-8 flex flex-col items-center">
           <MessageCircle className="w-10 h-10 text-[#D4A017] mb-3" />
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-[#F3EFE3]">
-            Lo que otros profesionales de HyS están diciendo
+            What Youth Coaches Are Saying
           </h2>
         </div>
 

@@ -3,33 +3,33 @@ import { motion } from "framer-motion";
 const bonuses = [
   {
     num: 1,
-    title: "Pack de Plantillas de Propuestas Comerciales HyS",
-    desc: "Plantillas para presentar servicios, auditorías y capacitaciones HyS de forma clara y persuasiva, y dejar de competir solo por precio.",
+    title: "The Game-Day Command Center",
+    desc: "Walk onto the field with a one-page system that makes you look organized and ready to lead.",
     image: "b1.webp",
   },
   {
     num: 2,
-    title: "Sistema de Seguimiento Comercial y Renovación de Clientes HyS",
-    desc: "Un método simple para ordenar prospectos, propuestas, vencimientos y renovaciones, y no perder más oportunidades por falta de seguimiento.",
-    image: "b5.webp",
-  },
-  {
-    num: 3,
-    title: "Guion de Primera Reunión y Manejo de Objeciones",
-    desc: "Qué decir en la primera reunión para detectar riesgos y urgencias, y cómo responder las objeciones más comunes sin sonar agresivo.",
+    title: "The Parent-Peace Communication Pack",
+    desc: "Copy-and-paste messages to prevent confusion and complaints before they start.",
     image: "b2.webp",
   },
   {
-    num: 4,
-    title: "Kit de Onboarding Profesional para Nuevos Clientes HyS",
-    desc: "Documentos listos para arrancar cada cliente con orden y autoridad desde el día uno: bienvenida, relevamiento, protocolo y cronograma inicial.",
+    num: 3,
+    title: "The 10-Minute Practice Builder",
+    desc: "Build a full practice in minutes with plug-and-play templates for 30, 45, and 60-minute sessions.",
     image: "b3.webp",
   },
   {
-    num: 5,
-    title: "Guía de Honorarios para Consultores HyS",
-    desc: "Cómo calcular y justificar tus honorarios según riesgo, alcance y complejidad, y aumentar tarifas cada año sin perder autoridad.",
+    num: 4,
+    title: "The Kid-Friendly Drill Card Vault",
+    desc: "Keep kids moving and engaged with 20 printable drill cards for every skill level.",
     image: "b4.webp",
+  },
+  {
+    num: 5,
+    title: "The Flag Football Confidence Scripts",
+    desc: "Use ready-to-go coaching scripts so you always know what to say on and off the field.",
+    image: "b5.webp",
   },
 ];
 
@@ -39,8 +39,8 @@ export function BonusesSection() {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-8">
           <h2 className="font-heading font-bold text-[#F3EFE3] text-3xl md:text-5xl leading-tight">
-            Y además, recibís{" "}
-            <span className="italic text-[#A8BB98]">5 bonos gratis</span>
+            5 Bonuses Included{" "}
+            <span className="italic text-[#A8BB98]">At No Extra Cost</span>
           </h2>
         </div>
 
@@ -67,7 +67,7 @@ export function BonusesSection() {
               <div className="relative rounded-xl overflow-hidden mb-3 h-56 bg-[#12201A] flex items-center justify-center">
                 <img
                   src={`${import.meta.env.BASE_URL}${b.image}`}
-                  alt={`Bono ${b.num}: ${b.title}`}
+                  alt={`Bonus ${b.num}: ${b.title}`}
                   width={1024}
                   height={1024}
                   loading="lazy"
@@ -75,13 +75,16 @@ export function BonusesSection() {
                   className="w-full h-full object-contain"
                 />
                 <span className="absolute top-2.5 left-2.5 bg-rose-500 text-white font-bold text-[11px] tracking-wide uppercase px-2.5 py-1 rounded-md shadow-sm">
-                  Bono {b.num}
+                  Bonus {b.num}
                 </span>
                 <span className="absolute top-2.5 right-2.5 inline-flex items-center gap-1 bg-emerald-600 text-white font-bold text-[11px] tracking-wide uppercase px-2.5 py-1 rounded-md shadow-sm">
-                  🎁 Gratis
+                  🎁 Free
                 </span>
               </div>
               <div className="px-2 pb-2">
+                <h3 className="font-bold text-[#F3EFE3] text-sm md:text-base mb-1">
+                  {b.title}
+                </h3>
                 <p className="text-[#A9B39E] text-sm leading-snug">{b.desc}</p>
               </div>
             </motion.div>

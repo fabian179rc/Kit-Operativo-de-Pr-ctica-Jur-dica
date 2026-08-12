@@ -42,7 +42,7 @@ export function FloatingCTA() {
               onClick={scrollToOffer}
               className="inline-flex items-center justify-center gap-2 sm:gap-2.5 bg-[#C97A4A] hover:bg-[#B8683A] text-[#16211A] font-bold text-[11.5px] sm:text-base md:text-lg px-5 py-3 sm:px-6 sm:py-3.5 md:px-8 md:py-4 rounded-full shadow-2xl shadow-[#C97A4A]/40 border-2 border-white/20 transition-colors whitespace-nowrap"
             >
-              🚀 SÍ, QUIERO MI SISTEMA DE CONSULTORA
+              🚀 Yes, I Want the Full System Now
             </a>
           </div>
         </motion.div>

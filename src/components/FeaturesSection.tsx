@@ -2,12 +2,22 @@ import React from "react";
 import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 const features = [
-  "Posicionamiento claro para dejar de competir por precio",
-  "Diagnóstico de venta que hace que el cliente te pida el presupuesto",
-  "Propuestas profesionales que destacan valor y cierran contratos",
-  "Sistema operativo semanal para gestionar 20 clientes sin caos",
-  "Protocolo de onboarding que marca las reglas desde el día uno",
-  "Estrategia de incremento de honorarios sin perder clientes",
+  {
+    lead: "Save time on prep",
+    desc: "Stop building practices from scratch. Use ready-made templates and plug-and-play play sheets.",
+  },
+  {
+    lead: "Coach with more structure",
+    desc: "Organize plays, rotations, drills, and player notes with a professional system.",
+  },
+  {
+    lead: "Look more professional",
+    desc: "Deliver cleaner, more organized practices and game days, increasing your credibility as a coach.",
+  },
+  {
+    lead: "Communicate without guessing",
+    desc: "Use ready scripts and parent messages to lead with confidence every time.",
+  },
 ];
 
 export function FeaturesSection() {
@@ -16,7 +26,7 @@ export function FeaturesSection() {
       <div className="container mx-auto px-4 max-w-2xl">
         <div className="text-center mb-8">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-[#F3EFE3]">
-            ¿QUÉ VAS A LOGRAR CON ESTE SISTEMA?
+            WHAT YOU'LL GET WITH THIS SYSTEM
           </h2>
         </div>
 
@@ -42,7 +52,10 @@ export function FeaturesSection() {
             >
               <CheckCircle2 className="w-5 h-5 flex-shrink-0 mt-1 text-[#D4A017]" />
               <p className="text-[#A9B39E] leading-relaxed">
-                <span className="font-bold text-[#F3EFE3]">{feature}</span>
+                <span className="font-bold text-[#F3EFE3]">
+                  {feature.lead}
+                </span>{" "}
+                — {feature.desc}
               </p>
             </motion.li>
           ))}

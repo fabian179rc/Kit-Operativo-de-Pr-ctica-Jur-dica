@@ -26,7 +26,7 @@ export function HeroSection() {
           }}
           className="inline-flex items-center gap-2 px-6 py-2.5 mb-6 md:mb-3 rounded-full border border-white/15 bg-[#24352A] text-[#F3EFE3] font-semibold tracking-[0.18em] uppercase text-[8px]"
         >
-          ✨ SISTEMA MAESTRO PARA CONSULTORES HyS
+          🏈 THE GRIDIRON GUARDIAN
         </motion.div>
 
         <motion.h1
@@ -44,8 +44,8 @@ export function HeroSection() {
           }}
           className="font-heading font-extrabold text-[#F3EFE3] mb-4 md:mb-3 text-[32px] leading-snug sm:text-3xl md:text-5xl md:leading-tight lg:text-6xl"
         >
-          El sistema que ordena tu consultora...{" "}
-          <span className="text-[#C97A4A]">en una semana.</span>
+          Your Youth Flag Football System,{" "}
+          <span className="text-[#C97A4A]">Ready to Use From Today.</span>
         </motion.h1>
 
         <motion.div
@@ -65,7 +65,7 @@ export function HeroSection() {
         >
           <img
             src={`${import.meta.env.BASE_URL}mockup9.png`}
-            alt="Sistema Maestro para Consultores HyS"
+            alt="The Gridiron Guardian — Youth Flag Football Coaching System"
             width={1254}
             height={1254}
             loading="eager"
@@ -90,9 +90,9 @@ export function HeroSection() {
           }}
           className="md:text-xl text-[#A9B39E] mb-8 md:mb-3 max-w-2xl mx-auto text-[12px] leading-relaxed"
         >
-          Descargá, abrí y usá. Posicionamiento, propuestas, procesos y
-          gestión de clientes para construir una consultora HyS profesional
-          y rentable.
+          Plays, drills, practice plans, communication scripts, and field
+          tools — all in one printable PDF system for dad-coaches and youth
+          instructors.
         </motion.p>
 
         <motion.div
@@ -121,13 +121,13 @@ export function HeroSection() {
             }}
             className="flex items-center justify-center gap-2 sm:gap-3 w-full sm:w-auto bg-[#C97A4A] hover:bg-[#B8683A] text-[#16211A] font-bold px-5 py-3 sm:px-6 sm:py-3.5 md:px-8 md:py-3 rounded-full shadow-lg shadow-[#C97A4A]/30 transition-colors mb-8 md:mb-3 text-[11.5px] sm:text-base md:text-lg whitespace-nowrap md:whitespace-normal"
           >
-            🚀 ¡SÍ, QUIERO MI SISTEMA DE CONSULTORA!
+            🚀 Yes, I Want the Full System Now
           </motion.a>
 
           <div className="flex flex-wrap justify-center gap-4 text-sm font-medium text-[#A9B39E]">
             <span>
-              <span aria-hidden="true">⭐⭐⭐⭐⭐</span> 4.9/5 — Reseñas
-              verificadas
+              <span aria-hidden="true">⭐⭐⭐⭐⭐</span> 4.9/5 — Rated by Youth
+              Coaches
             </span>
             <span
               aria-hidden="true"
@@ -136,8 +136,17 @@ export function HeroSection() {
               |
             </span>
             <span>
-              <span aria-hidden="true">🛡️</span> Garantía de 7 Días — Riesgo
-              Cero
+              <span aria-hidden="true">🛡️</span> 7-Day Guarantee — Zero Risk
+            </span>
+            <span
+              aria-hidden="true"
+              className="hidden sm:inline text-white/15"
+            >
+              |
+            </span>
+            <span>
+              <span aria-hidden="true">💻</span> 100% Digital — Instant
+              Access
             </span>
           </div>
         </motion.div>

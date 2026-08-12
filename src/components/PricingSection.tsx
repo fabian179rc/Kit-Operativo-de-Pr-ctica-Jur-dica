@@ -37,15 +37,15 @@ export function PricingSection() {
   const timeBlocks = [
     {
       value: timeLeft.h,
-      label: "Horas",
+      label: "Hours",
     },
     {
       value: timeLeft.m,
-      label: "Minutos",
+      label: "Minutes",
     },
     {
       value: timeLeft.s,
-      label: "Segundos",
+      label: "Seconds",
     },
   ];
 
@@ -56,19 +56,19 @@ export function PricingSection() {
     >
       <div className="container mx-auto px-4 max-w-2xl text-center relative z-10">
         <span className="inline-block px-6 py-2.5 mb-6 rounded-full border border-white/30 bg-white/10 text-white/90 font-semibold tracking-[0.18em] uppercase text-xs">
-          🔥 Oferta de Lanzamiento
+          🔥 Special Launch Offer
         </span>
         <h2 className="font-heading text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
-          Sistema Maestro para{" "}
+          The Gridiron Guardian{" "}
           <em className="italic font-bold text-[#f0e6d2]">
-            Consultores HyS
+            Complete System
           </em>
         </h2>
 
         <div className="relative inline-block mb-2 w-full max-w-md mx-auto">
           <img
             src={`${import.meta.env.BASE_URL}mockup9.png`}
-            alt="Sistema Maestro para Consultores HyS"
+            alt="The Gridiron Guardian — Complete System"
             width={1254}
             height={1254}
             loading="lazy"
@@ -85,9 +85,9 @@ export function PricingSection() {
               }}
             />
             <div className="relative text-center text-white leading-none rotate-12">
-              <div className="text-2xl md:text-3xl font-extrabold">73%</div>
+              <div className="text-2xl md:text-3xl font-extrabold">72%</div>
               <div className="text-[9px] md:text-[10px] font-bold tracking-wide mt-0.5">
-                DE DESCUENTO
+                OFF
               </div>
             </div>
           </div>
@@ -100,23 +100,23 @@ export function PricingSection() {
       >
         <div className="bg-[#1E2E22] rounded-3xl shadow-2xl shadow-black/30 p-7 md:p-8 text-center">
           <div className="text-[#A9B39E] text-base md:text-lg mb-3">
-            Precio Normal :{" "}
-            <span className="line-through">$74.940 ARS</span>
+            Regular Price:{" "}
+            <span className="line-through">$97 USD</span>
           </div>
 
           <div className="inline-flex items-center gap-2 bg-[#C97A4A] text-[#16211A] font-bold px-5 py-2.5 rounded-full text-sm mb-5">
-            <Flame className="w-4 h-4" /> 73% OFF — OFERTA DE LANZAMIENTO
+            <Flame className="w-4 h-4" /> 🔥 LAUNCH PRICE
           </div>
 
-          <p className="text-[#A9B39E] text-base mb-1">Tu inversión hoy:</p>
+          <p className="text-[#A9B39E] text-base mb-1">Your investment today:</p>
           <div className="font-heading text-6xl md:text-7xl font-bold text-[#C97A4A] leading-none mb-2">
-            $19.990
+            $27
           </div>
           <p className="text-[#A9B39E] text-sm mb-5">
-            Pagás una sola vez. Acceso para siempre.
+            One-time payment. Instant access forever.
           </p>
           <p className="text-[#C97A4A] font-semibold text-base leading-snug mb-6">
-            ⏳ El precio sube al terminar el lanzamiento.
+            ⏳ The price goes up when the launch ends.
           </p>
 
           <div className="flex justify-center gap-3 mb-7">
@@ -147,19 +147,23 @@ export function PricingSection() {
             className="flex items-center justify-center gap-2 sm:gap-3 w-full bg-[#C97A4A] hover:bg-[#B8683A] text-[#16211A] font-bold text-[11.5px] sm:text-base md:text-lg px-5 py-4 sm:px-6 md:py-5 rounded-full shadow-lg shadow-[#C97A4A]/30 transition-colors mb-6 whitespace-nowrap md:whitespace-normal"
           >
             <span className="flex items-center gap-2 text-center">
-              🚀 SÍ, QUIERO MI SISTEMA DE CONSULTORA
+              🚀 Yes, I Want the Gridiron Guardian Now
             </span>
             <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0" />
           </motion.a>
 
-          <div className="flex flex-col items-center gap-2 text-sm text-[#A9B39E] font-medium">
+          <div className="flex flex-wrap justify-center gap-x-3 gap-y-1.5 text-sm text-[#A9B39E] font-medium">
             <span>
-              <span aria-hidden="true">⭐⭐⭐⭐⭐</span> 4.9/5 — Reseñas
-              verificadas
+              <span aria-hidden="true">⚡</span> Instant Access
             </span>
             <span>
-              <span aria-hidden="true">🛡️</span> Garantía de 7 Días — Riesgo
-              Cero
+              <span aria-hidden="true">💳</span> One-Time Payment
+            </span>
+            <span>
+              <span aria-hidden="true">🛡️</span> 7-Day Guarantee
+            </span>
+            <span>
+              <span aria-hidden="true">🔒</span> Secure Checkout
             </span>
           </div>
         </div>

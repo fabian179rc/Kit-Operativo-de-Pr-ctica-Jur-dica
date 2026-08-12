@@ -2,19 +2,19 @@ import React, { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
 
-const PRODUCT_NAME = "Sistema Maestro para Consultores HyS";
+const PRODUCT_NAME = "The Gridiron Guardian";
 
 const proofs = [
-  { name: "Verónica J.", location: "Tegucigalpa", time: "hace 15 minutos" },
-  { name: "Martín G.", location: "Buenos Aires", time: "hace 8 minutos" },
-  { name: "Carolina F.", location: "Córdoba", time: "hace 22 minutos" },
-  { name: "Roberto S.", location: "Rosario", time: "hace 34 minutos" },
-  { name: "Andrea P.", location: "Mendoza", time: "hace 5 minutos" },
-  { name: "Luis M.", location: "San Salvador", time: "hace 41 minutos" },
-  { name: "Patricia N.", location: "Lima", time: "hace 12 minutos" },
-  { name: "Diego R.", location: "Santiago", time: "hace 27 minutos" },
-  { name: "Gabriela T.", location: "Salta", time: "hace 19 minutos" },
-  { name: "Fernando A.", location: "Bogotá", time: "hace 9 minutos" },
+  { name: "Jason M.", location: "Austin, TX", time: "15 minutes ago" },
+  { name: "Sarah K.", location: "Tampa, FL", time: "8 minutes ago" },
+  { name: "Mike D.", location: "Sacramento, CA", time: "22 minutes ago" },
+  { name: "Chris B.", location: "Columbus, OH", time: "34 minutes ago" },
+  { name: "Amanda P.", location: "Phoenix, AZ", time: "5 minutes ago" },
+  { name: "Kevin R.", location: "Charlotte, NC", time: "41 minutes ago" },
+  { name: "Melissa T.", location: "Denver, CO", time: "12 minutes ago" },
+  { name: "Brian S.", location: "Orlando, FL", time: "27 minutes ago" },
+  { name: "Nicole F.", location: "Dallas, TX", time: "19 minutes ago" },
+  { name: "Tyler A.", location: "Atlanta, GA", time: "9 minutes ago" },
 ];
 
 const SHOW_DURATION = 7000;
@@ -64,7 +64,7 @@ export function SocialProofToast() {
           <div className="relative bg-[#1c2420] border border-white/10 rounded-xl sm:rounded-2xl shadow-2xl shadow-black/40 px-2.5 py-2 sm:px-4 sm:py-3.5">
             <button
               onClick={() => setCurrent(null)}
-              aria-label="Cerrar"
+              aria-label="Close"
               className="absolute top-1.5 right-1.5 sm:top-2.5 sm:right-2.5 text-white/40 hover:text-white/80 transition-colors"
             >
               <X className="w-2.5 h-2.5 sm:w-3.5 sm:h-3.5" />
@@ -76,19 +76,19 @@ export function SocialProofToast() {
                 <span className="relative inline-flex rounded-full h-1.5 w-1.5 sm:h-2 sm:w-2 bg-emerald-400" />
               </span>
               <span className="text-emerald-400 text-[8px] sm:text-[10px] font-bold tracking-[0.1em] sm:tracking-[0.12em] uppercase">
-                Compra verificada
+                Verified Purchase
               </span>
             </div>
 
             <p className="text-white text-[11px] sm:text-sm font-bold leading-tight mb-0.5 sm:mb-1 pr-3 sm:pr-4">
               {current.name}{" "}
               <span className="font-normal text-white/60">
-                de {current.location}
+                from {current.location}
               </span>
             </p>
 
             <p className="text-white/80 text-[10px] sm:text-[13px] leading-snug mb-1 sm:mb-1.5">
-              compró{" "}
+              bought{" "}
               <span className="font-semibold text-emerald-400">
                 {PRODUCT_NAME}
               </span>{" "}

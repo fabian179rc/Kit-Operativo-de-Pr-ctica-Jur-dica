@@ -1,44 +1,50 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-const situations = [
+const pains = [
 {
-  emoji: '😰',
-  title: 'Cobrás barato para no perder el cliente',
-  desc: 'Ajustás tu precio cada vez que sentís resistencia. Terminás trabajando el doble por la mitad de lo que vale tu servicio.'
-},
-{
-  emoji: '😩',
-  title: 'Hacés de todo por el mismo precio',
-  desc: 'Visitas, documentación, capacitaciones, trámites, emergencias a las once de la noche. Sin límites. Sin alcance. Sin rentabilidad.'
+  emoji: '📂',
+  title: 'No Organized Play System',
+  desc: 'Plays scattered across notes, YouTube videos, and random downloads. Every practice starts from scratch.'
 },
 {
   emoji: '⏱️',
-  title: 'Tu negocio se detiene cuando vos parás',
-  desc: 'No tenés procesos. No tenés sistemas. Si no estás corriendo, no entra un peso. Eso no es una consultora, es un autoempleo agotador.'
+  title: 'Practice Prep Takes Too Long',
+  desc: "You spend more time planning than coaching. By Saturday morning, you're already stressed."
 },
 {
-  emoji: '📂',
-  title: 'Tus propuestas mueren en el visto',
-  desc: 'Mandás un presupuesto en Word o por WhatsApp y nunca más te responden. No sabés cómo presentar tu valor para que el cliente diga que sí.'
+  emoji: '📌',
+  title: 'Players Forget Everything',
+  desc: "You explain the play three times and they still don't line up right."
 },
 {
-  emoji: '📉',
-  title: 'Tus clientes no te ven como una inversión',
-  desc: 'Te ven como un costo que pueden recortar. No como un socio estratégico que los protege legalmente y les ahorra dinero.'
+  emoji: '🎯',
+  title: 'Parents Watching, Judging',
+  desc: 'Other parents see every mistake. You want to look prepared, not lost.'
 }];
 
 export function ProblemSection() {
   return (
     <section className="py-10 md:py-14 bg-transparent">
       <div className="container mx-auto px-4 max-w-4xl">
-        <div className="text-center mb-8">
+        <div className="text-center mb-6">
           <h2 className="font-heading text-3xl md:text-5xl font-bold mb-4 text-[#F3EFE3] uppercase">
-            ¿Te reconocés en esto?
+            Does Coaching Feel Harder Than It Should?
           </h2>
+          <p className="text-sm md:text-base text-[#A9B39E] leading-relaxed max-w-2xl mx-auto">
+            You know the game. You know your players. But every Saturday
+            morning turns into a scramble to find plays, organize
+            rotations, and figure out what to say when things go sideways.
+          </p>
+        </div>
+
+        <div className="bg-[#1E2E22] border border-[#D4A017]/20 text-[#F3EFE3] rounded-3xl p-5 md:p-6 shadow-sm text-center mb-8 max-w-2xl mx-auto">
+          <p className="md:text-lg font-medium text-[#D9D4C5] text-[15px]">
+            ⚡ That's not a knowledge problem. That's a system problem.
+          </p>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-6">
-          {situations.map((item, i) =>
+          {pains.map((item, i) =>
           <motion.div
             key={i}
             initial={{
