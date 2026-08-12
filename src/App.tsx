@@ -2,14 +2,14 @@ import React, { useEffect, createElement } from "react";
 import { MotionConfig } from "framer-motion";
 import { Landing } from "./pages/Landing";
 import { useScreenInit } from "./useScreenInit";
-const META_PIXEL_ID = "2551627725336297";
+const META_PIXEL_ID = "2208269763239840";
 const PAGE_TITLE =
-  "The Gridiron Guardian — Youth Flag Football Playbook & Coaching System";
+  "Mega Pack Legal Daños y Perjuicios — Edición 2026";
 const PAGE_DESC =
-  "Plays, drills, practice plans, communication scripts, and field tools — all in one printable PDF system for dad-coaches and youth instructors.";
+  "Guías paso a paso, modelos de escritos, checklists procesales, fórmulas de cuantificación y herramientas de gestión del caso. Todo en PDF descargable, listo para usar desde el primer día.";
 const HERO_IMAGE = `${import.meta.env.BASE_URL}mockup9.png`;
 
-const SITE_URL = "https://theguardian.tupuntodigital.shop";
+const SITE_URL = "https://danosyperjuicios.tupuntodigital.shop";
 function setMeta(attr: "name" | "property", key: string, content: string) {
   let el = document.head.querySelector<HTMLMetaElement>(
     `meta[${attr}="${key}"]`,
@@ -38,7 +38,7 @@ export function App() {
   useScreenInit();
   useEffect(() => {
     if (typeof document === "undefined") return;
-    document.documentElement.lang = "en-US";
+    document.documentElement.lang = "es";
     document.title = PAGE_TITLE;
     addLink("preconnect", "/cdn.magicpatterns.com", {
       crossorigin: "",
@@ -58,15 +58,15 @@ export function App() {
       "viewport",
       "width=device-width, initial-scale=1, viewport-fit=cover",
     );
-    setMeta("name", "theme-color", "#16211A");
+    setMeta("name", "theme-color", "#0E1E2E");
     setMeta("name", "robots", "index, follow");
     setMeta("property", "og:type", "website");
     setMeta("property", "og:title", PAGE_TITLE);
     setMeta("property", "og:description", PAGE_DESC);
-    setMeta("property", "og:locale", "en_US");
+    setMeta("property", "og:locale", "es_LA");
     setMeta("property", "og:image", HERO_IMAGE);
     setMeta("property", "og:url", SITE_URL);
-    setMeta("property", "og:site_name", "The Gridiron Guardian");
+    setMeta("property", "og:site_name", "Mega Pack Legal Daños y Perjuicios");
     setMeta("name", "twitter:card", "summary_large_image");
     setMeta("name", "twitter:image", HERO_IMAGE);
     setMeta("name", "twitter:title", PAGE_TITLE);
@@ -79,19 +79,19 @@ export function App() {
       ld.textContent = JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Product",
-        name: "The Gridiron Guardian",
+        name: "Mega Pack Legal Daños y Perjuicios — Edición 2026",
         description: PAGE_DESC,
         image: HERO_IMAGE,
         brand: {
           "@type": "Brand",
-          name: "The Gridiron Guardian",
+          name: "Mega Pack Legal Daños y Perjuicios",
         },
         offers: {
           "@type": "Offer",
-          price: "27",
-          priceCurrency: "USD",
+          price: "21990",
+          priceCurrency: "ARS",
           availability: "https://schema.org/InStock",
-          url: "https://the-gridiron-guardian.impultienda.ar/checkout",
+          url: "https://mega-pack-legal-danos-y-perjuicios.impultienda.ar/checkout",
         },
       });
       document.head.appendChild(ld);
@@ -106,28 +106,24 @@ export function App() {
         "@type": "FAQPage",
         mainEntity: [
           {
-            q: "Is this a physical or digital product?",
-            a: "100% digital. You receive instant access after purchase to download and use on any device.",
+            q: "¿Es un producto físico o digital?",
+            a: "Es un producto 100% digital. Recibís el acceso al material después de la compra para descargarlo y usarlo desde tu computadora, tablet o celular en formato PDF.",
           },
           {
-            q: "Is this for beginners or experienced coaches?",
-            a: "Both. The system is designed to help volunteer dad-coaches and professional youth instructors.",
+            q: "¿Sirve para cualquier provincia de Argentina?",
+            a: "Sí. Los modelos y guías están pensados para adaptarse a CABA, Provincia de Buenos Aires y jurisdicciones del interior. Cada modelo incluye indicaciones sobre qué elementos adaptar según la jurisdicción donde ejercés.",
           },
           {
-            q: "What age group is this designed for?",
-            a: "Players ages 6 to 12. Includes specific adjustments for younger (6-8) and older (9-12) groups.",
+            q: "¿Necesito experiencia previa en casos de tránsito para usarlo?",
+            a: "No. El material está diseñado especialmente para abogados jóvenes, generalistas y estudiantes avanzados que quieren tomar estos casos con seguridad y método, sin necesitar experiencia previa específica.",
           },
           {
-            q: "Do I need special software to use it?",
-            a: "No. All files are PDF format. You can open, print, and use them with any device.",
+            q: "¿Cuándo recibo el acceso?",
+            a: "De forma inmediata. Una vez confirmado el pago recibís el acceso por correo electrónico para descargar todos los archivos PDF desde cualquier dispositivo.",
           },
           {
-            q: "Can I print the materials?",
-            a: "Yes. Everything is designed to be printed and used on the field.",
-          },
-          {
-            q: "Is this specific to one league or location?",
-            a: "No. The system is adaptable to any youth flag football league in the United States.",
+            q: "¿Reemplaza el asesoramiento de un abogado senior o de un estudio jurídico?",
+            a: "No. Este material es una herramienta de organización y orientación práctica para profesionales del Derecho. No constituye asesoramiento legal particular ni reemplaza el criterio profesional habilitado para cada caso concreto.",
           },
         ].map((item) => ({
           "@type": "Question",
@@ -144,7 +140,6 @@ export function App() {
   useEffect(() => {
     if (typeof window === "undefined" || typeof document === "undefined")
       return;
-    // Solo se carga el Meta Pixel real (3505657626270665).
     if (!META_PIXEL_ID) return;
     const loadPixel = () => {
       const w = window as any;

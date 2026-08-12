@@ -8,7 +8,7 @@ export function HeroSection() {
         aria-hidden="true"
         className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none"
       >
-        <div className="absolute -top-[10%] left-1/2 -translate-x-1/2 w-[80%] h-[60%] rounded-full bg-[#d4a017]/5 blur-3xl" />
+        <div className="absolute -top-[10%] left-1/2 -translate-x-1/2 w-[80%] h-[60%] rounded-full bg-[#e0932e]/5 blur-3xl" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10 max-w-3xl md:max-w-6xl lg:max-w-7xl text-center">
@@ -24,9 +24,9 @@ export function HeroSection() {
           transition={{
             duration: 0.5,
           }}
-          className="inline-flex items-center gap-2 px-6 py-2.5 mb-3 rounded-full border border-white/15 bg-[#24352A] text-[#F3EFE3] font-semibold tracking-[0.18em] uppercase text-[8px]"
+          className="inline-flex items-center gap-2 px-6 py-2.5 mb-3 rounded-full border border-white/15 bg-[#1D3550] text-[#EDF2F6] font-semibold tracking-[0.18em] uppercase text-[8px]"
         >
-          🏈 THE GRIDIRON GUARDIAN
+          ✨ MEGA PACK LEGAL DAÑOS Y PERJUICIOS
         </motion.div>
 
         <motion.h1
@@ -42,10 +42,10 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.1,
           }}
-          className="font-heading font-extrabold text-[#F3EFE3] mb-2 md:mb-3 text-[32px] leading-snug sm:text-3xl md:text-5xl md:leading-tight lg:text-6xl"
+          className="font-heading font-extrabold text-[#EDF2F6] mb-2 md:mb-3 text-[32px] leading-snug sm:text-3xl md:text-5xl md:leading-tight lg:text-6xl"
         >
-          Your Youth Flag Football System,{" "}
-          <span className="text-[#C97A4A]">Ready to Use From Today.</span>
+          Tu práctica en accidentes de tránsito,{" "}
+          <span className="text-[#E0932E]">lista. Desde hoy.</span>
         </motion.h1>
 
         <motion.div
@@ -63,17 +63,14 @@ export function HeroSection() {
           }}
           className="mx-auto mb-3 w-full max-w-[380px] sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-lg"
         >
-          <video
-            src={`${import.meta.env.BASE_URL}mockup1.mp4`}
-            poster={`${import.meta.env.BASE_URL}mockup1-poster.webp`}
-            width={960}
-            height={960}
-            autoPlay
-            muted
-            playsInline
-            preload="auto"
-            aria-label="The Gridiron Guardian — Youth Flag Football Coaching System"
-            className="w-full h-auto aspect-square object-contain rounded-2xl mix-blend-screen"
+          <img
+            src={`${import.meta.env.BASE_URL}mockup9.png`}
+            width={1254}
+            height={1254}
+            loading="eager"
+            decoding="async"
+            alt="Mega Pack Legal Daños y Perjuicios — Edición 2026"
+            className="w-full h-auto aspect-square object-contain rounded-2xl"
           />
         </motion.div>
 
@@ -90,11 +87,11 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.3,
           }}
-          className="md:text-xl text-[#A9B39E] mb-3 max-w-2xl mx-auto text-[12px] leading-relaxed"
+          className="md:text-xl text-[#93A7B8] mb-3 max-w-2xl mx-auto text-[12px] leading-relaxed"
         >
-          Plays, drills, practice plans, communication scripts, and field
-          tools — all in one printable PDF system for dad-coaches and youth
-          instructors.
+          Guías paso a paso, modelos de escritos, checklists procesales,
+          fórmulas de cuantificación y herramientas de gestión del caso,
+          listos para descargar y usar desde el primer día.
         </motion.p>
 
         <motion.div
@@ -121,15 +118,15 @@ export function HeroSection() {
             whileTap={{
               scale: 0.98,
             }}
-            className="flex items-center justify-center gap-2 sm:gap-3 w-full sm:w-auto bg-[#C97A4A] hover:bg-[#B8683A] text-[#16211A] font-bold px-5 py-3 sm:px-6 sm:py-3.5 md:px-8 md:py-3 rounded-full shadow-lg shadow-[#C97A4A]/30 transition-colors mb-4 md:mb-3 text-[11.5px] sm:text-base md:text-lg whitespace-nowrap md:whitespace-normal"
+            className="flex items-center justify-center gap-2 sm:gap-3 w-full sm:w-auto bg-[#E0932E] hover:bg-[#C97D22] text-[#0E1E2E] font-bold px-5 py-3 sm:px-6 sm:py-3.5 md:px-8 md:py-3 rounded-full shadow-lg shadow-[#E0932E]/30 transition-colors mb-4 md:mb-3 text-[11.5px] sm:text-base md:text-lg whitespace-nowrap md:whitespace-normal"
           >
-            🚀 Yes, I Want the Full System Now
+            🚀 Quiero Mi Sistema Legal
           </motion.a>
 
-          <div className="flex flex-wrap justify-center gap-4 text-sm font-medium text-[#A9B39E]">
+          <div className="flex flex-wrap justify-center gap-4 text-sm font-medium text-[#93A7B8]">
             <span>
-              <span aria-hidden="true">⭐⭐⭐⭐⭐</span> 4.9/5 — Rated by Youth
-              Coaches
+              <span aria-hidden="true">⭐⭐⭐⭐⭐</span> 4.9/5 — Valoración de
+              usuarios
             </span>
             <span
               aria-hidden="true"
@@ -138,7 +135,8 @@ export function HeroSection() {
               |
             </span>
             <span>
-              <span aria-hidden="true">🛡️</span> 7-Day Guarantee — Zero Risk
+              <span aria-hidden="true">🛡️</span> Garantía de 7 Días — Riesgo
+              Cero
             </span>
             <span
               aria-hidden="true"
@@ -147,8 +145,8 @@ export function HeroSection() {
               |
             </span>
             <span>
-              <span aria-hidden="true">💻</span> 100% Digital — Instant
-              Access
+              <span aria-hidden="true">💻</span> Producto 100% Digital —
+              Acceso Inmediato
             </span>
           </div>
         </motion.div>

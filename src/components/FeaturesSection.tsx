@@ -3,20 +3,24 @@ import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 const features = [
   {
-    lead: "Save time on prep",
-    desc: "Stop building practices from scratch. Use ready-made templates and plug-and-play play sheets.",
+    lead: "Ahorrar tiempo en escritos",
+    desc: "Dejá de empezar cada demanda desde cero. Usá modelos y guías listos para adaptar al expediente.",
   },
   {
-    lead: "Coach with more structure",
-    desc: "Organize plays, rotations, drills, and player notes with a professional system.",
+    lead: "Trabajar con más orden procesal",
+    desc: "Organizá cada etapa del caso con checklists, mapas de proceso y guías claras de actuación.",
   },
   {
-    lead: "Look more professional",
-    desc: "Deliver cleaner, more organized practices and game days, increasing your credibility as a coach.",
+    lead: "Cuantificar con precisión",
+    desc: "Aplicá fórmulas de incapacidad (Méndez, Acciarri, Vuoto) adaptadas a la realidad económica de 2026 sin errores de cálculo.",
   },
   {
-    lead: "Communicate without guessing",
-    desc: "Use ready scripts and parent messages to lead with confidence every time.",
+    lead: "Presentarte mejor ante tu cliente",
+    desc: "Entregá documentación sólida y profesional que aumente la percepción de valor de tu trabajo.",
+  },
+  {
+    lead: "Cerrar cada caso con control",
+    desc: "Sabé exactamente en qué etapa estás, qué falta y cuándo vence cada plazo.",
   },
 ];
 
@@ -25,8 +29,8 @@ export function FeaturesSection() {
     <section className="py-10 md:py-14 bg-transparent">
       <div className="container mx-auto px-4 max-w-2xl">
         <div className="text-center mb-8">
-          <h2 className="font-heading text-3xl md:text-4xl font-bold text-[#F3EFE3]">
-            WHAT YOU'LL GET WITH THIS SYSTEM
+          <h2 className="font-heading text-3xl md:text-4xl font-bold text-[#EDF2F6]">
+            CON ESTE SISTEMA VAS A PODER
           </h2>
         </div>
 
@@ -50,9 +54,9 @@ export function FeaturesSection() {
               }}
               className="flex items-start gap-3"
             >
-              <CheckCircle2 className="w-5 h-5 flex-shrink-0 mt-1 text-[#D4A017]" />
-              <p className="text-[#A9B39E] leading-relaxed">
-                <span className="font-bold text-[#F3EFE3]">
+              <CheckCircle2 className="w-5 h-5 flex-shrink-0 mt-1 text-[#E0932E]" />
+              <p className="text-[#93A7B8] leading-relaxed">
+                <span className="font-bold text-[#EDF2F6]">
                   {feature.lead}
                 </span>{" "}
                 — {feature.desc}

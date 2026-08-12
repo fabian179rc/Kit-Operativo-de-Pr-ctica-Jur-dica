@@ -2,19 +2,19 @@ import React, { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
 
-const PRODUCT_NAME = "The Gridiron Guardian";
+const PRODUCT_NAME = "Mega Pack Legal Daños y Perjuicios";
 
 const proofs = [
-  { name: "Jason M.", location: "Austin, TX", time: "15 minutes ago" },
-  { name: "Sarah K.", location: "Tampa, FL", time: "8 minutes ago" },
-  { name: "Mike D.", location: "Sacramento, CA", time: "22 minutes ago" },
-  { name: "Chris B.", location: "Columbus, OH", time: "34 minutes ago" },
-  { name: "Amanda P.", location: "Phoenix, AZ", time: "5 minutes ago" },
-  { name: "Kevin R.", location: "Charlotte, NC", time: "41 minutes ago" },
-  { name: "Melissa T.", location: "Denver, CO", time: "12 minutes ago" },
-  { name: "Brian S.", location: "Orlando, FL", time: "27 minutes ago" },
-  { name: "Nicole F.", location: "Dallas, TX", time: "19 minutes ago" },
-  { name: "Tyler A.", location: "Atlanta, GA", time: "9 minutes ago" },
+  { name: "María L.", location: "Buenos Aires", time: "hace 15 minutos" },
+  { name: "Federico G.", location: "Córdoba", time: "hace 8 minutos" },
+  { name: "Valentina R.", location: "Rosario", time: "hace 22 minutos" },
+  { name: "Cristian B.", location: "Mendoza", time: "hace 34 minutos" },
+  { name: "Agustina P.", location: "La Plata", time: "hace 5 minutos" },
+  { name: "Kevin R.", location: "Salta", time: "hace 41 minutos" },
+  { name: "Melisa T.", location: "Mar del Plata", time: "hace 12 minutos" },
+  { name: "Bruno S.", location: "San Miguel de Tucumán", time: "hace 27 minutos" },
+  { name: "Nicole F.", location: "Neuquén", time: "hace 19 minutos" },
+  { name: "Tomás A.", location: "Bahía Blanca", time: "hace 9 minutos" },
 ];
 
 const SHOW_DURATION = 7000;
@@ -61,10 +61,10 @@ export function SocialProofToast() {
           transition={{ duration: 0.35 }}
           className="fixed bottom-6 left-4 sm:left-6 z-40 w-[200px] sm:w-[290px]"
         >
-          <div className="relative bg-[#1c2420] border border-white/10 rounded-xl sm:rounded-2xl shadow-2xl shadow-black/40 px-2.5 py-2 sm:px-4 sm:py-3.5">
+          <div className="relative bg-[#142635] border border-white/10 rounded-xl sm:rounded-2xl shadow-2xl shadow-black/40 px-2.5 py-2 sm:px-4 sm:py-3.5">
             <button
               onClick={() => setCurrent(null)}
-              aria-label="Close"
+              aria-label="Cerrar"
               className="absolute top-1.5 right-1.5 sm:top-2.5 sm:right-2.5 text-white/40 hover:text-white/80 transition-colors"
             >
               <X className="w-2.5 h-2.5 sm:w-3.5 sm:h-3.5" />
@@ -76,7 +76,7 @@ export function SocialProofToast() {
                 <span className="relative inline-flex rounded-full h-1.5 w-1.5 sm:h-2 sm:w-2 bg-emerald-400" />
               </span>
               <span className="text-emerald-400 text-[8px] sm:text-[10px] font-bold tracking-[0.1em] sm:tracking-[0.12em] uppercase">
-                Verified Purchase
+                Compra Verificada
               </span>
             </div>
 
@@ -88,7 +88,7 @@ export function SocialProofToast() {
             </p>
 
             <p className="text-white/80 text-[10px] sm:text-[13px] leading-snug mb-1 sm:mb-1.5">
-              bought{" "}
+              compró{" "}
               <span className="font-semibold text-emerald-400">
                 {PRODUCT_NAME}
               </span>{" "}
