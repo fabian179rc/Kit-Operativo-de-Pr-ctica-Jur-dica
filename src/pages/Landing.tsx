@@ -1,7 +1,6 @@
 import React from 'react';
 import { HeroSection } from '../components/HeroSection';
 import { ProblemSection } from '../components/ProblemSection';
-import { SolutionSection } from '../components/SolutionSection';
 import { FeaturesSection } from '../components/FeaturesSection';
 import { ContentSection } from '../components/ContentSection';
 import { BonusesSection } from '../components/BonusesSection';
@@ -17,9 +16,6 @@ export function Landing() {
   return <main className="min-h-screen bg-transparent">
       <HeroSection />
       <ProblemSection />
-      <div className="cv-section">
-        <SolutionSection />
-      </div>
       <div className="cv-section">
         <FeaturesSection />
       </div>

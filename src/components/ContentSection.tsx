@@ -35,29 +35,6 @@ const modulos = [
   },
 ];
 
-const changes = [
-  {
-    emoji: "🧭",
-    title: "Más Claridad en Cada Caso",
-    desc: "Sabés qué revisar y cómo avanzar en cada etapa, sin improvisar.",
-  },
-  {
-    emoji: "⏱️",
-    title: "Menos Tiempo Redactando Desde Cero",
-    desc: "Modelos listos para adaptar, sin perder horas en cada expediente.",
-  },
-  {
-    emoji: "📊",
-    title: "Más Control Sobre Tus Casos Activos",
-    desc: "Sabés en qué etapa está cada caso y qué requiere atención urgente.",
-  },
-  {
-    emoji: "💰",
-    title: "Más Seguridad Para Cobrar Tus Honorarios",
-    desc: "Cada caso arranca con el Pacto de Cuota Litis firmado y listo para cobrar.",
-  },
-];
-
 export function ContentSection() {
   return (
     <section className="py-10 md:py-14 bg-transparent">
@@ -98,36 +75,6 @@ export function ContentSection() {
               </div>
             </motion.div>
           ))}
-        </div>
-
-        <div className="mb-8">
-          <h3 className="font-heading font-bold text-[#EDF2F6] text-xl md:text-2xl mb-4 text-center">
-            🔄 Lo Que Puede Cambiar Desde la Primera Semana
-          </h3>
-          <div className="grid sm:grid-cols-2 gap-2">
-            {changes.map((t, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, scale: 0.95 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.03 }}
-                className="flex items-start gap-2.5 bg-[#16293B] border border-white/10 rounded-xl px-3 py-2.5 shadow-sm"
-              >
-                <span className="text-xl flex-shrink-0" aria-hidden="true">
-                  {t.emoji}
-                </span>
-                <div>
-                  <span className="font-semibold text-[#EDF2F6] text-sm md:text-[15px] leading-tight block mb-0.5">
-                    {t.title}
-                  </span>
-                  <span className="text-[#93A7B8] text-xs md:text-sm leading-snug">
-                    {t.desc}
-                  </span>
-                </div>
-              </motion.div>
-            ))}
-          </div>
         </div>
       </div>
     </section>
