@@ -44,7 +44,7 @@ export function BonusesSection() {
           </h2>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-5">
+        <div className="flex flex-wrap justify-center gap-2.5 sm:gap-5">
           {bonuses.map((b, i) => (
             <motion.div
               key={i}
@@ -62,9 +62,9 @@ export function BonusesSection() {
               transition={{
                 delay: i * 0.08,
               }}
-              className="bg-[#16293B] border border-white/10 rounded-2xl p-3 shadow-sm"
+              className="bg-[#16293B] border border-white/10 rounded-2xl p-2 sm:p-3 shadow-sm w-[calc(50%-0.3125rem)] sm:w-[calc(50%-0.625rem)]"
             >
-              <div className="relative rounded-xl overflow-hidden mb-3 h-56 bg-[#091420] flex items-center justify-center">
+              <div className="relative rounded-xl overflow-hidden mb-2 sm:mb-3 h-40 sm:h-64 bg-[#091420] flex items-center justify-center">
                 <img
                   src={`${import.meta.env.BASE_URL}${b.image}`}
                   alt={`Bono ${b.num}: ${b.title}`}
@@ -74,15 +74,15 @@ export function BonusesSection() {
                   decoding="async"
                   className="w-full h-full object-contain"
                 />
-                <span className="absolute top-2.5 left-2.5 bg-rose-500 text-white font-bold text-[11px] tracking-wide uppercase px-2.5 py-1 rounded-md shadow-sm">
+                <span className="absolute top-1.5 left-1.5 sm:top-2.5 sm:left-2.5 bg-rose-500 text-white font-bold text-[8px] sm:text-[11px] tracking-wide uppercase px-1.5 py-0.5 sm:px-2.5 sm:py-1 rounded sm:rounded-md shadow-sm">
                   Bono {b.num}
                 </span>
-                <span className="absolute top-2.5 right-2.5 inline-flex items-center gap-1 bg-emerald-600 text-white font-bold text-[11px] tracking-wide uppercase px-2.5 py-1 rounded-md shadow-sm">
+                <span className="absolute top-1.5 right-1.5 sm:top-2.5 sm:right-2.5 inline-flex items-center gap-0.5 bg-emerald-600 text-white font-bold text-[8px] sm:text-[11px] tracking-wide uppercase px-1.5 py-0.5 sm:px-2.5 sm:py-1 rounded sm:rounded-md shadow-sm">
                   🎁 Gratis
                 </span>
               </div>
-              <div className="px-2 pb-2">
-                <p className="text-[#93A7B8] text-sm leading-snug">{b.desc}</p>
+              <div className="px-1 pb-1 sm:px-2 sm:pb-2">
+                <p className="text-[#93A7B8] text-[11px] sm:text-sm leading-snug">{b.desc}</p>
               </div>
             </motion.div>
           ))}
