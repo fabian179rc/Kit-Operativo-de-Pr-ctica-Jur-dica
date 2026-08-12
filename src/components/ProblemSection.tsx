@@ -37,13 +37,13 @@ export function ProblemSection() {
           </p>
         </div>
 
-        <div className="bg-[#1E2E22] border border-[#D4A017]/20 text-[#F3EFE3] rounded-3xl p-5 md:p-6 shadow-sm text-center mb-8 max-w-2xl mx-auto">
+        <div className="bg-[#1E2E22] border border-[#D4A017]/20 text-[#F3EFE3] rounded-2xl p-3 md:p-4 shadow-sm text-center mb-5 max-w-2xl mx-auto">
           <p className="md:text-lg font-medium text-[#D9D4C5] text-[15px]">
             ⚡ That's not a knowledge problem. That's a system problem.
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-6">
+        <div className="grid sm:grid-cols-2 gap-3">
           {pains.map((item, i) =>
           <motion.div
             key={i}
@@ -61,9 +61,9 @@ export function ProblemSection() {
             transition={{
               delay: i * 0.1
             }}
-            className="bg-[#1E2E22] p-4 md:p-6 rounded-2xl shadow-sm border border-white/10">
+            className="bg-[#1E2E22] p-3 md:p-4 rounded-2xl shadow-sm border border-white/10">
 
-              <div className="flex items-center gap-2 mb-1.5 md:mb-2">
+              <div className="flex items-center gap-2 mb-1 md:mb-1.5">
                 <span className="text-xl md:text-3xl flex-shrink-0">
                   {item.emoji}
                 </span>

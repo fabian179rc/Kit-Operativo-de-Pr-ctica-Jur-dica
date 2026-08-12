@@ -116,7 +116,7 @@ export function PricingSection() {
             One-time payment. Instant access forever.
           </p>
           <p className="text-[#C97A4A] font-semibold text-base leading-snug mb-6">
-            ⏳ The price goes up when the launch ends.
+            ⏳ Limited-Time Launch Offer
           </p>
 
           <div className="flex justify-center gap-3 mb-7">

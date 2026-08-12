@@ -39,7 +39,7 @@ export function ContentSection() {
           </h2>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-3 mb-8">
+        <div className="grid sm:grid-cols-2 gap-2 mb-8">
           {modulos.map((m, i) => (
             <motion.div
               key={i}
@@ -47,7 +47,7 @@ export function ContentSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.04 }}
-              className="flex items-start gap-3 bg-[#1E2E22] border border-white/10 rounded-xl px-4 py-3 shadow-sm"
+              className="flex items-start gap-2.5 bg-[#1E2E22] border border-white/10 rounded-xl px-3 py-2.5 shadow-sm"
             >
               <span className="text-xl flex-shrink-0" aria-hidden="true">
                 {m.emoji}
@@ -68,7 +68,7 @@ export function ContentSection() {
           <h3 className="font-heading font-bold text-[#F3EFE3] text-xl md:text-2xl mb-4 text-center">
             🎯 What Changes From Week One
           </h3>
-          <div className="grid sm:grid-cols-2 gap-3">
+          <div className="grid sm:grid-cols-2 gap-2">
             {changes.map((t, i) => (
               <motion.div
                 key={i}
@@ -76,7 +76,7 @@ export function ContentSection() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.03 }}
-                className="flex items-start gap-3 bg-[#1E2E22] border border-white/10 rounded-xl px-4 py-3 shadow-sm"
+                className="flex items-start gap-2.5 bg-[#1E2E22] border border-white/10 rounded-xl px-3 py-2.5 shadow-sm"
               >
                 <span className="text-xl flex-shrink-0" aria-hidden="true">
                   {t.emoji}

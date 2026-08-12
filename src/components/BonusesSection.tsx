@@ -82,9 +82,6 @@ export function BonusesSection() {
                 </span>
               </div>
               <div className="px-2 pb-2">
-                <h3 className="font-bold text-[#F3EFE3] text-sm md:text-base mb-1">
-                  {b.title}
-                </h3>
                 <p className="text-[#A9B39E] text-sm leading-snug">{b.desc}</p>
               </div>
             </motion.div>
