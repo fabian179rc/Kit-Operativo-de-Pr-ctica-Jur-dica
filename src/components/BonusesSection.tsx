@@ -22,7 +22,7 @@ const bonuses = [
   {
     num: 4,
     title: "The Kid-Friendly Drill Card Vault",
-    desc: "Keep kids moving and engaged with 20 printable drill cards for every skill level.",
+    desc: "Give your players more reps, more movement, and more focus with a printable drill vault packed with simple youth-friendly exercises for every practice.",
     image: "b4.webp",
   },
   {
