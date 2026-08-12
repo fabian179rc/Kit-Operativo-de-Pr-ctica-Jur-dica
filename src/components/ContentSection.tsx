@@ -1,27 +1,67 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { PackageOpen } from 'lucide-react';
+import React from "react";
+import { motion } from "framer-motion";
+import { PackageOpen } from "lucide-react";
 
 const modulos = [
-  { emoji: '🏈', title: 'Core Playbook (50+ Plays)', desc: 'Arrive at every game with a visual play system kids actually understand.' },
-  { emoji: '🎨', title: 'Color-Code Route System', desc: 'Stop explaining the same play 5 times — kids follow colors instantly.' },
-  { emoji: '📋', title: 'Practice Templates', desc: 'Build a full 30, 45, or 60-minute practice in under 10 minutes.' },
-  { emoji: '🖨️', title: 'Wristband Inserts', desc: 'Print mini play cards that fit inside any standard wristband.' },
-  { emoji: '🔄', title: 'Equal Play Rotation Matrix', desc: 'Eliminate parent complaints about playing time before they start.' },
-  { emoji: '📣', title: 'Coach Communication Scripts', desc: 'Know exactly what to say before, during, and after every practice.' },
+  {
+    emoji: "🏈",
+    title: "Core Playbook (50 Plays)",
+    desc: "Arrive at every game with a visual play system kids actually understand.",
+  },
+  {
+    emoji: "🎨",
+    title: "Color-Code Route System",
+    desc: "Stop explaining the same play 5 times — kids follow colors instantly.",
+  },
+  {
+    emoji: "📋",
+    title: "Practice Templates",
+    desc: "Build a full 30, 45, or 60-minute practice in under 10 minutes.",
+  },
+  {
+    emoji: "🖨️",
+    title: "Wristband Inserts",
+    desc: "Print mini play cards that fit inside any standard wristband.",
+  },
+  {
+    emoji: "🔄",
+    title: "Equal Play Rotation Matrix",
+    desc: "Eliminate parent complaints about playing time before they start.",
+  },
+  {
+    emoji: "📣",
+    title: "Coach Communication Scripts",
+    desc: "Know exactly what to say before, during, and after every practice.",
+  },
 ];
 
 const changes = [
-  { emoji: '🧭', title: 'More Structure Every Practice', desc: "You'll know exactly what to run, in what order, and for how long." },
-  { emoji: '⏱️', title: 'Less Time Preparing', desc: 'Ready-made templates replace hours of planning with minutes of setup.' },
-  { emoji: '📊', title: 'More Control on Game Day', desc: 'Know your plays, your rotation, and your adjustments before kickoff.' },
-  { emoji: '📅', title: 'Cleaner Communication', desc: 'Parents receive professional messages. Players receive clear instructions.' },
+  {
+    emoji: "🧭",
+    title: "More Structure Every Practice",
+    desc: "You'll know exactly what to run, in what order, and for how long.",
+  },
+  {
+    emoji: "⏱️",
+    title: "Less Time Preparing",
+    desc: "Ready-made templates replace hours of planning with minutes of setup.",
+  },
+  {
+    emoji: "📊",
+    title: "More Control on Game Day",
+    desc: "Know your plays, your rotation, and your adjustments before kickoff.",
+  },
+  {
+    emoji: "📅",
+    title: "Cleaner Communication",
+    desc: "Parents receive professional messages. Players receive clear instructions.",
+  },
 ];
 
 const tags = [
-  { emoji: '🧒', label: 'Ages 6-12' },
-  { emoji: '🖨️', label: '100% Printable PDFs' },
-  { emoji: '🇺🇸', label: 'Any US Youth League' },
+  { emoji: "🧒", label: "Ages 6-12" },
+  { emoji: "🖨️", label: "100% Printable PDFs" },
+  { emoji: "🇺🇸", label: "Any US Youth League" },
 ];
 
 export function ContentSection() {
@@ -34,8 +74,7 @@ export function ContentSection() {
             What's Inside
           </span>
           <h2 className="font-heading font-bold text-[#F3EFE3] text-3xl md:text-5xl leading-tight mb-4">
-            🏈 6{' '}
-            <span className="italic text-[#A8BB98]">Core Modules</span>
+            🏈 6 <span className="italic text-[#A8BB98]">Core Modules</span>
           </h2>
         </div>
 
@@ -115,7 +154,7 @@ export function ContentSection() {
             ))}
           </div>
           <p className="text-[#e6ddc7] text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
-            The system is adaptable to{' '}
+            The system is adaptable to{" "}
             <span className="font-bold text-white">
               any youth flag football league in the United States
             </span>

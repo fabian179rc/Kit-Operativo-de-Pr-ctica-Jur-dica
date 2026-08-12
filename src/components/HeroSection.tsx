@@ -63,15 +63,17 @@ export function HeroSection() {
           }}
           className="mx-auto mb-3 w-full max-w-[380px] sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-lg"
         >
-          <img
-            src={`${import.meta.env.BASE_URL}mockup9.png`}
-            alt="The Gridiron Guardian — Youth Flag Football Coaching System"
-            width={1254}
-            height={1254}
-            loading="eager"
-            fetchPriority="high"
-            decoding="async"
-            className="w-full h-auto aspect-square object-contain rounded-2xl"
+          <video
+            src={`${import.meta.env.BASE_URL}mockup1.mp4`}
+            poster={`${import.meta.env.BASE_URL}mockup1-poster.webp`}
+            width={960}
+            height={960}
+            autoPlay
+            muted
+            playsInline
+            preload="auto"
+            aria-label="The Gridiron Guardian — Youth Flag Football Coaching System"
+            className="w-full h-auto aspect-square object-contain rounded-2xl mix-blend-screen"
           />
         </motion.div>
 
