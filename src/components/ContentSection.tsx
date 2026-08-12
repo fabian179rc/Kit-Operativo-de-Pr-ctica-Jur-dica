@@ -21,7 +21,7 @@ const modulos = [
   {
     emoji: "🖨️",
     title: "Wristband Inserts",
-    desc: "Print mini play cards that fit inside any standard wristband.",
+    desc: "Print ready-to-use play cards designed for standard youth football wristbands.",
   },
   {
     emoji: "🔄",
