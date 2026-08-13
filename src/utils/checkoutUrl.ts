@@ -10,3 +10,15 @@ export function getCheckoutUrl(): string {
   const search = window.location.search;
   return search ? `${CHECKOUT_BASE_URL}${search}` : CHECKOUT_BASE_URL;
 }
+
+/**
+ * Fires the Meta Pixel InitiateCheckout event when a buy button is clicked,
+ * before the browser navigates to the external checkout domain.
+ */
+export function trackInitiateCheckout(): void {
+  if (typeof window === 'undefined') return;
+  const fbq = (window as any).fbq;
+  if (typeof fbq === 'function') {
+    fbq('track', 'InitiateCheckout');
+  }
+}

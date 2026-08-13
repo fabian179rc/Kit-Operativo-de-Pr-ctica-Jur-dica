@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Flame, ArrowRight } from "lucide-react";
-import { getCheckoutUrl } from "../utils/checkoutUrl";
+import { getCheckoutUrl, trackInitiateCheckout } from "../utils/checkoutUrl";
 export function PricingSection() {
   return (
     <section
@@ -75,6 +75,7 @@ export function PricingSection() {
           <motion.a
             id="pricing-cta-button"
             href={getCheckoutUrl()}
+            onClick={trackInitiateCheckout}
             whileHover={{
               scale: 1.02,
             }}

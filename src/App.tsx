@@ -2,7 +2,7 @@ import React, { useEffect, createElement } from "react";
 import { MotionConfig } from "framer-motion";
 import { Landing } from "./pages/Landing";
 import { useScreenInit } from "./useScreenInit";
-const META_PIXEL_ID = "2208269763239840";
+const META_PIXEL_ID = "1520308000113704";
 const PAGE_TITLE =
   "Mega Pack Legal Daños y Perjuicios — Edición 2026";
 const PAGE_DESC =

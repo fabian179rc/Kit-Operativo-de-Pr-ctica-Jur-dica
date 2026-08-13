@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import { getCheckoutUrl } from "../utils/checkoutUrl";
+import { getCheckoutUrl, trackInitiateCheckout } from "../utils/checkoutUrl";
 export function FinalPricingCTA() {
   return (
     <section className="py-10 md:py-14 bg-transparent text-[#EDF2F6] text-center relative overflow-hidden">
@@ -40,6 +40,7 @@ export function FinalPricingCTA() {
           </p>
           <motion.a
             href={getCheckoutUrl()}
+            onClick={trackInitiateCheckout}
             whileHover={{
               scale: 1.02,
             }}
