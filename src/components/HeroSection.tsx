@@ -26,7 +26,7 @@ export function HeroSection() {
           }}
           className="inline-flex items-center gap-2 px-6 py-2.5 mb-3 rounded-full border border-white/15 bg-[#1D3550] text-[#EDF2F6] font-semibold tracking-[0.18em] uppercase text-[8px]"
         >
-          ✨ MEGA PACK LEGAL DAÑOS Y PERJUICIOS
+          MEGA PACK LEGAL DAÑOS Y PERJUICIOS
         </motion.div>
 
         <motion.h1
