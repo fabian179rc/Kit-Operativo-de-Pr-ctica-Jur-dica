@@ -18,13 +18,13 @@ export function FinalPricingCTA() {
           </span>
         </div>
         <h2 className="text-3xl md:text-5xl font-bold font-heading text-[#EDF2F6] mb-5 leading-tight">
-          Más orden, más claridad y mejor gestión profesional en amparos de
-          salud.
+          Más orden, más claridad y mejor gestión profesional en acciones y
+          cautelares.
         </h2>
         <p className="text-lg text-[#93A7B8] mb-8 max-w-2xl mx-auto">
-          Dejá de armar cada caso desde cero: el MEGAPACK AMPAROS DE SALUD te
-          da el sistema para trabajar con método, precisión y confianza en
-          cada expediente.
+          Dejá de armar cada caso desde cero: el SISTEMA PROCESAL te da el
+          sistema para trabajar con método, precisión y confianza en cada
+          expediente.
         </p>
 
         <div className="bg-[#16293B] border border-[#E0932E]/20 rounded-3xl p-6 md:p-7 shadow-lg shadow-black/20 max-w-xl mx-auto mb-6">
@@ -34,7 +34,7 @@ export function FinalPricingCTA() {
           </h3>
           <div className="text-[#93A7B8] line-through mb-2">$99.990 ARS</div>
           <div className="text-4xl font-bold text-[#E0932E] mb-2">
-            $24.990 ARS
+            $19.990 ARS
           </div>
           <p className="text-[#93A7B8] text-sm mb-6">
             Incluye el producto principal más los 5 bonos.
@@ -57,9 +57,9 @@ export function FinalPricingCTA() {
           </motion.a>
         </div>
 
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4 text-sm text-[#93A7B8] font-medium">
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-1.5 sm:gap-4 text-xs sm:text-sm leading-tight text-[#93A7B8] font-medium">
           <span>
-            <span aria-hidden="true">⭐⭐⭐⭐⭐</span> 4.9/5 — Valoración de
+            <span aria-hidden="true">⭐</span> 4.9/5 — Valoración de
             usuarios
           </span>
           <span aria-hidden="true" className="hidden sm:inline text-white/15">

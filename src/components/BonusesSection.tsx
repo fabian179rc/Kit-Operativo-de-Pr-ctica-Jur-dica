@@ -3,32 +3,32 @@ import { motion } from "framer-motion";
 const bonuses = [
   {
     num: 1,
-    title: "Radar de Viabilidad del Amparo de Salud",
-    desc: "Detectá en 15 minutos si el caso tiene base real. Matriz de semáforo, 5 preguntas filtro y hoja de diagnóstico express para completar en la primera consulta.",
+    title: "Radar de Viabilidad de la Acción",
+    desc: "Detectá en 15 minutos si el caso tiene base, con matriz y preguntas filtro.",
     image: "b1.webp",
   },
   {
     num: 2,
-    title: "Checklist Documental 24H para Amparos de Salud",
-    desc: "Lista maestra de documentación requerida por tipo de prestación y prueba documental. Mensajes listos para enviar por WhatsApp y guía de nomenclatura de archivos.",
+    title: "Checklist Documental 24H para Acciones y Cautelares",
+    desc: "Documentación necesaria y mensajes de WhatsApp listos para enviar.",
     image: "b2.webp",
   },
   {
     num: 3,
     title: "Guía Express de Primera Consulta y Honorarios",
-    desc: "Estructura de reunión en 20 minutos, scripts para hablar de plata con autoridad y resumen imprimible para completar en cada consulta.",
+    desc: "Organizá la primera reunión y hablá de honorarios con autoridad.",
     image: "b3.webp",
   },
   {
     num: 4,
     title: "Mapa de Urgencia y Cautelar en 30 Minutos",
-    desc: "Clasificá la urgencia del caso, detectá qué documentos sostienen el peligro en la demora y armá el argumento central de la cautelar con claridad inmediata.",
+    desc: "Clasificá la urgencia y armá el argumento central de la cautelar.",
     image: "b4.webp",
   },
   {
     num: 5,
     title: "Tracker PDF de Expediente y Control Anti-Errores",
-    desc: "Hojas imprimibles para controlar presentaciones, notificaciones, cautelar, cumplimiento y plazos. Checklist anti-errores para cerrar cada jornada sin olvidos.",
+    desc: "Controlá presentaciones, notificaciones, plazos y errores del expediente.",
     image: "b5.webp",
   },
 ];
@@ -82,6 +82,9 @@ export function BonusesSection() {
                 </span>
               </div>
               <div className="px-1 pb-1 sm:px-2 sm:pb-2">
+                <h3 className="text-[#EDF2F6] font-heading font-bold text-xs sm:text-base leading-snug mb-1">
+                  {b.title}
+                </h3>
                 <p className="text-[#93A7B8] text-[11px] sm:text-sm leading-snug">{b.desc}</p>
               </div>
             </motion.div>

@@ -6,42 +6,42 @@ const modulos = [
   {
     emoji: "📋",
     title: "Mapa de Decisión de Vías Legales",
-    desc: "Amparo vs. Sumarísimo vs. Acción Autosatisfactiva: elegí la vía correcta para cada caso.",
+    desc: "Elegí la vía correcta: amparo, sumarísimo o autosatisfactiva.",
   },
   {
     emoji: "🔍",
     title: "Entrevista Blindada y Honorarios",
-    desc: "7 preguntas filtro y matriz de viabilidad del caso desde la primera consulta.",
+    desc: "7 preguntas filtro y matriz de viabilidad.",
   },
   {
     emoji: "📍",
     title: "Localización del Demandado 2026",
-    desc: "SSS, IGJ y domicilios digitales actualizados para no perder tiempo con la notificación.",
+    desc: "SSS, IGJ y domicilios digitales actualizados.",
   },
   {
     emoji: "📧",
     title: "Carta Documento de Emplazamiento",
-    desc: "Protocolo de silencio administrativo antes de iniciar la demanda.",
+    desc: "Protocolo ante el silencio administrativo.",
   },
   {
     emoji: "⚖️",
     title: "Ingeniería de la Demanda Pro",
-    desc: "Estructura completa con fundamentos y jurisprudencia actualizada 2024–2026.",
+    desc: "Fundamentos y jurisprudencia actualizada 2024–2026.",
   },
   {
     emoji: "🚨",
     title: "Medidas Cautelares Express",
-    desc: "Inaudita parte, caución juratoria y el peligro en la demora bien fundamentado.",
+    desc: "Cautelar, caución juratoria y peligro en la demora.",
   },
   {
     emoji: "🖥️",
     title: "Gestión Digital PJN/Lex100",
-    desc: "Sorteo, carga, notificaciones y pronto despacho sin errores técnicos.",
+    desc: "Carga, notificaciones y pronto despacho sin errores.",
   },
   {
     emoji: "💰",
     title: "Astreintes y Ejecución de Sentencia",
-    desc: "Cómo forzar el cumplimiento y cobrar tus honorarios sin trabajar gratis.",
+    desc: "Cumplimiento y cobro de honorarios.",
   },
 ];
 
@@ -68,9 +68,9 @@ export function ContentSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.04 }}
-              className="flex items-start gap-2.5 bg-[#16293B] border border-white/10 rounded-xl px-3 py-2.5 shadow-sm"
+              className="flex items-start gap-2 bg-[#16293B] border border-white/10 rounded-xl px-2.5 py-2 shadow-sm"
             >
-              <span className="text-xl flex-shrink-0" aria-hidden="true">
+              <span className="text-lg flex-shrink-0" aria-hidden="true">
                 {m.emoji}
               </span>
               <div>

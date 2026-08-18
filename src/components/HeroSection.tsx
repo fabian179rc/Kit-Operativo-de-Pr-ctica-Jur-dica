@@ -24,7 +24,7 @@ export function HeroSection() {
           transition={{
             duration: 0.5,
           }}
-          className="inline-flex items-center gap-2 px-6 py-2.5 mb-3 rounded-full border border-white/15 bg-[#1D3550] text-[#EDF2F6] font-semibold tracking-[0.18em] uppercase text-[8px]"
+          className="inline-flex items-center gap-2 px-3 sm:px-6 py-2.5 mb-3 rounded-full border border-white/15 bg-[#1D3550] text-[#EDF2F6] font-semibold tracking-[0.05em] sm:tracking-[0.18em] uppercase text-[6px] sm:text-[8px] whitespace-nowrap"
         >
           SISTEMA PROCESAL: ACCIONES Y MEDIDAS CAUTELARES 2026
         </motion.div>
@@ -42,11 +42,11 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.1,
           }}
-          className="font-heading font-extrabold text-[#EDF2F6] mb-2 md:mb-3 text-[32px] leading-snug sm:text-3xl md:text-5xl md:leading-tight lg:text-6xl"
+          className="font-heading font-extrabold text-[#EDF2F6] mb-2 md:mb-3 text-[26px] leading-snug sm:text-3xl md:text-5xl md:leading-tight lg:text-6xl"
         >
-          Si Tomás Casos de Salud Sin Sistema en 2026,{" "}
+          Cada Caso Sin Método,{" "}
           <span className="text-[#E0932E]">
-            La Obra Social Siempre Lleva Ventaja
+            Es Una Cautelar en Riesgo
           </span>
         </motion.h1>
 
@@ -91,11 +91,7 @@ export function HeroSection() {
           }}
           className="md:text-xl text-[#93A7B8] mb-3 max-w-2xl mx-auto text-[12px] leading-relaxed"
         >
-          <span className="font-semibold text-[#DCE6ED]">
-            El Sistema Operativo Completo del Abogado que Gana Amparos.
-          </span>{" "}
-          Guías paso a paso, modelos de escritos, checklists procesales,
-          protocolos digitales para el PJN y herramientas de diagnóstico,
+          Guías paso a paso, modelos de escritos y checklists procesales,
           listos para usar desde el primer día.
         </motion.p>
 
@@ -112,17 +108,17 @@ export function HeroSection() {
             duration: 0.6,
             delay: 0.35,
           }}
-          className="text-left mx-auto mb-3 max-w-md text-[#93A7B8] text-[12px] md:text-base space-y-1"
+          className="text-center mx-auto mb-3 max-w-md text-[#93A7B8] text-[12px] md:text-base space-y-1"
         >
-          <li>
-            ✓ Evaluá y aceptá casos con criterio profesional desde la primera
-            consulta.
+          <li className="whitespace-nowrap">
+            ✓ Evaluá y aceptá casos con criterio profesional.
           </li>
-          <li>
-            ✓ Armá la demanda, la cautelar y el escrito en el PJN sin
-            improvisar.
+          <li className="whitespace-nowrap">
+            ✓ Armá la demanda y la cautelar sin improvisar.
           </li>
-          <li>✓ Controlá plazos, notificaciones y astreintes con método probado.</li>
+          <li className="whitespace-nowrap">
+            ✓ Controlá plazos y astreintes con método probado.
+          </li>
         </motion.ul>
 
         <motion.div
@@ -154,9 +150,9 @@ export function HeroSection() {
             🚀 Quiero Mi Sistema de Amparos
           </motion.a>
 
-          <div className="flex flex-wrap justify-center gap-4 text-sm font-medium text-[#93A7B8]">
-            <span>
-              <span aria-hidden="true">⭐⭐⭐⭐⭐</span> 4.9/5 — Valoración de
+          <div className="flex flex-col items-center gap-1 sm:flex-row sm:flex-wrap sm:justify-center sm:gap-4 text-xs sm:text-sm leading-tight font-medium text-[#93A7B8]">
+            <span className="whitespace-nowrap">
+              <span aria-hidden="true">⭐</span> 4.9/5 — Valoración de
               usuarios
             </span>
             <span
@@ -165,8 +161,8 @@ export function HeroSection() {
             >
               |
             </span>
-            <span>
-              <span aria-hidden="true">🛡️</span> Garantía de 7 Días
+            <span className="whitespace-nowrap text-[#6FA8C9]">
+              <span aria-hidden="true">✅</span> Garantía de 7 días
             </span>
             <span
               aria-hidden="true"
@@ -174,9 +170,17 @@ export function HeroSection() {
             >
               |
             </span>
-            <span>
-              <span aria-hidden="true">📄</span> Producto 100% Digital PDF —
-              Acceso Inmediato
+            <span className="whitespace-nowrap text-[#6FA8C9]">
+              <span aria-hidden="true">⚡</span> Acceso inmediato
+            </span>
+            <span
+              aria-hidden="true"
+              className="hidden sm:inline text-white/15"
+            >
+              |
+            </span>
+            <span className="whitespace-nowrap text-[#6FA8C9]">
+              <span aria-hidden="true">🪪</span> Producto 100% digital
             </span>
           </div>
         </motion.div>

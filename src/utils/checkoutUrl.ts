@@ -1,4 +1,5 @@
 const CHECKOUT_BASE_URL = 'https://megapack-amparos-de-salud-protocolo-pro.impultienda.ar/checkout';
+const META_TRACKING_PARAMS = new Set(['fbclid', 'fbc', 'fbp']);
 
 /**
  * Appends the current page's query string (utm_source, utm_campaign, gclid,
@@ -6,9 +7,18 @@ const CHECKOUT_BASE_URL = 'https://megapack-amparos-de-salud-protocolo-pro.impul
  * redirect to Impultienda.
  */
 export function getCheckoutUrl(): string {
-  if (typeof window === 'undefined') return CHECKOUT_BASE_URL;
-  const search = window.location.search;
-  return search ? `${CHECKOUT_BASE_URL}${search}` : CHECKOUT_BASE_URL;
+  const checkoutUrl = new URL(CHECKOUT_BASE_URL);
+  if (typeof window === 'undefined') return checkoutUrl.toString();
+
+  const incomingParams = new URLSearchParams(window.location.search);
+  incomingParams.forEach((value, key) => {
+    const normalizedKey = key.toLowerCase();
+    if (normalizedKey.startsWith('utm_') || META_TRACKING_PARAMS.has(normalizedKey)) {
+      checkoutUrl.searchParams.set(key, value);
+    }
+  });
+
+  return checkoutUrl.toString();
 }
 
 /**

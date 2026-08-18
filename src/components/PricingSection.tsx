@@ -10,7 +10,7 @@ export function PricingSection() {
     >
       <div className="container mx-auto px-4 max-w-2xl text-center relative z-10">
         <span className="inline-block px-6 py-2.5 mb-6 rounded-full border border-white/30 bg-white/10 text-white/90 font-semibold tracking-[0.18em] uppercase text-xs">
-          🔥 75% OFF — Precio de Lanzamiento
+          🔥 80% OFF — Precio de Lanzamiento
         </span>
         <h2 className="font-heading text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
           SISTEMA PROCESAL{" "}
@@ -39,7 +39,7 @@ export function PricingSection() {
               }}
             />
             <div className="relative text-center text-white leading-none rotate-12">
-              <div className="text-2xl md:text-3xl font-extrabold">75%</div>
+              <div className="text-2xl md:text-3xl font-extrabold">80%</div>
               <div className="text-[9px] md:text-[10px] font-bold tracking-wide mt-0.5">
                 OFF
               </div>
@@ -66,7 +66,7 @@ export function PricingSection() {
             Precio especial de lanzamiento:
           </p>
           <div className="font-heading text-6xl md:text-7xl font-bold text-[#E0932E] leading-none mb-2">
-            $24.990 <span className="text-3xl md:text-4xl">ARS</span>
+            $19.990 <span className="text-3xl md:text-4xl">ARS</span>
           </div>
           <p className="text-[#93A7B8] text-sm mb-6">
             Pago único. Acceso instantáneo desde hoy.
@@ -107,14 +107,14 @@ export function PricingSection() {
 
           <ul className="mt-6 pt-6 border-t border-white/10 text-left space-y-2 text-sm text-[#93A7B8]">
             <li>
-              ✓ MEGAPACK AMPAROS DE SALUD: PROTOCOLO PRO 2026 — Guía
+              ✓ SISTEMA PROCESAL: ACCIONES Y MEDIDAS CAUTELARES 2026 — Guía
               Operativa Completa
             </li>
             <li>✓ 8 capítulos sobre evaluación, demanda, cautelar, PJN y astreintes</li>
             <li>✓ 4 modelos de escritos listos para copiar y adaptar</li>
             <li>✓ 5 bonos incluidos sin costo adicional</li>
             <li>✓ Jurisprudencia y normativa actualizada al 2026</li>
-            <li>✓ Acceso digital inmediato en formato 100% PDF</li>
+            <li>✓ Acceso digital inmediato</li>
           </ul>
         </div>
       </div>

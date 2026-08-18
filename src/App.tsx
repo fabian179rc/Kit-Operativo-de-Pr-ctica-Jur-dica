@@ -4,7 +4,7 @@ import { Landing } from "./pages/Landing";
 import { useScreenInit } from "./useScreenInit";
 const META_PIXEL_ID = "1520308000113704";
 const PAGE_TITLE =
-  "MEGAPACK AMPAROS DE SALUD: PROTOCOLO PRO 2026";
+  "MEGAPACK AMPAROS: PROTOCOLO PRO 2026";
 const PAGE_DESC =
   "Guías paso a paso, modelos de escritos, checklists procesales, protocolos digitales para el PJN y herramientas de diagnóstico. Todo en PDF descargable, listo para usar desde el primer día.";
 const HERO_IMAGE = `${import.meta.env.BASE_URL}mockup9.png`;
@@ -66,7 +66,7 @@ export function App() {
     setMeta("property", "og:locale", "es_LA");
     setMeta("property", "og:image", HERO_IMAGE);
     setMeta("property", "og:url", SITE_URL);
-    setMeta("property", "og:site_name", "MEGAPACK AMPAROS DE SALUD");
+    setMeta("property", "og:site_name", "MEGAPACK AMPAROS");
     setMeta("name", "twitter:card", "summary_large_image");
     setMeta("name", "twitter:image", HERO_IMAGE);
     setMeta("name", "twitter:title", PAGE_TITLE);
@@ -79,16 +79,16 @@ export function App() {
       ld.textContent = JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Product",
-        name: "MEGAPACK AMPAROS DE SALUD: PROTOCOLO PRO 2026",
+        name: "MEGAPACK AMPAROS: PROTOCOLO PRO 2026",
         description: PAGE_DESC,
         image: HERO_IMAGE,
         brand: {
           "@type": "Brand",
-          name: "MEGAPACK AMPAROS DE SALUD",
+          name: "MEGAPACK AMPAROS",
         },
         offers: {
           "@type": "Offer",
-          price: "24990",
+          price: "19990",
           priceCurrency: "ARS",
           availability: "https://schema.org/InStock",
           url: "https://megapack-amparos-de-salud-protocolo-pro.impultienda.ar/checkout",
@@ -179,22 +179,7 @@ export function App() {
       noscript.appendChild(img);
       target.appendChild(noscript);
     };
-    const ric = (window as any).requestIdleCallback as
-      | ((
-          cb: () => void,
-          opts?: {
-            timeout: number;
-          },
-        ) => number)
-      | undefined;
-    if (ric) {
-      ric(loadPixel, {
-        timeout: 4000,
-      });
-    } else {
-      const t = setTimeout(loadPixel, 2500);
-      return () => clearTimeout(t);
-    }
+    loadPixel();
   }, []);
   return (
     <MotionConfig reducedMotion="user">

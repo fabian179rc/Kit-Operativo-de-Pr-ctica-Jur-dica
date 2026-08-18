@@ -21,7 +21,7 @@ const testimonials = [
   color: 'bg-emerald-100 text-emerald-700',
   name: 'Valentina R.',
   location: 'Abogada Generalista — Rosario',
-  text: 'Lo usé para mi primer caso real de discapacidad. La guía del PJN me ahorró horas de prueba y error. El checklist documental es oro puro para la primera consulta.'
+  text: 'Lo usé para mi primer caso real de medida cautelar. La guía del PJN me ahorró horas de prueba y error. El checklist documental es oro puro para la primera consulta.'
 }];
 
 export function TestimonialsBottom() {

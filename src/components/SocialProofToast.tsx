@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
 
-const PRODUCT_NAME = "MEGAPACK AMPAROS DE SALUD";
+const PRODUCT_NAME = "SISTEMA PROCESAL: ACCIONES Y MEDIDAS CAUTELARES";
 
 const proofs = [
   { name: "María L.", location: "Buenos Aires", time: "hace 15 minutos" },
@@ -90,7 +90,8 @@ export function SocialProofToast() {
             <p className="text-white/80 text-[10px] sm:text-[13px] leading-snug mb-1 sm:mb-1.5">
               compró{" "}
               <span className="font-semibold text-emerald-400">
-                {PRODUCT_NAME}
+                <span className="sm:hidden">SISTEMA PROCESAL</span>
+                <span className="hidden sm:inline">{PRODUCT_NAME}</span>
               </span>{" "}
               📗
             </p>
