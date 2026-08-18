@@ -29,8 +29,8 @@ export function FinalPricingCTA() {
 
         <div className="bg-[#16293B] border border-[#E0932E]/20 rounded-3xl p-6 md:p-7 shadow-lg shadow-black/20 max-w-xl mx-auto mb-6">
           <h3 className="font-bold text-[#6FA8C9] mb-2 text-sm md:text-base max-w-xs sm:max-w-none mx-auto">
-            🎁 Kit Completo: MEGAPACK AMPAROS DE SALUD: PROTOCOLO PRO 2026 + 5
-            Bonos Incluidos
+            🎁 Kit Completo: SISTEMA PROCESAL: ACCIONES Y MEDIDAS CAUTELARES
+            2026 + 5 Bonos Incluidos
           </h3>
           <div className="text-[#93A7B8] line-through mb-2">$99.990 ARS</div>
           <div className="text-4xl font-bold text-[#E0932E] mb-2">

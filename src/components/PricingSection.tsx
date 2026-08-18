@@ -13,9 +13,9 @@ export function PricingSection() {
           🔥 75% OFF — Precio de Lanzamiento
         </span>
         <h2 className="font-heading text-3xl md:text-5xl font-bold text-white leading-tight mb-6">
-          MEGAPACK AMPAROS DE SALUD{" "}
+          SISTEMA PROCESAL{" "}
           <em className="italic font-bold text-[#CFE0EC]">
-            Protocolo Pro 2026
+            Acciones y Medidas Cautelares 2026
           </em>
         </h2>
 

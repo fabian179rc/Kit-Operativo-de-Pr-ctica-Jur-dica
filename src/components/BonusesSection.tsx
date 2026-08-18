@@ -10,7 +10,7 @@ const bonuses = [
   {
     num: 2,
     title: "Checklist Documental 24H para Amparos de Salud",
-    desc: "Lista maestra de documentación por tipo de caso: medicación, discapacidad, cirugía. Mensajes listos para enviar por WhatsApp y guía de nomenclatura de archivos.",
+    desc: "Lista maestra de documentación requerida por tipo de prestación y prueba documental. Mensajes listos para enviar por WhatsApp y guía de nomenclatura de archivos.",
     image: "b2.webp",
   },
   {
