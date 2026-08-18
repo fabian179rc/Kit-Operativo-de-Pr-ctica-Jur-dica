@@ -3,24 +3,28 @@ import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 const features = [
   {
-    lead: "Ahorrar tiempo en escritos",
-    desc: "Dejá de empezar cada demanda desde cero. Usá modelos y guías listos para adaptar al expediente.",
+    lead: "Evaluar casos con criterio",
+    desc: "Matriz de viabilidad para saber si el caso tiene base antes de comprometer tu tiempo y reputación.",
   },
   {
-    lead: "Trabajar con más orden procesal",
-    desc: "Organizá cada etapa del caso con checklists, mapas de proceso y guías claras de actuación.",
+    lead: "Armar la demanda sin bloquearte",
+    desc: "Estructura completa, fundamentos y modelos listos para adaptar sin empezar desde cero cada vez.",
   },
   {
-    lead: "Cuantificar con precisión",
-    desc: "Aplicá fórmulas de incapacidad (Méndez, Acciarri, Vuoto) adaptadas a la realidad económica de 2026 sin errores de cálculo.",
+    lead: "Pedir cautelares sólidas",
+    desc: "Protocolos para redactar el peligro en la demora de forma irrefutable y pedir caución juratoria sin depender de nadie.",
   },
   {
-    lead: "Presentarte mejor ante tu cliente",
-    desc: "Entregá documentación sólida y profesional que aumente la percepción de valor de tu trabajo.",
+    lead: "Gestionar el PJN sin errores técnicos",
+    desc: "Paso a paso actualizado para cargar la demanda, hacer el sorteo y configurar alertas sin que el sistema te rebote el archivo.",
   },
   {
-    lead: "Cerrar cada caso con control",
-    desc: "Sabé exactamente en qué etapa estás, qué falta y cuándo vence cada plazo.",
+    lead: "Cobrar honorarios con método",
+    desc: "Convenio desde la primera consulta, liquidación de honorarios y astreintes para que nunca trabajes gratis.",
+  },
+  {
+    lead: "Presentarte con autoridad",
+    desc: "Documentación sólida, actualizada y bien estructurada que genera confianza profesional desde la primera reunión.",
   },
 ];
 
@@ -30,7 +34,7 @@ export function FeaturesSection() {
       <div className="container mx-auto px-4 max-w-2xl">
         <div className="text-center mb-8">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-[#EDF2F6]">
-            CON ESTE SISTEMA VAS A PODER
+            CON ESTE SISTEMA VAS A TRABAJAR CON MÉTODO Y CONFIANZA
           </h2>
         </div>
 

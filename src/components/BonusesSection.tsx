@@ -3,32 +3,32 @@ import { motion } from "framer-motion";
 const bonuses = [
   {
     num: 1,
-    title: "Checklist 360° del Caso de Accidente de Tránsito",
-    desc: "Llegás a la primera entrevista sabiendo qué documentación pedir y qué señales de alerta detectar.",
+    title: "Radar de Viabilidad del Amparo de Salud",
+    desc: "Detectá en 15 minutos si el caso tiene base real. Matriz de semáforo, 5 preguntas filtro y hoja de diagnóstico express para completar en la primera consulta.",
     image: "b1.webp",
   },
   {
     num: 2,
-    title: "Guía Express de Primera Entrevista con el Cliente",
-    desc: "Conducís la primera reunión con las preguntas clave para evaluar el caso sin improvisar.",
+    title: "Checklist Documental 24H para Amparos de Salud",
+    desc: "Lista maestra de documentación por tipo de caso: medicación, discapacidad, cirugía. Mensajes listos para enviar por WhatsApp y guía de nomenclatura de archivos.",
     image: "b2.webp",
   },
   {
     num: 3,
-    title: "Mapa Visual del Proceso de Daños y Perjuicios 2026",
-    desc: "Todo el proceso en una sola hoja visual, de la entrevista inicial a la sentencia.",
+    title: "Guía Express de Primera Consulta y Honorarios",
+    desc: "Estructura de reunión en 20 minutos, scripts para hablar de plata con autoridad y resumen imprimible para completar en cada consulta.",
     image: "b3.webp",
   },
   {
     num: 4,
-    title: "Mini Guía de Errores Fatales en Reclamos de Accidentes",
-    desc: "Los errores más costosos de los abogados, con la recomendación para evitar cada uno.",
+    title: "Mapa de Urgencia y Cautelar en 30 Minutos",
+    desc: "Clasificá la urgencia del caso, detectá qué documentos sostienen el peligro en la demora y armá el argumento central de la cautelar con claridad inmediata.",
     image: "b4.webp",
   },
   {
     num: 5,
-    title: "Guía Rápida de Rubros Indemnizatorios 2026",
-    desc: "Todos los rubros reclamables explicados en una guía de consulta rápida.",
+    title: "Tracker PDF de Expediente y Control Anti-Errores",
+    desc: "Hojas imprimibles para controlar presentaciones, notificaciones, cautelar, cumplimiento y plazos. Checklist anti-errores para cerrar cada jornada sin olvidos.",
     image: "b5.webp",
   },
 ];

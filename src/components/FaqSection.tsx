@@ -3,24 +3,28 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, Minus } from 'lucide-react';
 const faqs = [
 {
-  q: '¿Es un producto físico o digital?',
-  a: 'Es un producto 100% digital. Recibís el acceso al material después de la compra para descargarlo y usarlo desde tu computadora, tablet o celular en formato PDF.'
+  q: '¿Sirve si ya trabajo hace años con casos de salud?',
+  a: 'Sí. El MEGAPACK funciona como sistema de consulta y actualización para ordenar tu práctica, reducir búsquedas y trabajar con normativa, modelos y protocolos reunidos en un solo lugar.'
 },
 {
   q: '¿Sirve para cualquier provincia de Argentina?',
-  a: 'Sí. Los modelos y guías están pensados para adaptarse a CABA, Provincia de Buenos Aires y jurisdicciones del interior. Cada modelo incluye indicaciones sobre qué elementos adaptar según la jurisdicción donde ejercés.'
+  a: 'El producto está basado en el sistema federal PJN y la normativa nacional. Los protocolos aplican a jurisdicción federal en todo el país. Para jurisdicciones provinciales, algunos pasos pueden variar según el juzgado interviniente.'
 },
 {
-  q: '¿Necesito experiencia previa en casos de tránsito para usarlo?',
-  a: 'No. El material está diseñado especialmente para abogados jóvenes, generalistas y estudiantes avanzados que quieren tomar estos casos con seguridad y método, sin necesitar experiencia previa específica.'
+  q: '¿Necesito experiencia previa en amparos para usarlo?',
+  a: 'No. El material está diseñado para ser aplicable tanto por abogados que toman su primer caso de salud como por profesionales que quieren sistematizar y actualizar su práctica.'
 },
 {
   q: '¿Cuándo recibo el acceso?',
-  a: 'De forma inmediata. Una vez confirmado el pago recibís el acceso por correo electrónico para descargar todos los archivos PDF desde cualquier dispositivo.'
+  a: 'El acceso es inmediato. Apenas confirmada la compra, recibís el link de descarga. Podés tenerlo en tu pantalla en menos de 5 minutos.'
 },
 {
-  q: '¿Reemplaza el asesoramiento de un abogado senior o de un estudio jurídico?',
-  a: 'No. Este material es una herramienta de organización y orientación práctica para profesionales del Derecho. No constituye asesoramiento legal particular ni reemplaza el criterio profesional habilitado para cada caso concreto.'
+  q: '¿Reemplaza el asesoramiento de un abogado senior?',
+  a: 'No. El MEGAPACK es una herramienta de orientación práctica y organización profesional. No constituye asesoramiento jurídico particular ni reemplaza el criterio profesional responsable de cada caso concreto.'
+},
+{
+  q: '¿Puedo pedir reembolso?',
+  a: 'Sí. Tenés 7 días para revisarlo. Si el contenido no se corresponde con lo ofrecido en esta página, podés solicitar la devolución según las condiciones de compra.'
 }];
 
 export function FaqSection() {

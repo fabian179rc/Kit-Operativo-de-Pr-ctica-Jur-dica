@@ -18,22 +18,23 @@ export function FinalPricingCTA() {
           </span>
         </div>
         <h2 className="text-3xl md:text-5xl font-bold font-heading text-[#EDF2F6] mb-5 leading-tight">
-          Más orden, más claridad y mejor presentación profesional.
+          Más orden, más claridad y mejor gestión profesional en amparos de
+          salud.
         </h2>
         <p className="text-lg text-[#93A7B8] mb-8 max-w-2xl mx-auto">
-          Dejá de armar cada demanda desde cero: el Mega Pack Legal te da
-          el sistema para trabajar con método, precisión y confianza en
-          cada caso de accidente de tránsito.
+          Dejá de armar cada caso desde cero: el MEGAPACK AMPAROS DE SALUD te
+          da el sistema para trabajar con método, precisión y confianza en
+          cada expediente.
         </p>
 
         <div className="bg-[#16293B] border border-[#E0932E]/20 rounded-3xl p-6 md:p-7 shadow-lg shadow-black/20 max-w-xl mx-auto mb-6">
           <h3 className="font-bold text-[#6FA8C9] mb-2 text-sm md:text-base max-w-xs sm:max-w-none mx-auto">
-            🎁 Kit Completo: Mega Pack Legal Daños y Perjuicios 2026 + 5
+            🎁 Kit Completo: MEGAPACK AMPAROS DE SALUD: PROTOCOLO PRO 2026 + 5
             Bonos Incluidos
           </h3>
-          <div className="text-[#93A7B8] line-through mb-2">$45.000 ARS</div>
+          <div className="text-[#93A7B8] line-through mb-2">$99.990 ARS</div>
           <div className="text-4xl font-bold text-[#E0932E] mb-2">
-            $21.990 ARS
+            $24.990 ARS
           </div>
           <p className="text-[#93A7B8] text-sm mb-6">
             Incluye el producto principal más los 5 bonos.
@@ -65,8 +66,19 @@ export function FinalPricingCTA() {
             |
           </span>
           <span>
-            <span aria-hidden="true">🛡️</span> Garantía de 7 Días — Riesgo
-            Cero
+            <span aria-hidden="true">🛡️</span> Garantía de 7 Días
+          </span>
+          <span aria-hidden="true" className="hidden sm:inline text-white/15">
+            |
+          </span>
+          <span>
+            <span aria-hidden="true">⚡</span> Acceso Inmediato
+          </span>
+          <span aria-hidden="true" className="hidden sm:inline text-white/15">
+            |
+          </span>
+          <span>
+            <span aria-hidden="true">💳</span> Pago Único
           </span>
         </div>
       </div>

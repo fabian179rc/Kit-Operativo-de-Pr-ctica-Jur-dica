@@ -4,22 +4,22 @@ const pains = [
 {
   emoji: '🗂️',
   title: 'Modelos dispersos',
-  desc: 'Escritos sueltos y desactualizados. Cada caso nuevo, rehacés todo desde cero.'
+  desc: 'Escritos sueltos y desactualizados. Cada caso nuevo, rehacés todo desde cero sin saber si el modelo sigue siendo válido para el juzgado que te tocó.'
 },
 {
   emoji: '⏱️',
-  title: 'Escritos que llevan horas',
-  desc: 'Demandas y cartas documento te comen tiempo que podrías usar para conseguir clientes.'
+  title: 'Trámites que llevan horas',
+  desc: 'La carga en el Portal del Abogado, la búsqueda del domicilio real de la prepaga y el sorteo te comen tiempo que podrías dedicar a gestionar otros casos.'
 },
 {
   emoji: '📌',
-  title: 'Cuantificación incierta',
-  desc: 'No tenés claro qué fórmulas aplicar ni cómo presentarlas ante el juez con respaldo técnico.'
+  title: 'Cautelares rechazadas',
+  desc: 'No tenés claro cómo redactar el "peligro en la demora" de forma irrefutable, cuándo pedir contracautela juratoria o cuándo avanzar inaudita parte.'
 },
 {
   emoji: '🎯',
-  title: 'Poca confianza del cliente',
-  desc: 'Sin estructura sólida ni respaldo técnico, el cliente percibe inseguridad.'
+  title: 'Plazos perentorios',
+  desc: 'Una notificación, una cautelar resuelta o un incumplimiento activan plazos críticos. Sin sistema claro, una demora puede costarte el caso y los honorarios.'
 }];
 
 export function ProblemSection() {
@@ -28,12 +28,13 @@ export function ProblemSection() {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-6">
           <h2 className="font-heading text-3xl md:text-5xl font-bold mb-4 text-[#EDF2F6] uppercase">
-            ¿Te falta estructura para trabajar más liviano?
+            ¿Te falta estructura para gestionar casos de salud sin trabarte?
           </h2>
           <p className="text-sm md:text-base text-[#93A7B8] leading-relaxed max-w-2xl mx-auto">
-            Sabés redactar un escrito y tenés los conocimientos del proceso,
-            pero cada caso nuevo se convierte en horas de búsqueda, armado
-            desde cero y dudas sobre qué rubro incluir o qué plazo no vencer.
+            Sabés que los amparos de salud son urgentes. Sabés que hay
+            clientes que dependen de vos. Pero cada caso nuevo te encuentra
+            buscando un modelo que no encontrás, con miedo a cometer un error
+            en el PJN o sin saber exactamente qué pedir en la cautelar.
           </p>
         </div>
 
@@ -44,8 +45,8 @@ export function ProblemSection() {
         </div>
 
         <p className="text-center text-sm md:text-base text-[#93A7B8] leading-relaxed max-w-2xl mx-auto mb-5">
-          Si sos abogado joven, generalista o estudiante avanzado de Derecho
-          en Argentina, probablemente ya viviste esto:
+          Seas abogado/a independiente, parte de un estudio jurídico o estés
+          por tomar tu primer caso de salud, probablemente ya viviste esto:
         </p>
 
         <div className="grid sm:grid-cols-2 gap-3">

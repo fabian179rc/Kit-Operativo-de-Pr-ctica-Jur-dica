@@ -5,33 +5,43 @@ import { PackageOpen } from "lucide-react";
 const modulos = [
   {
     emoji: "📋",
-    title: "Guía Maestra del Proceso 2026",
-    desc: "Entendés cada etapa desde la entrevista hasta la ejecución de sentencia.",
+    title: "Mapa de Decisión de Vías Legales",
+    desc: "Amparo vs. Sumarísimo vs. Acción Autosatisfactiva: elegí la vía correcta para cada caso.",
   },
   {
-    emoji: "✍️",
-    title: "Modelos de Escritos Blindados",
-    desc: "Demandas, cartas documento, pliegos y alegatos listos para adaptar.",
+    emoji: "🔍",
+    title: "Entrevista Blindada y Honorarios",
+    desc: "7 preguntas filtro y matriz de viabilidad del caso desde la primera consulta.",
   },
   {
-    emoji: "🔢",
-    title: "Módulo de Cuantificación 2026",
-    desc: "Fórmulas de incapacidad y daño moral actualizadas a la realidad inflacionaria.",
+    emoji: "📍",
+    title: "Localización del Demandado 2026",
+    desc: "SSS, IGJ y domicilios digitales actualizados para no perder tiempo con la notificación.",
   },
   {
-    emoji: "📌",
-    title: "Checklist de Control Procesal",
-    desc: "No perdés plazos ni omitís prueba esencial en ninguna etapa.",
+    emoji: "📧",
+    title: "Carta Documento de Emplazamiento",
+    desc: "Protocolo de silencio administrativo antes de iniciar la demanda.",
   },
   {
-    emoji: "🤝",
-    title: "Guía de Mediación Estratégica",
-    desc: "Llegás preparado para negociar y sabés cuándo aceptar o rechazar.",
+    emoji: "⚖️",
+    title: "Ingeniería de la Demanda Pro",
+    desc: "Estructura completa con fundamentos y jurisprudencia actualizada 2024–2026.",
+  },
+  {
+    emoji: "🚨",
+    title: "Medidas Cautelares Express",
+    desc: "Inaudita parte, caución juratoria y el peligro en la demora bien fundamentado.",
+  },
+  {
+    emoji: "🖥️",
+    title: "Gestión Digital PJN/Lex100",
+    desc: "Sorteo, carga, notificaciones y pronto despacho sin errores técnicos.",
   },
   {
     emoji: "💰",
-    title: "Protocolo de Cobro de Honorarios",
-    desc: "Asegurás tu 20% desde el día uno con el Pacto de Cuota Litis correcto.",
+    title: "Astreintes y Ejecución de Sentencia",
+    desc: "Cómo forzar el cumplimiento y cobrar tus honorarios sin trabajar gratis.",
   },
 ];
 
@@ -42,13 +52,11 @@ export function ContentSection() {
         <div className="text-center mb-8">
           <span className="inline-flex items-center gap-2 px-6 py-2.5 mb-5 rounded-full border border-white/15 bg-[#1D3550] text-[#EDF2F6] font-semibold tracking-[0.18em] uppercase text-xs">
             <PackageOpen className="w-4 h-4 text-[#E0932E]" />
-            Qué Incluye el Mega Pack
+            Qué Incluye el MEGAPACK
           </span>
           <h2 className="font-heading font-bold text-[#EDF2F6] text-3xl md:text-5xl leading-tight mb-4">
-            📦 Todo{" "}
-            <span className="italic text-[#6FA8C9]">
-              el Sistema en un Solo Producto
-            </span>
+            📦 Una Guía Completa, Organizada y{" "}
+            <span className="italic text-[#6FA8C9]">100% Aplicable</span>
           </h2>
         </div>
 
