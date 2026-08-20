@@ -26,7 +26,7 @@ export function HeroSection() {
           }}
           className="inline-flex items-center gap-2 px-3 sm:px-6 py-2.5 mb-3 rounded-full border border-white/15 bg-[#1D3550] text-[#EDF2F6] font-semibold tracking-[0.05em] sm:tracking-[0.18em] uppercase text-[6px] sm:text-[8px] whitespace-nowrap"
         >
-          SISTEMA PROCESAL: ACCIONES Y MEDIDAS CAUTELARES 2026
+          EDICIÓN 2026 — ARGENTINA
         </motion.div>
 
         <motion.h1
@@ -44,9 +44,9 @@ export function HeroSection() {
           }}
           className="font-heading font-extrabold text-[#EDF2F6] mb-2 md:mb-3 text-[26px] leading-snug sm:text-3xl md:text-5xl md:leading-tight lg:text-6xl"
         >
-          Cada Caso Sin Método,{" "}
+          Kit Operativo de Práctica Jurídica:{" "}
           <span className="text-[#E0932E]">
-            Es Una Cautelar en Riesgo
+            +300 Modelos de Escritos, Doctrina y Jurisprudencia
           </span>
         </motion.h1>
 
@@ -71,7 +71,7 @@ export function HeroSection() {
             height={1254}
             loading="eager"
             decoding="async"
-            alt="MEGAPACK AMPAROS DE SALUD: PROTOCOLO PRO — Edición 2026"
+            alt="Kit Operativo de Práctica Jurídica — Edición 2026"
             className="w-full h-auto aspect-square object-contain rounded-2xl"
           />
         </motion.div>
@@ -91,8 +91,10 @@ export function HeroSection() {
           }}
           className="md:text-xl text-[#93A7B8] mb-3 max-w-2xl mx-auto text-[12px] leading-relaxed"
         >
-          Guías paso a paso, modelos de escritos y checklists procesales,
-          listos para usar desde el primer día.
+          Tu base documental lista para trabajar desde el primer día.
+          Modelos procesales, fundamentos jurídicos y herramientas de
+          gestión organizadas por fueros y listas para adaptar a cada
+          expediente.
         </motion.p>
 
         <motion.ul
@@ -111,13 +113,13 @@ export function HeroSection() {
           className="text-center mx-auto mb-3 max-w-md text-[#93A7B8] text-[12px] md:text-base space-y-1"
         >
           <li className="whitespace-nowrap">
-            ✓ Evaluá y aceptá casos con criterio profesional.
+            ✓ Modelos procesales listos para adaptar a cada expediente.
           </li>
           <li className="whitespace-nowrap">
-            ✓ Armá la demanda y la cautelar sin improvisar.
+            ✓ Fundamentos de doctrina y jurisprudencia actualizada.
           </li>
           <li className="whitespace-nowrap">
-            ✓ Controlá plazos y astreintes con método probado.
+            ✓ Familia, Civil, Laboral y Comercial en un solo kit.
           </li>
         </motion.ul>
 
@@ -147,7 +149,7 @@ export function HeroSection() {
             }}
             className="flex items-center justify-center gap-2 sm:gap-3 w-full sm:w-auto bg-[#E0932E] hover:bg-[#C97D22] text-[#0E1E2E] font-bold px-5 py-3 sm:px-6 sm:py-3.5 md:px-8 md:py-3 rounded-full shadow-lg shadow-[#E0932E]/30 transition-colors mb-4 md:mb-3 text-[11.5px] sm:text-base md:text-lg whitespace-nowrap md:whitespace-normal"
           >
-            🚀 Quiero Mi Sistema de Amparos
+            ⚖️ Quiero Mi Kit Operativo
           </motion.a>
 
           <div className="flex flex-col items-center gap-1 sm:flex-row sm:flex-wrap sm:justify-center sm:gap-4 text-xs sm:text-sm leading-tight font-medium text-[#93A7B8]">
@@ -162,7 +164,8 @@ export function HeroSection() {
               |
             </span>
             <span className="whitespace-nowrap text-[#6FA8C9]">
-              <span aria-hidden="true">✅</span> Garantía de 7 días
+              <span aria-hidden="true">🛡️</span> Garantía de 7 días — Riesgo
+              cero
             </span>
             <span
               aria-hidden="true"
@@ -171,16 +174,8 @@ export function HeroSection() {
               |
             </span>
             <span className="whitespace-nowrap text-[#6FA8C9]">
-              <span aria-hidden="true">⚡</span> Acceso inmediato
-            </span>
-            <span
-              aria-hidden="true"
-              className="hidden sm:inline text-white/15"
-            >
-              |
-            </span>
-            <span className="whitespace-nowrap text-[#6FA8C9]">
-              <span aria-hidden="true">🪪</span> Producto 100% digital
+              <span aria-hidden="true">💻</span> Producto 100% digital —
+              Acceso inmediato
             </span>
           </div>
         </motion.div>

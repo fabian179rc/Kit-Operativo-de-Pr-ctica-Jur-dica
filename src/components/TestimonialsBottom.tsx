@@ -6,22 +6,22 @@ const testimonials = [
   initial: 'M',
   color: 'bg-pink-100 text-pink-700',
   name: 'María L.',
-  location: 'Abogada Independiente — Buenos Aires',
-  text: "Antes cada primer amparo me llevaba un día entero buscando modelos y el domicilio de la prepaga. Ahora tengo el protocolo en el PDF y lo resuelvo en dos horas."
+  location: 'Abogada Civil — Buenos Aires',
+  text: "Antes cada demanda me llevaba medio día. Ahora adapto el modelo en una hora, con el fundamento jurídico resuelto y sin tener que buscar doctrina por separado."
 },
 {
   initial: 'F',
   color: 'bg-blue-100 text-blue-700',
   name: 'Federico G.',
-  location: 'Abogado Litigante — Córdoba',
-  text: 'El módulo de medidas cautelares me dio el criterio exacto para redactar el peligro en la demora sin que el juez me lo rechace. Claro, actualizado y aplicable.'
+  location: 'Abogado Generalista — Córdoba',
+  text: 'El bono de honorarios me dio el criterio para estructurar el convenio correctamente desde la primera consulta. Dejé de tener problemas de cobro con clientes conflictivos.'
 },
 {
   initial: 'V',
   color: 'bg-emerald-100 text-emerald-700',
   name: 'Valentina R.',
-  location: 'Abogada Generalista — Rosario',
-  text: 'Lo usé para mi primer caso real de medida cautelar. La guía del PJN me ahorró horas de prueba y error. El checklist documental es oro puro para la primera consulta.'
+  location: 'Abogada Recién Matriculada — Rosario',
+  text: 'Lo usé para mis primeros casos reales. El kit te da el cómo, el cuándo y los modelos que la facultad nunca enseña. Fundamental para quien recién empieza.'
 }];
 
 export function TestimonialsBottom() {
@@ -31,7 +31,7 @@ export function TestimonialsBottom() {
         <div className="text-center mb-8 flex flex-col items-center">
           <MessageCircle className="w-10 h-10 text-[#E0932E] mb-3" />
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-[#EDF2F6]">
-            Lo Que Dicen Quienes Ya Trabajan con el Sistema
+            Lo Que Dicen Otros Abogados del Kit
           </h2>
         </div>
 

@@ -4,44 +4,34 @@ import { PackageOpen } from "lucide-react";
 
 const modulos = [
   {
-    emoji: "📋",
-    title: "Mapa de Decisión de Vías Legales",
-    desc: "Elegí la vía correcta: amparo, sumarísimo o autosatisfactiva.",
-  },
-  {
-    emoji: "🔍",
-    title: "Entrevista Blindada y Honorarios",
-    desc: "7 preguntas filtro y matriz de viabilidad.",
-  },
-  {
-    emoji: "📍",
-    title: "Localización del Demandado 2026",
-    desc: "SSS, IGJ y domicilios digitales actualizados.",
-  },
-  {
-    emoji: "📧",
-    title: "Carta Documento de Emplazamiento",
-    desc: "Protocolo ante el silencio administrativo.",
+    emoji: "👨‍👩‍👧",
+    title: "Derecho de Familia",
+    desc: "Divorcios, convenios reguladores, demandas de alimentos, incidentes de cuota, regímenes de comunicación, cuidado personal y medidas cautelares urgentes.",
   },
   {
     emoji: "⚖️",
-    title: "Ingeniería de la Demanda Pro",
-    desc: "Fundamentos y jurisprudencia actualizada 2024–2026.",
+    title: "Derecho Civil",
+    desc: "Daños y perjuicios, usucapión, procesos de desalojo, escrituración, y contratos civiles ajustados a la normativa y jurisprudencia actual.",
   },
   {
-    emoji: "🚨",
-    title: "Medidas Cautelares Express",
-    desc: "Cautelar, caución juratoria y peligro en la demora.",
+    emoji: "🏭",
+    title: "Derecho Laboral",
+    desc: "Intercambio epistolar completo, demandas por despido, trabajo no registrado, accidentes de trabajo (ART) y actuaciones ante organismos administrativos.",
   },
   {
-    emoji: "🖥️",
-    title: "Gestión Digital PJN/Lex100",
-    desc: "Carga, notificaciones y pronto despacho sin errores.",
+    emoji: "🏦",
+    title: "Derecho Comercial",
+    desc: "Ejecuciones de alquileres, cheques y pagarés, juicios ejecutivos y modelos para la ejecución de honorarios profesionales.",
   },
   {
-    emoji: "💰",
-    title: "Astreintes y Ejecución de Sentencia",
-    desc: "Cumplimiento y cobro de honorarios.",
+    emoji: "📋",
+    title: "Escritos de Mero Trámite",
+    desc: "Cédulas, oficios, mandamientos, autorizaciones y toda la folletería procesal que consume el tiempo operativo diario del estudio.",
+  },
+  {
+    emoji: "📚",
+    title: "Doctrina y Jurisprudencia",
+    desc: "Cada modelo integra citas de autores de referencia y precedentes jurisprudenciales para sustentar la pretensión con rigor técnico.",
   },
 ];
 
@@ -52,12 +42,17 @@ export function ContentSection() {
         <div className="text-center mb-8">
           <span className="inline-flex items-center gap-2 px-6 py-2.5 mb-5 rounded-full border border-white/15 bg-[#1D3550] text-[#EDF2F6] font-semibold tracking-[0.18em] uppercase text-xs">
             <PackageOpen className="w-4 h-4 text-[#E0932E]" />
-            Qué Incluye el MEGAPACK
+            Qué Incluye el Kit Operativo
           </span>
           <h2 className="font-heading font-bold text-[#EDF2F6] text-3xl md:text-5xl leading-tight mb-4">
-            📦 Una Guía Completa, Organizada y{" "}
+            📦 Organizado por Fueros y{" "}
             <span className="italic text-[#6FA8C9]">100% Aplicable</span>
           </h2>
+          <p className="text-sm md:text-base text-[#93A7B8] leading-relaxed max-w-2xl mx-auto">
+            Un compendio integral organizado por fueros, con cada pieza
+            procesal estructurada bajo estándares de técnica legislativa
+            vigente y fundamentos jurídicos incorporados.
+          </p>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-2 mb-8">

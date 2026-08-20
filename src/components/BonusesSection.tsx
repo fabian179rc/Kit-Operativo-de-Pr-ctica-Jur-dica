@@ -3,32 +3,37 @@ import { motion } from "framer-motion";
 const bonuses = [
   {
     num: 1,
-    title: "Radar de Viabilidad de la Acción",
-    desc: "Detectá en 15 minutos si el caso tiene base, con matriz y preguntas filtro.",
+    title:
+      "Determinación y Reclamo de Cuota Alimentaria — Guía Práctica con Planilla de Cálculo de Gastos",
+    desc: "Metodología clara para cuantificar el caudal económico del alimentante y las necesidades reales del alimentado. Incluye modelos de incidentes de aumento, reducción y coparticipación de cuota, con una planilla de gastos lista para presentar ante el juzgado.",
     image: "b1.webp",
   },
   {
     num: 2,
-    title: "Checklist Documental 24H para Acciones y Cautelares",
-    desc: "Documentación necesaria y mensajes de WhatsApp listos para enviar.",
+    title:
+      "Gestión Operativa de Accidentes de Tránsito — Del Siniestro a la Resolución en Mediación",
+    desc: "Guía estratégica para el abordaje integral de siniestros viales: atención al cliente, recolección de prueba y reclamo extrajudicial ante aseguradoras. Incluye modelos de liquidación de daños materiales, incapacidad física y daño moral.",
     image: "b2.webp",
   },
   {
     num: 3,
-    title: "Guía Express de Primera Consulta y Honorarios",
-    desc: "Organizá la primera reunión y hablá de honorarios con autoridad.",
+    title:
+      "Contratos de Locación de Inmuebles — Modelos y Cláusulas para el Nuevo Régimen de Libertad Contractual",
+    desc: "Modelos actualizados al DNU 70/23 con libertad de moneda, nuevos plazos legales y fórmulas de actualización (ICL, IPC, Casa Propia). Cláusulas de rescisión, fianza y mantenimiento blindadas para locadores y locatarios.",
     image: "b3.webp",
   },
   {
     num: 4,
-    title: "Mapa de Urgencia y Cautelar en 30 Minutos",
-    desc: "Clasificá la urgencia y armá el argumento central de la cautelar.",
+    title:
+      "Estrategias Procesales ante Falsas Denuncias — Guía de Defensa y Protocolo de Actuación",
+    desc: "Protocolo técnico frente a denuncias sin sustento fáctico, especialmente en contextos de violencia de género o conflictos de familia. Incluye medidas cautelares, cese de hostigamiento y levantamiento de restricciones de contacto.",
     image: "b4.webp",
   },
   {
     num: 5,
-    title: "Tracker PDF de Expediente y Control Anti-Errores",
-    desc: "Controlá presentaciones, notificaciones, plazos y errores del expediente.",
+    title:
+      "Kit de Gestión Profesional del Abogado — Entrevistas, Captación y Convenios de Honorarios",
+    desc: "Estructuras de entrevistas iniciales para calificar clientes, hojas de ruta para el seguimiento de expedientes y modelos de Convenios de Cuota Litis y Pactos de Honorarios blindados.",
     image: "b5.webp",
   },
 ];
@@ -38,10 +43,14 @@ export function BonusesSection() {
     <section className="py-10 md:py-14 bg-transparent">
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-8">
-          <h2 className="font-heading font-bold text-[#EDF2F6] text-3xl md:text-5xl leading-tight">
-            5 Bonos Incluidos{" "}
-            <span className="italic text-[#6FA8C9]">Sin Costo Adicional</span>
+          <h2 className="font-heading font-bold text-[#EDF2F6] text-3xl md:text-5xl leading-tight mb-4">
+            5 Recursos Complementarios{" "}
+            <span className="italic text-[#6FA8C9]">de Aplicación Inmediata</span>
           </h2>
+          <p className="text-sm md:text-base text-[#93A7B8] leading-relaxed max-w-2xl mx-auto">
+            Cada bono fue diseñado para cubrir un área crítica de la práctica
+            diaria que los modelos procesales por sí solos no resuelven.
+          </p>
         </div>
 
         <div className="flex flex-wrap justify-center gap-2.5 sm:gap-5">

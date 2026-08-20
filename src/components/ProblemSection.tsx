@@ -3,23 +3,23 @@ import { motion } from 'framer-motion';
 const pains = [
 {
   emoji: '🗂️',
-  title: 'Modelos dispersos',
-  desc: 'Escritos sueltos y desactualizados. Rehacés cada caso desde cero.'
+  title: 'Modelos Dispersos',
+  desc: 'Escritos sueltos y desactualizados. Cada caso nuevo, reconstruís todo desde cero.'
 },
 {
   emoji: '⏱️',
-  title: 'Trámites que llevan horas',
-  desc: 'Portal del Abogado, domicilios y sorteos te quitan horas.'
+  title: 'Redacción que Demora Horas',
+  desc: 'Demandas y cartas documento insumen tiempo que podrías destinar a la estrategia del caso.'
 },
 {
   emoji: '📌',
-  title: 'Cautelares rechazadas',
-  desc: 'No sabés cómo fundamentar el peligro en la demora ni cuándo pedir cautelar.'
+  title: 'Fundamentos Inseguros',
+  desc: 'No siempre tenés claro qué doctrina citar ni qué precedente jurisprudencial respalda tu pretensión.'
 },
 {
   emoji: '🎯',
-  title: 'Plazos perentorios',
-  desc: 'Los incumplimientos activan plazos críticos y pueden costarte el caso.'
+  title: 'Imagen Profesional Frágil',
+  desc: 'Sin estructura sólida ni fundamento técnico, el cliente y la contraparte perciben inseguridad.'
 }];
 
 export function ProblemSection() {
@@ -28,11 +28,12 @@ export function ProblemSection() {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-6">
           <h2 className="font-heading text-3xl md:text-5xl font-bold mb-4 text-[#EDF2F6] uppercase">
-            ¿Te cuesta gestionar casos de salud?
+            ¿Te falta estructura para trabajar con mayor eficiencia?
           </h2>
           <p className="text-sm md:text-base text-[#93A7B8] leading-relaxed max-w-2xl mx-auto">
-            Cada caso exige rapidez y precisión. Sin un sistema, perdés tiempo
-            buscando modelos y temés equivocarte en el PJN o en la cautelar.
+            Conocés el derecho y sabés redactar un escrito. Sin embargo, cada
+            caso nuevo se convierte en horas de búsqueda, armado desde cero y
+            dudas sobre qué fundamento citar o qué plazo no vencer.
           </p>
         </div>
 
@@ -43,8 +44,9 @@ export function ProblemSection() {
         </div>
 
         <p className="text-center text-sm md:text-base text-[#93A7B8] leading-relaxed max-w-2xl mx-auto mb-5">
-          Seas abogado/a independiente, parte de un estudio jurídico o estés
-          por tomar tu primer caso de salud, probablemente ya viviste esto:
+          Si ejercés como abogado independiente, trabajás en un estudio
+          pequeño o acabás de matricularte en Argentina, probablemente ya
+          experimentaste alguna de estas situaciones:
         </p>
 
         <div className="grid sm:grid-cols-2 gap-2">

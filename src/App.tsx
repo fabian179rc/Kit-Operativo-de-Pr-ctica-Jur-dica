@@ -4,12 +4,12 @@ import { Landing } from "./pages/Landing";
 import { useScreenInit } from "./useScreenInit";
 const META_PIXEL_ID = "1520308000113704";
 const PAGE_TITLE =
-  "MEGAPACK AMPAROS: PROTOCOLO PRO 2026";
+  "Kit Operativo de Práctica Jurídica — Edición 2026";
 const PAGE_DESC =
-  "Guías paso a paso, modelos de escritos, checklists procesales, protocolos digitales para el PJN y herramientas de diagnóstico. Todo en PDF descargable, listo para usar desde el primer día.";
+  "Más de 300 modelos de escritos, doctrina y jurisprudencia organizados por fueros: Familia, Civil, Laboral y Comercial. Tu base documental lista para trabajar desde el primer día, en PDF descargable.";
 const HERO_IMAGE = `${import.meta.env.BASE_URL}mockup9.png`;
 
-const SITE_URL = "https://practica-procesal.tupuntodigital.shop";
+const SITE_URL = "https://kitoperativodepracticajuridica.tupuntodigital.shop";
 function setMeta(attr: "name" | "property", key: string, content: string) {
   let el = document.head.querySelector<HTMLMetaElement>(
     `meta[${attr}="${key}"]`,
@@ -66,7 +66,7 @@ export function App() {
     setMeta("property", "og:locale", "es_LA");
     setMeta("property", "og:image", HERO_IMAGE);
     setMeta("property", "og:url", SITE_URL);
-    setMeta("property", "og:site_name", "MEGAPACK AMPAROS");
+    setMeta("property", "og:site_name", "Kit Operativo de Práctica Jurídica");
     setMeta("name", "twitter:card", "summary_large_image");
     setMeta("name", "twitter:image", HERO_IMAGE);
     setMeta("name", "twitter:title", PAGE_TITLE);
@@ -79,19 +79,19 @@ export function App() {
       ld.textContent = JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Product",
-        name: "MEGAPACK AMPAROS: PROTOCOLO PRO 2026",
+        name: "Kit Operativo de Práctica Jurídica — Edición 2026",
         description: PAGE_DESC,
         image: HERO_IMAGE,
         brand: {
           "@type": "Brand",
-          name: "MEGAPACK AMPAROS",
+          name: "Kit Operativo de Práctica Jurídica",
         },
         offers: {
           "@type": "Offer",
-          price: "19990",
+          price: "21990",
           priceCurrency: "ARS",
           availability: "https://schema.org/InStock",
-          url: "https://megapack-amparos-de-salud-protocolo-pro.impultienda.ar/checkout",
+          url: "https://kit-operativo-de-practica-juridica.impultienda.ar/checkout",
         },
       });
       document.head.appendChild(ld);
@@ -106,28 +106,28 @@ export function App() {
         "@type": "FAQPage",
         mainEntity: [
           {
-            q: "¿Sirve si ya trabajo hace años con casos de salud?",
-            a: "Sí. El MEGAPACK funciona como sistema de consulta y actualización para ordenar tu práctica, reducir búsquedas y trabajar con normativa, modelos y protocolos reunidos en un solo lugar.",
+            q: "¿Es un producto físico o digital?",
+            a: "Es un producto 100% digital. Recibís acceso inmediato al material en formato PDF de alta resolución para descargarlo y utilizarlo desde tu computadora, tablet o dispositivo móvil.",
           },
           {
-            q: "¿Sirve para cualquier provincia de Argentina?",
-            a: "El producto está basado en el sistema federal PJN y la normativa nacional. Los protocolos aplican a jurisdicción federal en todo el país. Para jurisdicciones provinciales, algunos pasos pueden variar según el juzgado interviniente.",
+            q: "¿Es aplicable a todas las provincias de Argentina?",
+            a: "Los modelos están elaborados conforme a la legislación de fondo nacional (Código Civil y Comercial, Código Procesal Civil y Comercial de la Nación y leyes especiales) y resultan adaptables a los reglamentos procesales de cada jurisdicción provincial. El profesional deberá adecuarlos al fuero y juzgado de actuación correspondiente.",
           },
           {
-            q: "¿Necesito experiencia previa en amparos para usarlo?",
-            a: "No. El material está diseñado para ser aplicable tanto por abogados que toman su primer caso de salud como por profesionales que quieren sistematizar y actualizar su práctica.",
+            q: "¿Puedo copiar y adaptar los modelos a mi procesador de texto?",
+            a: "Sí. El formato PDF permite la selección y copiado de texto, lo que facilita la integración directa con Microsoft Word, Google Docs o cualquier procesador de textos habitual en el ejercicio profesional.",
           },
           {
-            q: "¿Cuándo recibo el acceso?",
-            a: "El acceso es inmediato. Apenas confirmada la compra, recibís el link de descarga. Podés tenerlo en tu pantalla en menos de 5 minutos.",
+            q: "¿Cuándo recibo el acceso al material?",
+            a: "El acceso es inmediato. Una vez confirmado el pago, recibirás las instrucciones de descarga en tu correo electrónico registrado.",
           },
           {
-            q: "¿Reemplaza el asesoramiento de un abogado senior?",
-            a: "No. El MEGAPACK es una herramienta de orientación práctica y organización profesional. No constituye asesoramiento jurídico particular ni reemplaza el criterio profesional responsable de cada caso concreto.",
+            q: "¿Reemplaza el asesoramiento de un abogado senior o de un estudio jurídico?",
+            a: "No. El Kit Operativo es una herramienta de orientación, organización y redacción técnica para profesionales del Derecho. No constituye asesoramiento legal ni patrocinio jurídico. El profesional habilitado es el único responsable de la estrategia y presentación de cada caso concreto.",
           },
           {
-            q: "¿Puedo pedir reembolso?",
-            a: "Sí. Tenés 7 días para revisarlo. Si el contenido no se corresponde con lo ofrecido en esta página, podés solicitar la devolución según las condiciones de compra.",
+            q: "¿Necesito experiencia previa para utilizarlo?",
+            a: "No. El material está estructurado para ser útil tanto para abogados nóveles como para profesionales con experiencia que buscan optimizar su flujo de trabajo. Cada módulo cuenta con indicaciones claras de aplicación.",
           },
         ].map((item) => ({
           "@type": "Question",

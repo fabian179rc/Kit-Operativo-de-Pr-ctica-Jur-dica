@@ -18,26 +18,25 @@ export function FinalPricingCTA() {
           </span>
         </div>
         <h2 className="text-3xl md:text-5xl font-bold font-heading text-[#EDF2F6] mb-5 leading-tight">
-          Más orden, más claridad y mejor gestión profesional en acciones y
-          cautelares.
+          Más orden, más precisión y mejor imagen profesional.
         </h2>
         <p className="text-lg text-[#93A7B8] mb-8 max-w-2xl mx-auto">
-          Dejá de armar cada caso desde cero: el SISTEMA PROCESAL te da el
-          sistema para trabajar con método, precisión y confianza en cada
-          expediente.
+          Dejá de construir cada presentación judicial desde cero. El Kit
+          Operativo de Práctica Jurídica te provee la base documental para
+          trabajar con método, rigor técnico y confianza en cada caso.
         </p>
 
         <div className="bg-[#16293B] border border-[#E0932E]/20 rounded-3xl p-6 md:p-7 shadow-lg shadow-black/20 max-w-xl mx-auto mb-6">
           <h3 className="font-bold text-[#6FA8C9] mb-2 text-sm md:text-base max-w-xs sm:max-w-none mx-auto">
-            🎁 Kit Completo: SISTEMA PROCESAL: ACCIONES Y MEDIDAS CAUTELARES
-            2026 + 5 Bonos Incluidos
+            🎁 Kit Operativo de Práctica Jurídica — Edición 2026
           </h3>
-          <div className="text-[#93A7B8] line-through mb-2">$99.990 ARS</div>
+          <div className="text-[#93A7B8] line-through mb-2">$45.000 ARS</div>
           <div className="text-4xl font-bold text-[#E0932E] mb-2">
-            $19.990 ARS
+            $21.990 ARS
           </div>
           <p className="text-[#93A7B8] text-sm mb-6">
-            Incluye el producto principal más los 5 bonos.
+            Pago único. Acceso permanente. Incluye producto principal + 5
+            bonos sin costo adicional.
           </p>
           <motion.a
             href={getCheckoutUrl()}
@@ -51,7 +50,7 @@ export function FinalPricingCTA() {
             className="flex items-center justify-center gap-2 sm:gap-3 w-full bg-[#E0932E] hover:bg-[#C97D22] text-[#0E1E2E] font-bold text-[11.5px] sm:text-base md:text-lg px-5 py-4 sm:px-6 md:py-5 rounded-full shadow-lg shadow-[#E0932E]/30 transition-colors mb-4 whitespace-nowrap md:whitespace-normal"
           >
             <span className="text-center">
-              🚀 Quiero Empezar Hoy
+              ⚖️ Quiero Empezar Hoy
             </span>
             <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0" />
           </motion.a>
@@ -66,19 +65,13 @@ export function FinalPricingCTA() {
             |
           </span>
           <span>
-            <span aria-hidden="true">🛡️</span> Garantía de 7 Días
+            <span aria-hidden="true">🛡️</span> Garantía 7 Días
           </span>
           <span aria-hidden="true" className="hidden sm:inline text-white/15">
             |
           </span>
           <span>
-            <span aria-hidden="true">⚡</span> Acceso Inmediato
-          </span>
-          <span aria-hidden="true" className="hidden sm:inline text-white/15">
-            |
-          </span>
-          <span>
-            <span aria-hidden="true">💳</span> Pago Único
+            <span aria-hidden="true">💻</span> Acceso Inmediato
           </span>
         </div>
       </div>
