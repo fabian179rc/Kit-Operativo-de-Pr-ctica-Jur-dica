@@ -70,6 +70,7 @@ export function HeroSection() {
             width={900}
             height={900}
             loading="eager"
+            fetchPriority="high"
             decoding="async"
             alt="Kit Operativo de Práctica Jurídica — Edición 2026"
             className="w-full h-auto aspect-square object-contain rounded-2xl"

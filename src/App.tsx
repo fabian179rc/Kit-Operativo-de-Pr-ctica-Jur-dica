@@ -43,14 +43,6 @@ export function App() {
     addLink("preconnect", "/cdn.magicpatterns.com", {
       crossorigin: "",
     });
-    addLink("preconnect", "https://fonts.googleapis.com");
-    addLink("preconnect", "https://fonts.gstatic.com", {
-      crossorigin: "",
-    });
-    addLink("preload", HERO_IMAGE, {
-      as: "image",
-      fetchpriority: "high",
-    });
     addLink("canonical", SITE_URL);
     setMeta("name", "description", PAGE_DESC);
     setMeta(
