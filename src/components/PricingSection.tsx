@@ -21,10 +21,10 @@ export function PricingSection() {
 
         <div className="relative inline-block mb-2 w-full max-w-md mx-auto">
           <img
-            src={`${import.meta.env.BASE_URL}mockup9.png`}
+            src={`${import.meta.env.BASE_URL}mockup9.webp`}
             alt="Kit Operativo de Práctica Jurídica — Edición 2026"
-            width={1254}
-            height={1254}
+            width={900}
+            height={900}
             loading="lazy"
             decoding="async"
             className="w-full h-auto rounded-2xl shadow-2xl shadow-black/20"

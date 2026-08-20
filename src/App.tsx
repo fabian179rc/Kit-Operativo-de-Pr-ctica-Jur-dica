@@ -7,7 +7,7 @@ const PAGE_TITLE =
   "Kit Operativo de Práctica Jurídica — Edición 2026";
 const PAGE_DESC =
   "Más de 300 modelos de escritos, doctrina y jurisprudencia organizados por fueros: Familia, Civil, Laboral y Comercial. Tu base documental lista para trabajar desde el primer día, en PDF descargable.";
-const HERO_IMAGE = `${import.meta.env.BASE_URL}mockup9.png`;
+const HERO_IMAGE = `${import.meta.env.BASE_URL}mockup9.webp`;
 
 const SITE_URL = "https://kitoperativodepracticajuridica.tupuntodigital.shop";
 function setMeta(attr: "name" | "property", key: string, content: string) {

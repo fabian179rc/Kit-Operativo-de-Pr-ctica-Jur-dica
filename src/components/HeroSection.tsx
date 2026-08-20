@@ -66,9 +66,9 @@ export function HeroSection() {
           className="mx-auto mb-3 w-full max-w-[380px] sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-lg"
         >
           <img
-            src={`${import.meta.env.BASE_URL}mockup9.png`}
-            width={1254}
-            height={1254}
+            src={`${import.meta.env.BASE_URL}mockup9.webp`}
+            width={900}
+            height={900}
             loading="eager"
             decoding="async"
             alt="Kit Operativo de Práctica Jurídica — Edición 2026"
