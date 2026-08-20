@@ -13,9 +13,9 @@ export function HeroSection() {
 
       <div className="container mx-auto px-4 relative z-10 max-w-3xl md:max-w-6xl lg:max-w-7xl text-center">
         <h1 className="font-heading font-extrabold text-[#EDF2F6] mb-2 md:mb-3 text-[26px] leading-snug sm:text-3xl md:text-5xl md:leading-tight lg:text-6xl">
-          Kit Operativo de Práctica Jurídica:{" "}
+          +300 Modelos. Cero Improvisación.{" "}
           <span className="text-[#E0932E]">
-            +300 Modelos de Escritos, Doctrina y Jurisprudencia
+            Doctrina y Jurisprudencia Incluida
           </span>
         </h1>
 
