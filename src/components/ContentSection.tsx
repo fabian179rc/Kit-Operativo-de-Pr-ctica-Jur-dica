@@ -6,32 +6,32 @@ const modulos = [
   {
     emoji: "👨‍👩‍👧",
     title: "Derecho de Familia",
-    desc: "Divorcios, convenios reguladores, demandas de alimentos, incidentes de cuota, regímenes de comunicación, cuidado personal y medidas cautelares urgentes.",
+    desc: "Divorcios, alimentos, cuota, régimen de comunicación y cautelares urgentes.",
   },
   {
     emoji: "⚖️",
     title: "Derecho Civil",
-    desc: "Daños y perjuicios, usucapión, procesos de desalojo, escrituración, y contratos civiles ajustados a la normativa y jurisprudencia actual.",
+    desc: "Daños y perjuicios, usucapión, desalojo y contratos civiles actualizados.",
   },
   {
     emoji: "🏭",
     title: "Derecho Laboral",
-    desc: "Intercambio epistolar completo, demandas por despido, trabajo no registrado, accidentes de trabajo (ART) y actuaciones ante organismos administrativos.",
+    desc: "Despidos, trabajo no registrado, ART y actuaciones administrativas.",
   },
   {
     emoji: "🏦",
     title: "Derecho Comercial",
-    desc: "Ejecuciones de alquileres, cheques y pagarés, juicios ejecutivos y modelos para la ejecución de honorarios profesionales.",
+    desc: "Ejecuciones de alquileres, cheques, pagarés y honorarios profesionales.",
   },
   {
     emoji: "📋",
     title: "Escritos de Mero Trámite",
-    desc: "Cédulas, oficios, mandamientos, autorizaciones y toda la folletería procesal que consume el tiempo operativo diario del estudio.",
+    desc: "Cédulas, oficios, mandamientos y la folletería procesal del día a día.",
   },
   {
     emoji: "📚",
     title: "Doctrina y Jurisprudencia",
-    desc: "Cada modelo integra citas de autores de referencia y precedentes jurisprudenciales para sustentar la pretensión con rigor técnico.",
+    desc: "Citas y precedentes para sustentar cada pretensión con rigor técnico.",
   },
 ];
 
@@ -63,16 +63,16 @@ export function ContentSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.04 }}
-              className="flex items-start gap-2 bg-[#16293B] border border-white/10 rounded-xl px-2.5 py-2 shadow-sm"
+              className="flex items-start gap-1.5 bg-[#16293B] border border-white/10 rounded-lg px-2 py-1.5 shadow-sm"
             >
-              <span className="text-lg flex-shrink-0" aria-hidden="true">
+              <span className="text-base flex-shrink-0" aria-hidden="true">
                 {m.emoji}
               </span>
               <div>
-                <span className="font-semibold text-[#EDF2F6] text-sm md:text-[15px] leading-tight block mb-0.5">
+                <span className="font-semibold text-[#EDF2F6] text-xs md:text-sm leading-tight block mb-0.5">
                   {m.title}
                 </span>
-                <span className="text-[#93A7B8] text-xs md:text-sm leading-snug">
+                <span className="text-[#93A7B8] text-[11px] md:text-xs leading-snug">
                   {m.desc}
                 </span>
               </div>

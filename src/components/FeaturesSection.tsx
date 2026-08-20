@@ -3,28 +3,28 @@ import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 const features = [
   {
-    lead: "Reducir drásticamente el tiempo de redacción procesal",
-    desc: "Dejá de construir cada escrito desde cero. Utilizá modelos estructurados y adaptá al expediente en minutos.",
+    lead: "Reducir el tiempo de redacción",
+    desc: "Adaptá modelos ya armados al expediente en minutos.",
   },
   {
-    lead: "Trabajar con mayor orden y seguridad procesal",
-    desc: "Organizá cada etapa del caso con fundamentos de doctrina y jurisprudencia integrados en cada pieza.",
+    lead: "Trabajar con más orden procesal",
+    desc: "Doctrina y jurisprudencia integradas en cada pieza.",
   },
   {
-    lead: "Fundamentar con precisión ante cualquier tribunal",
-    desc: "Citá autores y precedentes actualizados que den solidez a tu planteo y faciliten la tarea del juzgador.",
+    lead: "Fundamentar con precisión",
+    desc: "Autores y precedentes que dan solidez a tu planteo.",
   },
   {
-    lead: "Elevar la percepción de profesionalismo ante el cliente",
-    desc: "Presentaciones sólidas, bien estructuradas y técnicamente impecables generan confianza y fidelización.",
+    lead: "Elevar tu imagen profesional",
+    desc: "Presentaciones prolijas que generan confianza y fidelización.",
   },
   {
-    lead: "Cubrir múltiples fueros con una sola herramienta",
-    desc: "Familia, Civil, Laboral y Comercial en un solo recurso, organizado y listo para consulta inmediata.",
+    lead: "Cubrir varios fueros",
+    desc: "Familia, Civil, Laboral y Comercial en un solo recurso.",
   },
   {
-    lead: "Asegurar el cobro de tus honorarios desde el inicio",
-    desc: "Convenios de cuota litis y pactos de honorarios blindados que protegen tu retribución profesional.",
+    lead: "Asegurar tus honorarios",
+    desc: "Convenios de cuota litis y pactos blindados desde el inicio.",
   },
 ];
 
@@ -33,14 +33,12 @@ export function FeaturesSection() {
     <section className="py-10 md:py-14 bg-transparent">
       <div className="container mx-auto px-2 sm:px-4 max-w-3xl">
         <div className="text-center mb-8">
-          <h2 className="font-heading text-3xl md:text-4xl font-bold text-[#EDF2F6] max-w-3xl mx-auto">
-            <span className="whitespace-nowrap">LO QUE VAS A LOGRAR</span>
-            <br />
-            <span className="whitespace-nowrap">CON ESTE KIT OPERATIVO</span>
+          <h2 className="font-heading text-2xl md:text-4xl font-bold text-[#EDF2F6] max-w-3xl mx-auto leading-snug">
+            Lo que vas a lograr con este Kit Operativo
           </h2>
         </div>
 
-        <ul className="space-y-3 md:space-y-4">
+        <ul className="space-y-2 md:space-y-3">
           {features.map((feature, i) => (
             <motion.li
               key={i}
@@ -58,11 +56,11 @@ export function FeaturesSection() {
               transition={{
                 delay: i * 0.08,
               }}
-              className="flex items-start gap-2 md:gap-3"
+              className="flex items-start gap-1.5 md:gap-2"
             >
-              <CheckCircle2 className="w-4 h-4 md:w-5 md:h-5 flex-shrink-0 mt-1 text-[#E0932E]" />
-              <p className="text-sm md:text-base text-[#93A7B8] leading-snug md:leading-relaxed">
-                <span className="text-[15px] md:text-base font-bold text-[#EDF2F6]">
+              <CheckCircle2 className="w-3.5 h-3.5 md:w-4 md:h-4 flex-shrink-0 mt-0.5 text-[#E0932E]" />
+              <p className="text-xs md:text-sm text-[#93A7B8] leading-snug">
+                <span className="text-[13px] md:text-sm font-bold text-[#EDF2F6]">
                   {feature.lead}
                 </span>{" "}
                 — {feature.desc}

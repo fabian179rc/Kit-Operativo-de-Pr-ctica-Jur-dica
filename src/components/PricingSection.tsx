@@ -65,12 +65,9 @@ export function PricingSection() {
           <p className="text-[#93A7B8] text-base mb-1">
             51% OFF — Precio especial de lanzamiento:
           </p>
-          <div className="font-heading text-6xl md:text-7xl font-bold text-[#E0932E] leading-none mb-2">
-            $21.990 <span className="text-3xl md:text-4xl">ARS</span>
+          <div className="font-heading text-5xl md:text-7xl font-bold text-[#E0932E] leading-none mb-6 whitespace-nowrap">
+            $21.990 <span className="text-xl md:text-4xl">ARS</span>
           </div>
-          <p className="text-[#93A7B8] text-sm mb-6">
-            Pesos Argentinos — Pago Único
-          </p>
 
           <motion.a
             id="pricing-cta-button"
@@ -102,13 +99,6 @@ export function PricingSection() {
             </span>
             <span>
               <span aria-hidden="true">🔒</span> Pago Seguro
-            </span>
-            <span>
-              <span aria-hidden="true">📥</span> Descarga Instantánea
-            </span>
-            <span>
-              <span aria-hidden="true">📱</span> Compatible con Todo
-              Dispositivo
             </span>
             <span>
               <span aria-hidden="true">♾️</span> Acceso Permanente

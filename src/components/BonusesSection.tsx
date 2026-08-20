@@ -3,37 +3,32 @@ import { motion } from "framer-motion";
 const bonuses = [
   {
     num: 1,
-    title:
-      "Determinación y Reclamo de Cuota Alimentaria — Guía Práctica con Planilla de Cálculo de Gastos",
-    desc: "Metodología clara para cuantificar el caudal económico del alimentante y las necesidades reales del alimentado. Incluye modelos de incidentes de aumento, reducción y coparticipación de cuota, con una planilla de gastos lista para presentar ante el juzgado.",
+    title: "Cuota Alimentaria: Guía y Planilla de Gastos",
+    desc: "Metodología para cuantificar la cuota, con modelos de incidentes de aumento, reducción y coparticipación.",
     image: "b1.webp",
   },
   {
     num: 2,
-    title:
-      "Gestión Operativa de Accidentes de Tránsito — Del Siniestro a la Resolución en Mediación",
-    desc: "Guía estratégica para el abordaje integral de siniestros viales: atención al cliente, recolección de prueba y reclamo extrajudicial ante aseguradoras. Incluye modelos de liquidación de daños materiales, incapacidad física y daño moral.",
+    title: "Accidentes de Tránsito: Del Siniestro a la Mediación",
+    desc: "Guía para atención al cliente, prueba y reclamo ante aseguradoras, con modelos de liquidación de daños.",
     image: "b2.webp",
   },
   {
     num: 3,
-    title:
-      "Contratos de Locación de Inmuebles — Modelos y Cláusulas para el Nuevo Régimen de Libertad Contractual",
-    desc: "Modelos actualizados al DNU 70/23 con libertad de moneda, nuevos plazos legales y fórmulas de actualización (ICL, IPC, Casa Propia). Cláusulas de rescisión, fianza y mantenimiento blindadas para locadores y locatarios.",
+    title: "Locación de Inmuebles: Nuevo Régimen Contractual",
+    desc: "Modelos actualizados al DNU 70/23, con cláusulas de rescisión, fianza y mantenimiento blindadas.",
     image: "b3.webp",
   },
   {
     num: 4,
-    title:
-      "Estrategias Procesales ante Falsas Denuncias — Guía de Defensa y Protocolo de Actuación",
-    desc: "Protocolo técnico frente a denuncias sin sustento fáctico, especialmente en contextos de violencia de género o conflictos de familia. Incluye medidas cautelares, cese de hostigamiento y levantamiento de restricciones de contacto.",
+    title: "Defensa ante Falsas Denuncias",
+    desc: "Protocolo técnico para denuncias sin sustento, con cautelares y cese de hostigamiento.",
     image: "b4.webp",
   },
   {
     num: 5,
-    title:
-      "Kit de Gestión Profesional del Abogado — Entrevistas, Captación y Convenios de Honorarios",
-    desc: "Estructuras de entrevistas iniciales para calificar clientes, hojas de ruta para el seguimiento de expedientes y modelos de Convenios de Cuota Litis y Pactos de Honorarios blindados.",
+    title: "Gestión Profesional del Abogado",
+    desc: "Entrevistas, captación de clientes y modelos de Convenios de Cuota Litis blindados.",
     image: "b5.webp",
   },
 ];

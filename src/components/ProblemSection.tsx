@@ -27,7 +27,7 @@ export function ProblemSection() {
     <section className="py-10 md:py-14 bg-transparent">
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-6">
-          <h2 className="font-heading text-3xl md:text-5xl font-bold mb-4 text-[#EDF2F6] uppercase">
+          <h2 className="font-heading text-3xl md:text-5xl font-bold mb-4 text-[#EDF2F6]">
             ¿Te falta estructura para trabajar con mayor eficiencia?
           </h2>
           <p className="text-sm md:text-base text-[#93A7B8] leading-relaxed max-w-2xl mx-auto">
@@ -67,17 +67,17 @@ export function ProblemSection() {
             transition={{
               delay: i * 0.1
             }}
-            className="bg-[#16293B] p-2.5 md:p-4 rounded-2xl shadow-sm border border-white/10">
+            className="bg-[#16293B] p-2 md:p-3 rounded-xl shadow-sm border border-white/10">
 
-              <div className="flex items-center gap-1.5 md:gap-2 mb-0.5 md:mb-1.5">
-                <span className="text-lg md:text-3xl flex-shrink-0">
+              <div className="flex items-center gap-1 md:gap-1.5 mb-0.5 md:mb-1">
+                <span className="text-base md:text-2xl flex-shrink-0">
                   {item.emoji}
                 </span>
-                <h3 className="text-[15px] md:text-lg font-bold text-[#EDF2F6]">
+                <h3 className="text-xs md:text-base font-bold text-[#EDF2F6]">
                   {item.title}
                 </h3>
               </div>
-              <p className="text-[13px] md:text-base text-[#93A7B8] leading-snug">
+              <p className="text-[11px] md:text-sm text-[#93A7B8] leading-snug">
                 {item.desc}
               </p>
             </motion.div>

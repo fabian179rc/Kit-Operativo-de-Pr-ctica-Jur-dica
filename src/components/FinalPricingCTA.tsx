@@ -17,14 +17,9 @@ export function FinalPricingCTA() {
             Última Oportunidad
           </span>
         </div>
-        <h2 className="text-3xl md:text-5xl font-bold font-heading text-[#EDF2F6] mb-5 leading-tight">
+        <h2 className="text-3xl md:text-5xl font-bold font-heading text-[#EDF2F6] mb-8 leading-tight">
           Más orden, más precisión y mejor imagen profesional.
         </h2>
-        <p className="text-lg text-[#93A7B8] mb-8 max-w-2xl mx-auto">
-          Dejá de construir cada presentación judicial desde cero. El Kit
-          Operativo de Práctica Jurídica te provee la base documental para
-          trabajar con método, rigor técnico y confianza en cada caso.
-        </p>
 
         <div className="bg-[#16293B] border border-[#E0932E]/20 rounded-3xl p-6 md:p-7 shadow-lg shadow-black/20 max-w-xl mx-auto mb-6">
           <h3 className="font-bold text-[#6FA8C9] mb-2 text-sm md:text-base max-w-xs sm:max-w-none mx-auto">

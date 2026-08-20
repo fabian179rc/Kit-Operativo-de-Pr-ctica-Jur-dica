@@ -13,7 +13,7 @@ export function HeroSection() {
 
       <div className="container mx-auto px-4 relative z-10 max-w-3xl md:max-w-6xl lg:max-w-7xl text-center">
         <h1 className="font-heading font-extrabold text-[#EDF2F6] mb-2 md:mb-3 text-[26px] leading-snug sm:text-3xl md:text-5xl md:leading-tight lg:text-6xl">
-          +300 Modelos. Cero Improvisación.{" "}
+          300 Modelos. Cero Improvisación.{" "}
           <span className="text-[#E0932E]">
             Doctrina y Jurisprudencia Incluida
           </span>
@@ -37,7 +37,7 @@ export function HeroSection() {
           fueros, listos para adaptar a cada expediente.
         </p>
 
-        <ul className="text-center mx-auto mb-3 max-w-md text-[#93A7B8] text-[12px] md:text-base space-y-1">
+        <ul className="text-center mx-auto mb-3 max-w-md text-emerald-400 text-[12px] md:text-base space-y-1">
           <li className="whitespace-nowrap">
             ✓ Modelos procesales listos para adaptar a cada expediente.
           </li>
@@ -86,8 +86,7 @@ export function HeroSection() {
               |
             </span>
             <span className="whitespace-nowrap text-[#6FA8C9]">
-              <span aria-hidden="true">💻</span> Producto 100% digital —
-              Acceso inmediato
+              <span aria-hidden="true">⚡</span> Acceso inmediato
             </span>
           </div>
         </div>
