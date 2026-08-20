@@ -37,10 +37,8 @@ export function HeroSection() {
         </div>
 
         <p className="md:text-xl text-[#93A7B8] mb-3 max-w-2xl mx-auto text-[12px] leading-relaxed">
-          Tu base documental lista para trabajar desde el primer día.
-          Modelos procesales, fundamentos jurídicos y herramientas de
-          gestión organizadas por fueros y listas para adaptar a cada
-          expediente.
+          Modelos procesales y fundamentos jurídicos organizados por
+          fueros, listos para adaptar a cada expediente.
         </p>
 
         <ul className="text-center mx-auto mb-3 max-w-md text-[#93A7B8] text-[12px] md:text-base space-y-1">
