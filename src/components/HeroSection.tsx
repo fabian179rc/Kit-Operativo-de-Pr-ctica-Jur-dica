@@ -12,59 +12,18 @@ export function HeroSection() {
       </div>
 
       <div className="container mx-auto px-4 relative z-10 max-w-3xl md:max-w-6xl lg:max-w-7xl text-center">
-        <motion.div
-          initial={{
-            opacity: 0,
-            y: 12,
-          }}
-          animate={{
-            opacity: 1,
-            y: 0,
-          }}
-          transition={{
-            duration: 0.5,
-          }}
-          className="inline-flex items-center gap-2 px-3 sm:px-6 py-2.5 mb-3 rounded-full border border-white/15 bg-[#1D3550] text-[#EDF2F6] font-semibold tracking-[0.05em] sm:tracking-[0.18em] uppercase text-[6px] sm:text-[8px] whitespace-nowrap"
-        >
+        <div className="inline-flex items-center gap-2 px-3 sm:px-6 py-2.5 mb-3 rounded-full border border-white/15 bg-[#1D3550] text-[#EDF2F6] font-semibold tracking-[0.05em] sm:tracking-[0.18em] uppercase text-[6px] sm:text-[8px] whitespace-nowrap">
           EDICIÓN 2026 — ARGENTINA
-        </motion.div>
+        </div>
 
-        <motion.h1
-          initial={{
-            opacity: 0,
-            y: 16,
-          }}
-          animate={{
-            opacity: 1,
-            y: 0,
-          }}
-          transition={{
-            duration: 0.6,
-            delay: 0.1,
-          }}
-          className="font-heading font-extrabold text-[#EDF2F6] mb-2 md:mb-3 text-[26px] leading-snug sm:text-3xl md:text-5xl md:leading-tight lg:text-6xl"
-        >
+        <h1 className="font-heading font-extrabold text-[#EDF2F6] mb-2 md:mb-3 text-[26px] leading-snug sm:text-3xl md:text-5xl md:leading-tight lg:text-6xl">
           Kit Operativo de Práctica Jurídica:{" "}
           <span className="text-[#E0932E]">
             +300 Modelos de Escritos, Doctrina y Jurisprudencia
           </span>
-        </motion.h1>
+        </h1>
 
-        <motion.div
-          initial={{
-            opacity: 0,
-            scale: 0.96,
-          }}
-          animate={{
-            opacity: 1,
-            scale: 1,
-          }}
-          transition={{
-            duration: 0.6,
-            delay: 0.2,
-          }}
-          className="mx-auto mb-3 w-full max-w-[380px] sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-lg"
-        >
+        <div className="mx-auto mb-3 w-full max-w-[380px] sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-lg">
           <img
             src={`${import.meta.env.BASE_URL}mockup9.webp`}
             width={900}
@@ -75,44 +34,16 @@ export function HeroSection() {
             alt="Kit Operativo de Práctica Jurídica — Edición 2026"
             className="w-full h-auto aspect-square object-contain rounded-2xl"
           />
-        </motion.div>
+        </div>
 
-        <motion.p
-          initial={{
-            opacity: 0,
-            y: 16,
-          }}
-          animate={{
-            opacity: 1,
-            y: 0,
-          }}
-          transition={{
-            duration: 0.6,
-            delay: 0.3,
-          }}
-          className="md:text-xl text-[#93A7B8] mb-3 max-w-2xl mx-auto text-[12px] leading-relaxed"
-        >
+        <p className="md:text-xl text-[#93A7B8] mb-3 max-w-2xl mx-auto text-[12px] leading-relaxed">
           Tu base documental lista para trabajar desde el primer día.
           Modelos procesales, fundamentos jurídicos y herramientas de
           gestión organizadas por fueros y listas para adaptar a cada
           expediente.
-        </motion.p>
+        </p>
 
-        <motion.ul
-          initial={{
-            opacity: 0,
-            y: 16,
-          }}
-          animate={{
-            opacity: 1,
-            y: 0,
-          }}
-          transition={{
-            duration: 0.6,
-            delay: 0.35,
-          }}
-          className="text-center mx-auto mb-3 max-w-md text-[#93A7B8] text-[12px] md:text-base space-y-1"
-        >
+        <ul className="text-center mx-auto mb-3 max-w-md text-[#93A7B8] text-[12px] md:text-base space-y-1">
           <li className="whitespace-nowrap">
             ✓ Modelos procesales listos para adaptar a cada expediente.
           </li>
@@ -122,23 +53,9 @@ export function HeroSection() {
           <li className="whitespace-nowrap">
             ✓ Familia, Civil, Laboral y Comercial en un solo kit.
           </li>
-        </motion.ul>
+        </ul>
 
-        <motion.div
-          initial={{
-            opacity: 0,
-            y: 16,
-          }}
-          animate={{
-            opacity: 1,
-            y: 0,
-          }}
-          transition={{
-            duration: 0.6,
-            delay: 0.4,
-          }}
-          className="flex flex-col items-center mt-0 md:mt-2"
-        >
+        <div className="flex flex-col items-center mt-0 md:mt-2">
           <motion.a
             href="#comprar"
             onClick={scrollToOffer}
@@ -179,7 +96,7 @@ export function HeroSection() {
               Acceso inmediato
             </span>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

@@ -171,7 +171,11 @@ export function App() {
       noscript.appendChild(img);
       target.appendChild(noscript);
     };
-    loadPixel();
+    const w = window as any;
+    const schedule = w.requestIdleCallback || ((cb: () => void) => window.setTimeout(cb, 1));
+    const cancel = w.cancelIdleCallback || window.clearTimeout;
+    const id = schedule(loadPixel);
+    return () => cancel(id);
   }, []);
   return (
     <MotionConfig reducedMotion="user">

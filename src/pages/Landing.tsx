@@ -1,44 +1,82 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { HeroSection } from '../components/HeroSection';
-import { ProblemSection } from '../components/ProblemSection';
-import { FeaturesSection } from '../components/FeaturesSection';
-import { ContentSection } from '../components/ContentSection';
-import { BonusesSection } from '../components/BonusesSection';
 import { PricingSection } from '../components/PricingSection';
-import { GuaranteeSection } from '../components/GuaranteeSection';
-import { TestimonialsBottom } from '../components/TestimonialsBottom';
-import { FaqSection } from '../components/FaqSection';
-import { FinalPricingCTA } from '../components/FinalPricingCTA';
-import { Footer } from '../components/Footer';
 import { FloatingCTA } from '../components/FloatingCTA';
 import { SocialProofToast } from '../components/SocialProofToast';
+
+const ProblemSection = lazy(() =>
+  import('../components/ProblemSection').then((m) => ({ default: m.ProblemSection })),
+);
+const FeaturesSection = lazy(() =>
+  import('../components/FeaturesSection').then((m) => ({ default: m.FeaturesSection })),
+);
+const ContentSection = lazy(() =>
+  import('../components/ContentSection').then((m) => ({ default: m.ContentSection })),
+);
+const BonusesSection = lazy(() =>
+  import('../components/BonusesSection').then((m) => ({ default: m.BonusesSection })),
+);
+const GuaranteeSection = lazy(() =>
+  import('../components/GuaranteeSection').then((m) => ({ default: m.GuaranteeSection })),
+);
+const TestimonialsBottom = lazy(() =>
+  import('../components/TestimonialsBottom').then((m) => ({ default: m.TestimonialsBottom })),
+);
+const FaqSection = lazy(() =>
+  import('../components/FaqSection').then((m) => ({ default: m.FaqSection })),
+);
+const FinalPricingCTA = lazy(() =>
+  import('../components/FinalPricingCTA').then((m) => ({ default: m.FinalPricingCTA })),
+);
+const Footer = lazy(() =>
+  import('../components/Footer').then((m) => ({ default: m.Footer })),
+);
+
 export function Landing() {
   return <main className="min-h-screen bg-transparent">
       <HeroSection />
-      <ProblemSection />
+      <Suspense fallback={null}>
+        <ProblemSection />
+      </Suspense>
       <div className="cv-section">
-        <FeaturesSection />
+        <Suspense fallback={null}>
+          <FeaturesSection />
+        </Suspense>
       </div>
       <div className="cv-section">
-        <ContentSection />
+        <Suspense fallback={null}>
+          <ContentSection />
+        </Suspense>
       </div>
       <div className="cv-section">
-        <BonusesSection />
+        <Suspense fallback={null}>
+          <BonusesSection />
+        </Suspense>
       </div>
       <PricingSection />
       <div className="cv-section">
-        <GuaranteeSection />
+        <Suspense fallback={null}>
+          <GuaranteeSection />
+        </Suspense>
       </div>
       <div className="cv-section">
-        <TestimonialsBottom />
+        <Suspense fallback={null}>
+          <TestimonialsBottom />
+        </Suspense>
       </div>
       <div className="cv-section">
-        <FaqSection />
+        <Suspense fallback={null}>
+          <FaqSection />
+        </Suspense>
       </div>
       <div className="cv-section">
-        <FinalPricingCTA />
+        <Suspense fallback={null}>
+          <FinalPricingCTA />
+        </Suspense>
       </div>
-      <Footer />
+      <Suspense fallback={null}>
+        <Footer />
+      </Suspense>
       <FloatingCTA />
       <SocialProofToast />
     </main>;
