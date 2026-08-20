@@ -12,10 +12,6 @@ export function HeroSection() {
       </div>
 
       <div className="container mx-auto px-4 relative z-10 max-w-3xl md:max-w-6xl lg:max-w-7xl text-center">
-        <div className="inline-flex items-center gap-2 px-3 sm:px-6 py-2.5 mb-3 rounded-full border border-white/15 bg-[#1D3550] text-[#EDF2F6] font-semibold tracking-[0.05em] sm:tracking-[0.18em] uppercase text-[6px] sm:text-[8px] whitespace-nowrap">
-          EDICIÓN 2026 — ARGENTINA
-        </div>
-
         <h1 className="font-heading font-extrabold text-[#EDF2F6] mb-2 md:mb-3 text-[26px] leading-snug sm:text-3xl md:text-5xl md:leading-tight lg:text-6xl">
           Kit Operativo de Práctica Jurídica:{" "}
           <span className="text-[#E0932E]">
